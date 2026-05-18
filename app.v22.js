@@ -1,6 +1,53 @@
 // VINEST YouTube Knowledge Base - Shared Logic
 const DATA_PATH = './entries.json?v=12';
+const THEME_KEY = 'vinest-theme';
 let db = null;
+
+function applyTheme(theme) {
+  const resolved = theme === 'light' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', resolved);
+  document.body?.setAttribute('data-theme', resolved);
+  const toggle = document.getElementById('themeToggle');
+  if (toggle) {
+    toggle.dataset.theme = resolved;
+    toggle.innerHTML = resolved === 'light' ? '<span>🌞</span><span>Light</span>' : '<span>🌙</span><span>Dark</span>';
+    toggle.setAttribute('aria-label', `Switch to ${resolved === 'light' ? 'dark' : 'light'} mode`);
+  }
+}
+
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  const preferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  applyTheme(saved || preferred);
+}
+
+function toggleTheme() {
+  const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+  localStorage.setItem(THEME_KEY, next);
+  applyTheme(next);
+}
+
+function mountThemeToggle() {
+  const nav = document.querySelector('.site-nav');
+  if (!nav || document.getElementById('themeToggle')) return;
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.id = 'themeToggle';
+  button.className = 'theme-toggle';
+  button.addEventListener('click', toggleTheme);
+  nav.appendChild(button);
+  applyTheme(document.documentElement.getAttribute('data-theme') || 'dark');
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
+    mountThemeToggle();
+  });
+} else {
+  initTheme();
+  mountThemeToggle();
+}
 
 // Load data
 async function loadData() {
@@ -136,43 +183,42 @@ function getTopEntities(entries, field, limit = 5) {
 // Entry card HTML - Rich version with all details
 function entryCardHTML(entry) {
   const hasDetails = entry.summary_long || entry.key_points?.length || entry.bull_points?.length;
+  const summary = entry.summary_short || entry.summary_long || '暫時未有摘要';
   let extras = '';
-  
-  // Channel name at the top
+
   if (entry.source_name) {
     extras += `<div class="entry-channel"><span class="channel-badge">📺 ${esc(entry.source_name)}</span></div>`;
   }
-  
-  // Speaker (if available)
+
   if (entry.speaker) {
-    extras += `<div class="entry-extra"><span class="label">🎤 講者：</span>${esc(entry.speaker)}</div>`;
+    extras += `<div class="entry-extra"><span class="label">🎤 講者</span> ${esc(entry.speaker)}</div>`;
   }
 
-  // Stock Recommendations with reasons (MAIN CONTENT)
   if (entry.stock_recommendations?.length) {
-    const stocksHtml = entry.stock_recommendations.slice(0,4).map(s => 
-      `<div class="stock-recommend">
-        <span class="stock-tag">${esc(s.ticker)}</span>
-        <span class="stock-reason">${esc(s.reason)}</span>
-      </div>`
-    ).join('');
-    extras += `<div class="entry-extra target-section"><span class="label">🎯 推介股票：</span>${stocksHtml}</div>`;
+    const stocksHtml = entry.stock_recommendations.slice(0, 3).map(s => `
+      <div class="stock-recommend">
+        <span class="stock-tag">${esc(s.ticker || s.name || '-')}</span>
+        <span class="stock-reason">${esc(s.reason || s.thesis || s['投資論點'] || '見詳情')}</span>
+      </div>
+    `).join('');
+    extras += `<div class="entry-extra target-section"><span class="label">🎯 推介股票</span>${stocksHtml}</div>`;
   }
 
   return `
-    <a href="detail.html?id=${entry.id}" class="entry-card-link">
+    <a href="detail.html?id=${entry.id}" class="entry-card-link entry-card">
+      ${extras}
       <h3>${esc(entry.title)}</h3>
       <div class="meta">
         <span>📅 ${formatDate(entry.date)}</span>
+        ${entry.source_type ? `<span>· ${esc(entry.source_type.toUpperCase())}</span>` : ''}
       </div>
-      <p class="summary">${esc(entry.summary_long || '')}</p>
-      ${extras}
+      <p class="summary">${esc(summary)}</p>
       <div class="tags">
         ${renderTags(entry.companies, 'company')}
         ${renderTags(entry.sectors, 'sector')}
         ${renderTags(entry.themes, 'theme')}
       </div>
-      ${hasDetails ? `<div class="view-more">👀 查看詳情 →</div>` : ''}
+      ${hasDetails ? `<div class="view-more">查看詳情 →</div>` : ''}
     </a>
   `;
 }
@@ -180,7 +226,7 @@ function entryCardHTML(entry) {
 // Entity card HTML
 function entityCardHTML(name, count, link) {
   return `
-    <div class="entity-card" onclick="window.location.href='${link}'">
+    <a class="entity-card" href="${link}">
       <h3>${esc(name)}</h3>
       <div class="count">${count} 條記錄</div>
     </a>
@@ -191,5 +237,6 @@ function entityCardHTML(name, count, link) {
 window.VINEST = {
   loadData, getParams, formatDate, esc, renderTags,
   searchEntries, filterEntries, sortEntries, getRelatedEntries,
-  getEntityCounts, getTopEntities, entryCardHTML, entityCardHTML
+  getEntityCounts, getTopEntities, entryCardHTML, entityCardHTML,
+  initTheme, toggleTheme, mountThemeToggle, applyTheme
 };

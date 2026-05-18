@@ -4,20 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>知識庫 - VINEST</title>
-  <link rel="stylesheet" href="styles.css?v=21">
+  <link rel="stylesheet" href="styles.css?v=31">
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1><a href="index.html">🧠 VINEST 投資知識庫</a></h1>
-      <nav>
+    <header class="site-header">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">🧠</span>
+        <span class="brand-text">
+          <span>Vinest Research Hub</span>
+          <strong>VINEST 投資知識庫</strong>
+        </span>
+      </a>
+      <nav class="site-nav">
         <a href="index.html">首頁</a>
         <a href="library.html" class="active">知識庫</a>
         <a href="#" onclick="openAddModal()">新增筆記</a>
       </nav>
     </header>
 
-    <div class="search-bar">
+    <section class="hero">
+      <div class="hero-kicker">Library view · filterable workspace</div>
+      <h1>用一個乾淨 catalog view，快速搵返任何研究筆記。</h1>
+      <p class="lead">篩選區而家更似產品化 research app，方便你由 broad scan 去到 specific thesis。</p>
+    </section>
+
+    <div class="search-panel">
+      <div class="search-bar">
       <input type="text" id="searchInput" placeholder="搜尋公司、行業、主題、關鍵詞..." oninput="handleSearch()">
       <select id="companyFilter" onchange="handleSearch()">
         <option value="">全部公司</option>
@@ -39,11 +52,18 @@
         <option value="date">最新日期</option>
         <option value="updated">最近更新</option>
       </select>
+      </div>
     </div>
 
-    <div class="section">
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>全部筆記</h2>
+          <p class="section-copy">每張卡都保留摘要、來源同關聯 tag，睇落更似一個真正 knowledge product。</p>
+        </div>
+      </div>
       <div class="card-grid" id="entriesGrid"></div>
-    </div>
+    </section>
   </div>
 
   <div class="modal-overlay" id="addModal">
@@ -123,7 +143,7 @@
     </div>
   </div>
 
-  <script src="app.v22.js"></script>
+  <script src="app.v22.js?v=31"></script>
   <script>
     document.getElementById('dateInput').value = new Date().toISOString().split('T')[0];
 
