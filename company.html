@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>公司詳情 - VINEST</title>
+  <link rel="stylesheet" href="styles.css?v=11">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="index.html">🧠 VINEST 投資知識庫</a></h1>
+      <nav>
+        <a href="index.html">首頁</a>
+        <a href="library.html">知識庫</a>
+      </nav>
+    </header>
+
+    <div id="content">
+      <div class="empty-state">載入中...</div>
+    </div>
+  </div>
+
+  <script src="app.v22.js"></script>
+  <script>
+    async function init() {
+      const data = await loadData();
+      const params = getParams();
+      const companyName = params.company;
+
+      if (!companyName) {
+        document.getElementById('content').innerHTML = '<div class="empty-state">請選擇公司</div>';
+        return;
+      }
+
+      // Find entries with this company
+      const entries = data.entries.filter(e => 
+        (e.companies||[]).some(c => c.toLowerCase() === companyName.toLowerCase())
+      );
+
+      if (!entries.length) {
+        document.getElementById('content').innerHTML = `<div class="empty-state">暫無關於 ${esc(companyName)} 既筆記</div>`;
+        return;
+      }
+
+      // Aggregate bull/bear points
+      const allBull = [...new Set(entries.flatMap(e => e.bull_points || []))];
+      const allBear = [...new Set(entries.flatMap(e => e.bear_points || []))];
+      const allCatalysts = [...new Set(entries.flatMap(e => e.catalysts || []))];
+      const allRisks = [...new Set(entries.flatMap(e => e.risks || []))];
+      const allSectors = [...new Set(entries.flatMap(e => e.sectors || []))];
+      const allThemes = [...new Set(entries.flatMap(e => e.themes || []))];
+
+      // Find related companies
+      const relatedCompanies = [...new Set(
+        entries.flatMap(e => e.companies || []).filter(c => c.toLowerCase() !== companyName.toLowerCase())
+      )];
+
+      document.getElementById('content').innerHTML = `
+        <div class="detail-header">
+          <h1>🏢 ${esc(companyName)}</h1>
+          <div class="meta">
+            <span>📊 ${entries.length} 條相關筆記</span>
+            <span>📅 最新：${formatDate(entries[0].date)}</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>🏷️ 相關行業</h3>
+          <div class="tags-display">
+            ${allSectors.map(s => `<span class="tag sector" onclick="window.location.href='sector.html?sector=${encodeURIComponent(s)}'">${esc(s)}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>🎯 相關主題</h3>
+          <div class="tags-display">
+            ${allThemes.map(t => `<span class="tag theme" onclick="window.location.href='theme.html?theme=${encodeURIComponent(t)}'">${esc(t)}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="points-grid">
+          ${allBull.length ? `
+          <div class="point-card bull">
+            <h4>✅ 看好論點 (${allBull.length})</h4>
+            <ul>${allBull.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
+          </div>
+          ` : ''}
+          ${allBear.length ? `
+          <div class="point-card bear">
+            <h4>❌ 看淡論點 (${allBear.length})</h4>
+            <ul>${allBear.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
+          </div>
+          ` : ''}
+          ${allCatalysts.length ? `
+          <div class="point-card catalyst">
+            <h4>🚀 催化劑 (${allCatalysts.length})</h4>
+            <ul>${allCatalysts.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
+          </div>
+          ` : ''}
+          ${allRisks.length ? `
+          <div class="point-card risk">
+            <h4>⚠️ 風險 (${allRisks.length})</h4>
+            <ul>${allRisks.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
+          </div>
+          ` : ''}
+        </div>
+
+        ${relatedCompanies.length ? `
+        <div class="detail-section">
+          <h3>🔗 相關公司</h3>
+          <div class="tags-display">
+            ${relatedCompanies.map(c => `<span class="tag company" onclick="window.location.href='company.html?company=${encodeURIComponent(c)}'">${esc(c)}</span>`).join('')}
+          </div>
+        </div>
+        ` : ''}
+
+        <div class="related-section">
+          <h3>📝 相關筆記 (${entries.length})</h3>
+          <div class="card-grid">
+            ${entries.map(e => VINEST.entryCardHTML(e)).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    init();
+  </script>
+</body>
+</html>

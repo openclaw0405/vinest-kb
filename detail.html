@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>知識筆記詳情 - VINEST</title>
+  <link rel="stylesheet" href="styles.css?v=21">
+  <style>
+    body { background: #0a0a0f; color: #f0f0f5; padding: 20px; }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1 { color: #6366f1; }
+    .meta { color: #8888a0; margin: 10px 0; }
+    .section { background: #12121a; border: 1px solid #2a2a3a; border-radius: 12px; padding: 20px; margin: 15px 0; }
+    .section h3 { color: #6366f1; margin-top: 0; }
+    .stock-tag { display: inline-block; padding: 6px 12px; background: #10b981; color: white; border-radius: 6px; margin: 4px; font-weight: 600; }
+    .stock-reason { display: block; font-size: 12px; color: #8888a0; margin-top: 4px; }
+    a { color: #6366f1; }
+    .back { display: inline-block; padding: 10px 20px; background: #6366f1; color: white; text-decoration: none; border-radius: 8px; margin-bottom: 20px; }
+    ul { padding-left: 20px; line-height: 1.8; }
+    .loading { text-align: center; padding: 40px; color: #888; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back">← 返回首頁</a>
+    <div id="content"><div class="loading">載入中...</div></div>
+  </div>
+  <script>
+    async function init() {
+      try {
+        const resp = await fetch('entries.json');
+        const data = await resp.json();
+        const entries = data.entries;
+        
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+        const entry = entries.find(e => e.id === id);
+        
+        if (!entry) {
+          document.getElementById('content').innerHTML = '<h1>找不到此筆記 (ID: ' + id + ')</h1><p>可用ID: ' + entries.map(e => e.id).join(', ') + '</p>';
+          return;
+        }
+        
+        let html = '<h1>' + entry.title + '</h1>';
+        html += '<div class="meta">📅 ' + (entry.date || '-') + ' | 📺 ' + (entry.source_name || '-') + '</div>';
+        
+        if (entry.summary_short) html += '<div class="section"><h3>簡介</h3><p>' + entry.summary_short + '</p></div>';
+        if (entry.summary_long) html += '<p>' + entry.summary_long + '</p>';
+        
+        if (entry.stock_recommendations?.length) {
+          html += '<div class="section"><h3>🎯 節目中提到既股票</h3>';
+          for (const s of entry.stock_recommendations) {
+            html += '<div><span class="stock-tag">' + s.ticker + '</span><span class="stock-reason">' + s.reason + '</span></div>';
+          }
+          html += '</div>';
+        }
+        
+        if (entry.key_points?.length) {
+          html += '<div class="section"><h3>📌 核心論點</h3><ul>';
+          for (const p of entry.key_points) html += '<li>' + p + '</li>';
+          html += '</ul></div>';
+        }
+        
+        if (entry.investment_mindset?.length) {
+          html += '<div class="section"><h3>💡 投資心法</h3><ul>';
+          for (const p of entry.investment_mindset) html += '<li>' + p + '</li>';
+          html += '</ul></div>';
+        }
+        
+        if (entry.insights?.length) {
+          html += '<div class="section"><h3>💎 心得體會</h3><ul>';
+          for (const p of entry.insights) html += '<li>' + p + '</li>';
+          html += '</ul></div>';
+        }
+        
+        if (entry.bull_points?.length) {
+          html += '<div class="section"><h3>✅ 看好論點</h3><ul>';
+          for (const p of entry.bull_points) html += '<li>' + p + '</li>';
+          html += '</ul></div>';
+        }
+        
+        if (entry.bear_points?.length) {
+          html += '<div class="section"><h3>❌ 看淡論點</h3><ul>';
+          for (const p of entry.bear_points) html += '<li>' + p + '</li>';
+          html += '</ul></div>';
+        }
+        
+        if (entry.catalysts?.length) {
+          html += '<div class="section"><h3>🚀 催化劑</h3><ul>';
+          for (const p of entry.catalysts) html += '<li>' + p + '</li>';
+          html += '</ul></div>';
+        }
+        
+        if (entry.risks?.length) {
+          html += '<div class="section"><h3>⚠️ 風險</h3><ul>';
+          for (const p of entry.risks) html += '<li>' + p + '</li>';
+          html += '</ul></div>';
+        }
+        
+        if (entry.notes) html += '<div class="section"><h3>📝 筆記</h3><p>' + entry.notes + '</p></div>';
+        
+        if (entry.source_url) html += '<div class="section"><h3>🔗 YouTube</h3><a href="' + entry.source_url + '" target="_blank">前往影片</a></div>';
+        
+        document.getElementById('content').innerHTML = html;
+      } catch(e) {
+        document.getElementById('content').innerHTML = '<h1>Error: ' + e.message + '</h1>';
+      }
+    }
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>主題詳情 - VINEST</title>
+  <link rel="stylesheet" href="styles.css?v=11">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="index.html">🧠 VINEST 投資知識庫</a></h1>
+      <nav>
+        <a href="index.html">首頁</a>
+        <a href="library.html">知識庫</a>
+      </nav>
+    </header>
+    <div id="content"><div class="empty-state">載入中...</div></div>
+  </div>
+  <script src="app.v22.js"></script>
+  <script>
+    async function init() {
+      const data = await loadData();
+      const params = getParams();
+      const themeName = params.theme;
+      if (!themeName) { document.getElementById('content').innerHTML = '<div class="empty-state">請選擇主題</div>'; return; }
+
+      const entries = data.entries.filter(e => (e.themes||[]).some(t => t.toLowerCase() === themeName.toLowerCase()));
+      if (!entries.length) { document.getElementById('content').innerHTML = `<div class="empty-state">暫無關於 ${esc(themeName)} 既筆記</div>`; return; }
+
+      const allCompanies = [...new Set(entries.flatMap(e => e.companies || []))];
+      const allSectors = [...new Set(entries.flatMap(e => e.sectors || []))];
+      const allBull = [...new Set(entries.flatMap(e => e.bull_points || []))];
+      const allBear = [...new Set(entries.flatMap(e => e.bear_points || []))];
+
+      document.getElementById('content').innerHTML = `
+        <div class="detail-header">
+          <h1>🎯 ${esc(themeName)}</h1>
+          <div class="meta"><span>📝 ${entries.length} 條相關筆記</span></div>
+        </div>
+        <div class="detail-section">
+          <h3>🏢 相關公司</h3>
+          <div class="tags-display">${allCompanies.map(c => `<span class="tag company" onclick="window.location.href='company.html?company=${encodeURIComponent(c)}'">${esc(c)}</span>`).join('')}</div>
+        </div>
+        <div class="detail-section">
+          <h3>📊 相關行業</h3>
+          <div class="tags-display">${allSectors.map(s => `<span class="tag sector" onclick="window.location.href='sector.html?sector=${encodeURIComponent(s)}'">${esc(s)}</span>`).join('')}</div>
+        </div>
+        <div class="points-grid">
+          ${allBull.length ? `<div class="point-card bull"><h4>✅ 看好論點</h4><ul>${allBull.map(p => `<li>${esc(p)}</li>`).join('')}</ul></div>` : ''}
+          ${allBear.length ? `<div class="point-card bear"><h4>❌ 看淡論點</h4><ul>${allBear.map(p => `<li>${esc(p)}</li>`).join('')}</ul></div>` : ''}
+        </div>
+        <div class="related-section">
+          <h3>📝 相關筆記</h3>
+          <div class="card-grid">${entries.map(e => VINEST.entryCardHTML(e)).join('')}</div>
+        </div>
+      `;
+    }
+    init();
+  </script>
+</body>
+</html>
