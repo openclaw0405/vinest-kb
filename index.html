@@ -4,74 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VINEST YouTube 投資知識庫</title>
-  <link rel="stylesheet" href="styles.css?v=31">
+  <link rel="stylesheet" href="styles.css?v=21">
 </head>
 <body>
   <div class="container">
-    <header class="site-header">
-      <a href="index.html" class="brand">
-        <span class="brand-mark">🧠</span>
-        <span class="brand-text">
-          <span>Vinest Research Hub</span>
-          <strong>VINEST 投資知識庫</strong>
-        </span>
-      </a>
-      <nav class="site-nav">
+    <header>
+      <h1><a href="index.html">🧠 VINEST 投資知識庫</a></h1>
+      <nav>
         <a href="index.html" class="active">首頁</a>
         <a href="library.html">知識庫</a>
         <a href="#" onclick="openAddModal()">新增筆記</a>
       </nav>
     </header>
 
-    <section class="hero">
-      <div class="hero-layout">
-        <div>
-          <div class="hero-kicker">Open Design inspired · research workspace</div>
-          <h1>把零散投資內容變成一個乾淨、可導航、可追蹤嘅研究工作台。</h1>
-          <p class="lead">首頁而家更似 SaaS dashboard：先睇全局，再一層層落去公司、行業、主題同單篇 thesis。</p>
-          <div class="hero-actions">
-            <a class="btn" href="library.html">打開知識庫</a>
-            <a class="btn btn-secondary" href="#" onclick="openAddModal()">新增筆記</a>
-          </div>
-          <div class="hero-stats">
-            <div class="hero-stat"><span>Research mode</span><strong>Knowledge OS</strong></div>
-            <div class="hero-stat"><span>Workflow</span><strong>Idea → Thesis</strong></div>
-            <div class="hero-stat"><span>Sources</span><strong>YouTube / Note / PDF</strong></div>
-          </div>
-        </div>
-        <div class="hero-panels">
-          <div class="hero-panel">
-            <label>Workspace goal</label>
-            <strong>由內容收藏升級做 thesis engine</strong>
-            <p>每條筆記都可以連返去公司、行業、主題同投資論點。</p>
-          </div>
-          <div class="hero-panel">
-            <label>Navigation</label>
-            <strong>Home → Library → Entity → Detail</strong>
-            <p>用更清晰嘅產品路徑去做 scan、compare、drill-down。</p>
-          </div>
-          <div class="hero-panel">
-            <label>Visual system</label>
-            <strong>Glassy panels · grid backdrop · product hierarchy</strong>
-            <p>風格上更接近 Open Design / 新一代 research SaaS。</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="search-panel">
-      <div class="search-bar">
-        <input type="text" id="searchInput" placeholder="搜尋公司、行業、主題、關鍵詞..." oninput="handleSearch()">
-        <select id="typeFilter" onchange="handleSearch()">
-          <option value="">全部類型</option>
-          <option value="youtube">YouTube</option>
-          <option value="note">筆記</option>
-          <option value="report">報告</option>
-          <option value="pdf">PDF</option>
-        </select>
-      </div>
+    <!-- Search -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="搜尋公司、行業、主題、關鍵詞..." oninput="handleSearch()">
+      <select id="typeFilter" onchange="handleSearch()">
+        <option value="">全部類型</option>
+        <option value="youtube">YouTube</option>
+        <option value="note">筆記</option>
+        <option value="report">報告</option>
+            <option value="pdf">PDF</option>
+      </select>
     </div>
 
+    <!-- KPI Cards -->
     <div class="kpi-grid">
       <div class="kpi-card">
         <label>總筆記數</label>
@@ -93,42 +51,25 @@
 
     <!-- Recent Entries -->
     <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>📝 最近新增</h2>
-          <p class="section-copy">最近入庫的重點內容，適合快速掃描最新想法。</p>
-        </div>
-      </div>
+      <h2>📝 最近新增</h2>
       <div class="card-grid" id="recentGrid"></div>
     </section>
 
+    <!-- Top Companies -->
     <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>🏢 熱門公司</h2>
-          <p class="section-copy">目前最常出現、最值得回看脈絡的公司。</p>
-        </div>
-      </div>
+      <h2>🏢 熱門公司</h2>
       <div class="card-grid" id="companyGrid"></div>
     </section>
 
+    <!-- Top Sectors -->
     <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>📊 熱門行業</h2>
-          <p class="section-copy">按行業聚合線索，方便由宏觀落到公司層面。</p>
-        </div>
-      </div>
+      <h2>📊 熱門行業</h2>
       <div class="card-grid" id="sectorGrid"></div>
     </section>
 
+    <!-- Top Themes -->
     <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>🎯 熱門主題</h2>
-          <p class="section-copy">由 AI、估值、催化劑等主題切入，快速整理 thesis。</p>
-        </div>
-      </div>
+      <h2>🎯 熱門主題</h2>
       <div class="card-grid" id="themeGrid"></div>
     </section>
   </div>
@@ -211,7 +152,7 @@
     </div>
   </div>
 
-  <script src="app.v22.js?v=31"></script>
+  <script src="app.v22.js"></script>
   <script>
     // Set default date
     document.getElementById('dateInput').value = new Date().toISOString().split('T')[0];

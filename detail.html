@@ -4,849 +4,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>知識筆記詳情 - VINEST</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=31">
+  <link rel="stylesheet" href="styles.css?v=21">
   <style>
-    body { color: #f0f0f5; }
-    .container { max-width: 980px; margin: 0 auto; }
+    body { background: #0a0a0f; color: #f0f0f5; padding: 20px; }
+    .container { max-width: 800px; margin: 0 auto; }
     h1 { color: #6366f1; }
     .meta { color: #8888a0; margin: 10px 0; }
     .section { background: #12121a; border: 1px solid #2a2a3a; border-radius: 12px; padding: 20px; margin: 15px 0; }
-    .section h2 { color: #6366f1; margin-top: 0; font-size: 18px; border-bottom: 1px solid #2a2a3a; padding-bottom: 8px; }
-    .section h3 { color: #a5b4fc; margin: 12px 0 6px; font-size: 15px; }
+    .section h3 { color: #6366f1; margin-top: 0; }
     .stock-tag { display: inline-block; padding: 6px 12px; background: #10b981; color: white; border-radius: 6px; margin: 4px; font-weight: 600; }
     .stock-reason { display: block; font-size: 12px; color: #8888a0; margin-top: 4px; }
     a { color: #6366f1; }
     .back { display: inline-block; padding: 10px 20px; background: #6366f1; color: white; text-decoration: none; border-radius: 8px; margin-bottom: 20px; }
     ul { padding-left: 20px; line-height: 1.8; }
-    li { margin: 4px 0; }
     .loading { text-align: center; padding: 40px; color: #888; }
-    .tag { display: inline-block; padding: 3px 8px; background: #1e1e2e; border: 1px solid #3a3a4a; border-radius: 4px; margin: 2px; font-size: 12px; }
-    .tag-bull { border-color: #10b981; color: #10b981; }
-    .tag-bear { border-color: #ef4444; color: #ef4444; }
-    .tag-cc { border-color: #f59e0b; color: #f59e0b; }
-    .thesis-box { background: #0f0f18; border-left: 3px solid #6366f1; padding: 12px 16px; margin: 8px 0; border-radius: 0 8px 8px 0; }
-    .thesis-box h4 { color: #a5b4fc; margin: 0 0 8px; font-size: 14px; }
-    .thesis-box p { margin: 0; color: #c0c0d0; font-size: 14px; line-height: 1.6; }
-    .logic-chain { background: #0f0f18; border: 1px solid #2a2a3a; border-radius: 10px; padding: 14px; margin: 12px 0; }
-    .logic-chain .topic { color: #f59e0b; font-weight: 600; font-size: 15px; margin-bottom: 8px; }
-    .logic-chain .chain { padding-left: 16px; border-left: 2px solid #3a3a4a; margin: 8px 0; }
-    .logic-chain .chain p { margin: 4px 0; font-size: 13px; color: #b0b0c0; }
-    .logic-chain .premises { color: #8888a0; font-size: 12px; padding-left: 16px; }
-    .logic-chain .conclusion { color: #e0e0f0; font-size: 13px; margin-top: 8px; padding: 8px; background: #1a1a2a; border-radius: 6px; }
-    .logic-chain .action { color: #10b981; font-size: 13px; margin-top: 6px; }
-    .logic-chain .expiry { color: #ef4444; font-size: 12px; margin-top: 4px; }
-    .cross-ref { background: #0f0f18; border: 1px solid #2a2a3a; border-radius: 10px; padding: 14px; margin: 12px 0; }
-    .cross-ref .topic { color: #f59e0b; font-weight: 600; margin-bottom: 10px; }
-    .cross-ref .source { padding: 8px 12px; margin: 6px 0; background: #1a1a2a; border-radius: 6px; }
-    .cross-ref .source-name { color: #a5b4fc; font-weight: 600; }
-    .cross-ref .winner { color: #10b981; font-size: 13px; margin-top: 8px; padding: 6px 10px; background: #0f1f18; border-radius: 4px; }
-    .portfolio-app { background: #12121a; border: 2px solid #6366f1; border-radius: 12px; padding: 20px; margin: 15px 0; }
-    .portfolio-app h2 { color: #6366f1; margin-top: 0; }
-    .portfolio-row { display: flex; padding: 8px 0; border-bottom: 1px solid #2a2a3a; }
-    .portfolio-row:last-child { border-bottom: none; }
-    .portfolio-label { color: #8888a0; width: 160px; flex-shrink: 0; }
-    .portfolio-value { color: #e0e0f0; }
-    .core-thesis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
-    .core-thesis-item { background: #0f0f18; border-radius: 8px; padding: 10px 12px; }
-    .core-thesis-item .key { color: #8888a0; font-size: 11px; text-transform: uppercase; margin-bottom: 4px; }
-    .core-thesis-item .val { color: #e0e0f0; font-size: 13px; }
-    .bull-bear-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 10px 0; }
-    .bull-section { border-left: 3px solid #10b981; }
-    .bear-section { border-left: 3px solid #ef4444; }
-    .case-item { background: #0f0f18; border-radius: 8px; padding: 10px 12px; margin: 6px 0; }
-    .case-item .thesis { color: #e0e0f0; font-size: 13px; margin-bottom: 4px; }
-    .case-item .meta { color: #8888a0; font-size: 11px; }
-    .catalyst-list, .risk-list { padding-left: 20px; }
-    .catalyst-list li, .risk-list li { margin: 4px 0; font-size: 14px; }
-    .positive-cat { color: #10b981; }
-    .negative-cat { color: #ef4444; }
-    .hero { background: linear-gradient(135deg, #12121a 0%, #18182a 100%); border: 1px solid #2a2a3a; border-radius: 16px; padding: 22px; margin-bottom: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
-    .hero h1 { margin: 0 0 10px; color: #eef2ff; line-height: 1.35; }
-    .meta-chips { display:flex; flex-wrap:wrap; gap:8px; margin: 12px 0 0; }
-    .meta-chip { display:inline-flex; align-items:center; gap:6px; padding:6px 10px; background:#0f0f18; border:1px solid #2a2a3a; border-radius:999px; font-size:12px; color:#c7d2fe; }
-    .hero-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; }
-    .hero-btn { display:inline-block; padding:8px 14px; border-radius:10px; text-decoration:none; font-size:13px; font-weight:600; }
-    .hero-btn.primary { background:#6366f1; color:white; }
-    .hero-btn.secondary { background:#0f0f18; color:#c7d2fe; border:1px solid #2a2a3a; }
-    .stock-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px; }
-    .mini-card { padding:10px 12px; border-radius:10px; font-size:13px; line-height:1.65; }
-    .mini-card h4 { margin:0 0 6px; font-size:13px; }
-    .quote-box { margin:8px 0; padding:12px 14px; background:#12121f; border-left:3px solid #f59e0b; border-radius:8px; font-style:italic; color:#fcd34d; font-size:13px; line-height:1.7; }
-    .metrics-row { margin:10px 0; display:flex; gap:10px; flex-wrap:wrap; }
-    .metric-pill { display:inline-block; padding:6px 10px; border-radius:999px; font-size:12px; background:#151524; border:1px solid #2a2a3a; }
-    @media (max-width: 760px) {
-      .core-thesis-grid, .bull-bear-grid, .stock-grid { grid-template-columns: 1fr; }
-      .portfolio-row { flex-direction: column; gap:4px; }
-      .portfolio-label { width: auto; }
-    }
   </style>
 </head>
 <body>
   <div class="container">
-    <header class="site-header">
-      <a href="index.html" class="brand">
-        <span class="brand-mark">🧠</span>
-        <span class="brand-text">
-          <span>Vinest Research Hub</span>
-          <strong>VINEST 投資知識庫</strong>
-        </span>
-      </a>
-      <nav class="site-nav">
-        <a href="index.html">首頁</a>
-        <a href="library.html">知識庫</a>
-      </nav>
-    </header>
     <a href="index.html" class="back">← 返回首頁</a>
     <div id="content"><div class="loading">載入中...</div></div>
   </div>
-  <script src="app.v22.js?v=31"></script>
   <script>
-    function esc(s) {
-      if (!s && s !== 0) return '';
-      return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    }
-    function isArray(o) { return Array.isArray(o); }
-    function isObject(o) { return o && typeof o === 'object' && !Array.isArray(o); }
-    function normalizeList(v) {
-      if (Array.isArray(v)) return v.filter(Boolean);
-      if (typeof v === 'string' && v.trim()) return [v.trim()];
-      return [];
-    }
-    function renderBullets(items) {
-      const arr = normalizeList(items);
-      if (!arr.length) return '';
-      return '<ul style="margin:0;padding-left:18px">' + arr.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>';
-    }
-    function directionInfo(direction) {
-      const d = String(direction || '').toLowerCase();
-      if (d === 'long') return { color:'#10b981', label:'🟢 做多' };
-      if (d === 'short') return { color:'#ef4444', label:'🔴 做淡' };
-      if (d === 'monitoring' || d === 'neutral' || d === 'hold') return { color:'#f59e0b', label:'🟡 觀望' };
-      return { color:'#8888a0', label:'⚪ 中性' };
-    }
-    function statusLabel(status) {
-      const s = String(status || '').toLowerCase();
-      if (s === 'active') return 'ACTIVE｜進行中';
-      if (s === 'monitoring') return 'MONITORING｜觀察中';
-      if (s === 'proved') return 'PROVED｜已驗證';
-      return esc(String(status || '').toUpperCase());
-    }
-    function recommendationRoleLabel(role) {
-      const m = {
-        current_actionable_preference: '即時偏好 / 可操作觀點',
-        relative_comparison: '相對比較',
-        historical_proof_case: '歷史證明案例',
-        theme_exposure_example: '主題曝險例子'
-      };
-      return m[role] || role || '';
-    }
-    function flattenObjectLists(obj) {
-      if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return [];
-      const out = [];
-      for (const [k, v] of Object.entries(obj)) {
-        if (Array.isArray(v)) {
-          v.forEach(item => out.push({ group:k, text:item }));
-        } else if (v && typeof v === 'object') {
-          Object.values(v).forEach(inner => {
-            if (Array.isArray(inner)) inner.forEach(item => out.push({ group:k, text:item }));
-          });
-        } else if (typeof v === 'string' && v.trim()) {
-          out.push({ group:k, text:v });
-        }
-      }
-      return out;
-    }
-
     async function init() {
       try {
-        const resp = await fetch('entries.json?v=38');
+        const resp = await fetch('entries.json');
         const data = await resp.json();
         const entries = data.entries;
+        
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id');
         const entry = entries.find(e => e.id === id);
-
+        
         if (!entry) {
-          document.getElementById('content').innerHTML = '<h1>找不到此筆記 (ID: ' + id + ')</h1>';
+          document.getElementById('content').innerHTML = '<h1>找不到此筆記 (ID: ' + id + ')</h1><p>可用ID: ' + entries.map(e => e.id).join(', ') + '</p>';
           return;
         }
-
-        let html = '';
-
-        // Header / Hero
-        html += '<div class="hero">';
-        html += '<h1>' + esc(entry.title) + '</h1>';
-        html += '<div class="meta">' + esc(entry.summary_short || '') + '</div>';
-        html += '<div class="meta-chips">';
-        html += '<span class="meta-chip">📅 ' + esc(entry.date || '-') + '</span>';
-        html += '<span class="meta-chip">📺 ' + esc(entry.source_name || '-') + '</span>';
-        if (entry.speaker) html += '<span class="meta-chip">🎤 ' + esc(entry.speaker) + '</span>';
-        if (entry.source_type) html += '<span class="meta-chip">🧾 ' + esc(entry.source_type) + '</span>';
-        if (entry.updated_at) html += '<span class="meta-chip">🕒 更新 ' + esc(String(entry.updated_at).replace('T', ' ').replace('Z', '')) + '</span>';
-        html += '</div>';
-        html += '<div class="hero-actions">';
-        if (entry.source_url) html += '<a class="hero-btn primary" href="' + esc(entry.source_url) + '" target="_blank" rel="noopener">▶ 打開影片</a>';
-        html += '<a class="hero-btn secondary" href="index.html">← 返回首頁</a>';
-        html += '</div>';
-        html += '</div>';
-
-        // Tags
-        if (entry.companies?.length || entry.sectors?.length || entry.themes?.length) {
-          let tagsHtml = '';
-          (entry.companies||[]).forEach(t => tagsHtml += '<span class="tag">' + esc(t) + '</span>');
-          (entry.sectors||[]).forEach(t => tagsHtml += '<span class="tag" style="border-color:#6366f1;color:#6366f1">' + esc(t) + '</span>');
-          (entry.themes||[]).forEach(t => tagsHtml += '<span class="tag" style="border-color:#f59e0b;color:#f59e0b">' + esc(t) + '</span>');
-          html += '<div style="margin:10px 0">' + tagsHtml + '</div>';
-        }
-
-        // ================================================================
-        // CORE THESIS (new v2 field)
-        // ================================================================
-        if (isObject(entry.core_thesis)) {
-          const ct = entry.core_thesis;
-          html += '<div class="section"><h2>📊 核心論點</h2>';
-          html += '<div class="core-thesis-grid">';
-          for (const [k, v] of Object.entries(ct)) {
-            if (v) html += '<div class="core-thesis-item"><div class="key">' + esc(k) + '</div><div class="val">' + esc(v) + '</div></div>';
-          }
-          html += '</div></div>';
-        }
-
-        // ================================================================
-        // SUMMARY
-        // ================================================================
-        if (entry.summary_short) html += '<div class="section"><h2>📝 簡介</h2><p style="font-size:15px;color:#c0c0d0;line-height:1.8">' + esc(entry.summary_short) + '</p></div>';
-        if (entry.summary_long) html += '<div class="section"><h2>📚 詳細摘要</h2><div style="line-height:1.8;color:#b0b0c0;margin:10px 0;font-size:14px">' + esc(entry.summary_long) + '</div></div>';
-
-        // ================================================================
-        // STOCK RECOMMENDATIONS (RICH VERSION)
-        // ================================================================
-        if (isArray(entry.stock_recommendations) && entry.stock_recommendations.length) {
-          html += '<div class="section"><h2>🎯 股票推介</h2>';
-
+        
+        let html = '<h1>' + entry.title + '</h1>';
+        html += '<div class="meta">📅 ' + (entry.date || '-') + ' | 📺 ' + (entry.source_name || '-') + '</div>';
+        
+        if (entry.summary_short) html += '<div class="section"><h3>簡介</h3><p>' + entry.summary_short + '</p></div>';
+        if (entry.summary_long) html += '<p>' + entry.summary_long + '</p>';
+        
+        if (entry.stock_recommendations?.length) {
+          html += '<div class="section"><h3>🎯 節目中提到既股票</h3>';
           for (const s of entry.stock_recommendations) {
-            const dir = s.direction || '';
-            const dirMeta = directionInfo(dir);
-            const dirColor = dirMeta.color;
-            const dirLabel = dirMeta.label;
-            const operationPoints = normalizeList(s['操作重點'] || s.operation_points);
-            const riskPoints = normalizeList(s['風險位'] || s.risk_points);
-
-            html += '<div style="margin:16px 0;padding:16px;background:#0f0f18;border-radius:12px;border:1px solid #2a2a3a">';
-
-            // Header row: ticker + direction badge
-            html += '<div style="display:flex;align-items:center;gap:12px;margin-bottom:10px">';
-            html += '<span style="font-size:20px;font-weight:700;color:#fff">' + esc(s.ticker || s.name || '') + '</span>';
-            html += '<span style="padding:4px 12px;background:' + dirColor + ';color:white;border-radius:6px;font-size:13px;font-weight:600">' + dirLabel + '</span>';
-            if (s.name && s.name !== s.ticker) html += '<span style="color:#8888a0;font-size:14px">' + esc(s.name) + '</span>';
-            html += '</div>';
-            if (s.recommendation_role) {
-              html += '<div style="margin:-2px 0 10px 0"><span style="display:inline-block;padding:3px 10px;background:#1a1a28;border:1px solid #3b3b56;color:#c7d2fe;border-radius:999px;font-size:11px">角色：' + esc(recommendationRoleLabel(s.recommendation_role)) + '</span></div>';
-            }
-
-            // 📌 投資論點
-            if (s['投資論點'] || s.thesis) {
-              html += '<div style="margin:10px 0;padding:10px 14px;background:#1a1a28;border-radius:8px;border-left:3px solid ' + dirColor + '">';
-              html += '<div style="color:#8888a0;font-size:11px;margin-bottom:4px">📌 投資論點</div>';
-              html += '<div style="color:#e0e0f0;font-size:14px;line-height:1.6">' + esc(s['投資論點'] || s.thesis) + '</div>';
-              html += '</div>';
-            }
-
-            // 📣 講者論點
-            if (s['講者論點'] || s.speaker_rationale || s.rationale) {
-              html += '<div style="margin:8px 0;color:#b0b0c0;font-size:13px;line-height:1.6">';
-              html += '<span style="color:#6366f1;font-weight:600">📣 講者論點：</span>' + esc(s['講者論點'] || s.speaker_rationale || s.rationale);
-              html += '</div>';
-            }
-
-            // 📝 補充 note
-            if (s.note) {
-              html += '<div style="margin:8px 0;padding:10px 14px;background:#12121f;border-radius:8px;color:#c0c0d0;font-size:13px;line-height:1.6">';
-              html += '<span style="color:#a5b4fc;font-weight:600">📝 補充：</span>' + esc(s.note);
-              html += '</div>';
-            }
-
-            // ❝ 語錄
-            if (s['語錄'] || s.speaker_quote) {
-              html += '<div class="quote-box">';
-              html += '<span style="color:#fcd34d;font-weight:600">❝ 講者原話：</span>' + esc(s['語錄'] || s.speaker_quote) + ' ❞';
-              html += '</div>';
-            }
-
-            if (operationPoints.length || riskPoints.length) {
-              html += '<div class="stock-grid">';
-              if (operationPoints.length) {
-                html += '<div class="mini-card" style="background:#0f172a;color:#dbeafe;border:1px solid #1d4ed8">';
-                html += '<h4 style="color:#60a5fa">🎯 操作重點</h4>' + renderBullets(operationPoints);
-                html += '</div>';
-              }
-              if (riskPoints.length) {
-                html += '<div class="mini-card" style="background:#1f1414;color:#fecaca;border:1px solid #b91c1c">';
-                html += '<h4 style="color:#f87171">⚠️ 風險位</h4>' + renderBullets(riskPoints);
-                html += '</div>';
-              }
-              html += '</div>';
-            }
-
-            // Metrics row: 上限/下限/入市時機
-            const metrics = [];
-            if (s['上限'] || s.upside || s.upside_pct) metrics.push('<span class="metric-pill" style="color:#10b981">↑ ' + esc(s['上限'] || s.upside || s.upside_pct) + '</span>');
-            if (s['下限'] || s.downside || s.downside_pct) metrics.push('<span class="metric-pill" style="color:#ef4444">↓ ' + esc(s['下限'] || s.downside || s.downside_pct) + '</span>');
-            if (s['入市時機'] || s.entry_timing) metrics.push('<span class="metric-pill" style="color:#f59e0b">⏱ ' + esc(s['入市時機'] || s.entry_timing) + '</span>');
-            if (metrics.length) {
-              html += '<div class="metrics-row">' + metrics.join('') + '</div>';
-            }
-
-            // Thesis status badge
-            const statusColor = s.thesis_status === 'active' ? '#10b981' : s.thesis_status === 'monitoring' ? '#f59e0b' : s.thesis_status === 'proved' ? '#6366f1' : '#8888a0';
-            if (s.thesis_status) {
-              html += '<div style="margin:8px 0">';
-              html += '<span style="display:inline-block;padding:3px 10px;background:' + statusColor + '22;border:1px solid ' + statusColor + ';color:' + statusColor + ';border-radius:20px;font-size:11px">';
-              html += 'Thesis Status: ' + statusLabel(s.thesis_status);
-              html += '</span>';
-              html += '</div>';
-            }
-
-            // 🔄 重評條件
-            if (s['重評條件'] || s.reassessment_condition || s.catalyst_for_reassessment) {
-              html += '<div style="margin:8px 0;padding:8px 12px;background:#1a0a0a;border-radius:6px;font-size:12px;color:#ef4444">';
-              html += '🔄 重評條件：' + esc(s['重評條件'] || s.reassessment_condition || s.catalyst_for_reassessment);
-              html += '</div>';
-            }
-
-            html += '</div>';
+            html += '<div><span class="stock-tag">' + s.ticker + '</span><span class="stock-reason">' + s.reason + '</span></div>';
           }
           html += '</div>';
         }
-
-        // ================================================================
-        // INVESTMENT MINDSET (v2: object with distinctions/process/philosophy)
-        // ================================================================
-        if (isObject(entry.investment_mindset)) {
-          const im = entry.investment_mindset;
-          html += '<div class="section"><h2>💡 投資心法</h2>';
-          if (im.philosophy) html += '<div class="thesis-box"><h4>🎯 投資哲學</h4><p>' + esc(im.philosophy) + '</p></div>';
-          if (isArray(im.distinctions) && im.distinctions.length) {
-            html += '<h3>🔍 關鍵分辨</h3><ul>';
-            im.distinctions.forEach(d => html += '<li>' + esc(d) + '</li>');
-            html += '</ul>';
-          }
-          if (isArray(im.process) && im.process.length) {
-            html += '<h3>⚙️ 操作流程</h3><ul>';
-            im.process.forEach(p => html += '<li>' + esc(p) + '</li>');
-            html += '</ul>';
-          }
-          html += '</div>';
-        } else if (isArray(entry.investment_mindset) && entry.investment_mindset.length) {
-          // Legacy: flat array
-          html += '<div class="section"><h2>💡 投資心法</h2><ul>';
-          entry.investment_mindset.forEach(p => html += '<li>' + esc(p) + '</li>');
+        
+        if (entry.key_points?.length) {
+          html += '<div class="section"><h3>📌 核心論點</h3><ul>';
+          for (const p of entry.key_points) html += '<li>' + p + '</li>';
           html += '</ul></div>';
         }
-
-        // ================================================================
-        // PERSONAL INSIGHTS (v2: personal_insights, legacy: insights)
-        // ================================================================
-        const insights = [...normalizeList(entry.personal_insights), ...normalizeList(entry.insights)].filter(Boolean);
-        if (insights.length) {
-          html += '<div class="section"><h2>💎 心得體會</h2><ul>';
-          [...new Set(insights)].forEach(i => html += '<li>' + esc(i) + '</li>');
+        
+        if (entry.investment_mindset?.length) {
+          html += '<div class="section"><h3>💡 投資心法</h3><ul>';
+          for (const p of entry.investment_mindset) html += '<li>' + p + '</li>';
           html += '</ul></div>';
         }
-
-        // ================================================================
-        // KEY POINTS (legacy field)
-        // ================================================================
-        if (isArray(entry.key_points) && entry.key_points.length) {
-          html += '<div class="section"><h2>📌 關鍵論點</h2><ul>';
-          entry.key_points.forEach(p => html += '<li>' + esc(p) + '</li>');
+        
+        if (entry.insights?.length) {
+          html += '<div class="section"><h3>💎 心得體會</h3><ul>';
+          for (const p of entry.insights) html += '<li>' + p + '</li>';
           html += '</ul></div>';
         }
-
-        // ================================================================
-        // BULL / BEAR CASES — handles both legacy (array of strings) and v2 (object with thesis/trigger/講者論點)
-        // ================================================================
-        const hasBullCases = isObject(entry.bull_cases) && Object.keys(entry.bull_cases).length;
-        const hasBearCases = isObject(entry.bear_cases) && Object.keys(entry.bear_cases).length;
-        if (hasBullCases || hasBearCases) {
-          html += '<div class="section"><h2>📈 看好 vs 看淡</h2>';
-          html += '<div class="bull-bear-grid">';
-
-          // ── BULL CASES ──
-          if (hasBullCases) {
-            html += '<div class="bull-section" style="padding:10px;flex:1">';
-            html += '<h3 style="color:#10b981;margin-bottom:12px">✅ 看好</h3>';
-            for (const [topic, caseData] of Object.entries(entry.bull_cases)) {
-              if (!caseData) continue;
-              const isArrayFmt = isArray(caseData);
-              const thesis    = isArrayFmt ? null : caseData.thesis;
-              const trigger   = isArrayFmt ? null : caseData.trigger;
-              const rationale = isArrayFmt ? null : caseData.講者論點;
-              const points    = isArrayFmt ? caseData : (caseData.points || []);
-
-              html += '<div style="margin-bottom:16px;padding:12px;background:#0f1a14;border-radius:8px;border-left:3px solid #10b981">';
-
-              // Topic header
-              html += '<div style="font-weight:700;color:#10b981;font-size:14px;margin-bottom:6px">📌 ' + esc(topic) + '</div>';
-
-              // Thesis (if v2 format)
-              if (thesis) {
-                html += '<div style="margin:6px 0;padding:8px 10px;background:#1a2830;border-radius:6px;font-size:13px;color:#c0c0d0;line-height:1.5">';
-                html += '<span style="color:#10b981;font-weight:600">論點：</span>' + esc(thesis) + '</div>';
-              }
-
-              // 講者論點 (speaker rationale — v2)
-              if (rationale) {
-                html += '<div style="margin:6px 0;color:#b0b0c0;font-size:12px;line-height:1.5">';
-                html += '<span style="color:#6366f1;font-weight:600">📣 講者論點：</span>' + esc(rationale) + '</div>';
-              }
-
-              // Trigger (if v2)
-              if (trigger) {
-                html += '<div style="margin:4px 0;font-size:12px;color:#f59e0b">⏱ 觸發條件：' + esc(trigger) + '</div>';
-              }
-
-              // Legacy / fallback bullet points
-              if (points.length) {
-                html += '<ul style="margin:6px 0 0 0;padding-left:16px;font-size:12px;color:#8888a0;line-height:1.7">';
-                points.forEach(p => {
-                  if (!p) return;
-                  const text = (typeof p === 'object' && p !== null) ? (p.item || p.text || JSON.stringify(p)) : String(p);
-                  html += '<li>' + esc(text) + '</li>';
-                });
-                html += '</ul>';
-              }
-
-              // Key stocks (if v2)
-              if (!isArrayFmt && caseData.key_stocks) {
-                html += '<div style="margin:4px 0;font-size:12px;color:#10b981">📊 相關股票：' + esc(caseData.key_stocks) + '</div>';
-              }
-
-              html += '</div>';
-            }
-            html += '</div>';
-          }
-
-          // ── BEAR CASES ──
-          if (hasBearCases) {
-            html += '<div class="bear-section" style="padding:10px;flex:1">';
-            html += '<h3 style="color:#ef4444;margin-bottom:12px">❌ 看淡</h3>';
-            for (const [topic, caseData] of Object.entries(entry.bear_cases)) {
-              if (!caseData) continue;
-              const isArrayFmt = isArray(caseData);
-              const thesis    = isArrayFmt ? null : caseData.thesis;
-              const trigger   = isArrayFmt ? null : caseData.trigger;
-              const rationale = isArrayFmt ? null : caseData.講者論點;
-              const points    = isArrayFmt ? caseData : (caseData.points || []);
-
-              html += '<div style="margin-bottom:16px;padding:12px;background:#1a0f0f;border-radius:8px;border-left:3px solid #ef4444">';
-
-              // Topic header
-              html += '<div style="font-weight:700;color:#ef4444;font-size:14px;margin-bottom:6px">📌 ' + esc(topic) + '</div>';
-
-              // Thesis (if v2 format)
-              if (thesis) {
-                html += '<div style="margin:6px 0;padding:8px 10px;background:#2a1a1a;border-radius:6px;font-size:13px;color:#c0c0d0;line-height:1.5">';
-                html += '<span style="color:#ef4444;font-weight:600">論點：</span>' + esc(thesis) + '</div>';
-              }
-
-              // 講者論點 (speaker rationale — v2)
-              if (rationale) {
-                html += '<div style="margin:6px 0;color:#b0b0c0;font-size:12px;line-height:1.5">';
-                html += '<span style="color:#6366f1;font-weight:600">📣 講者論點：</span>' + esc(rationale) + '</div>';
-              }
-
-              // Trigger / 重評條件 (if v2)
-              if (trigger) {
-                html += '<div style="margin:4px 0;font-size:12px;color:#f59e0b">⏱ 觸發條件：' + esc(trigger) + '</div>';
-              }
-
-              // Legacy / fallback bullet points
-              if (points.length) {
-                html += '<ul style="margin:6px 0 0 0;padding-left:16px;font-size:12px;color:#8888a0;line-height:1.7">';
-                points.forEach(p => {
-                  if (!p) return;
-                  const text = (typeof p === 'object' && p !== null) ? (p.item || p.text || JSON.stringify(p)) : String(p);
-                  html += '<li>' + esc(text) + '</li>';
-                });
-                html += '</ul>';
-              }
-
-              // trigger_for_reassessment (legacy v2)
-              if (!isArrayFmt && caseData.trigger_for_reassessment) {
-                html += '<div style="margin:4px 0;font-size:12px;color:#ef4444">🔄 重評條件：' + esc(caseData.trigger_for_reassessment) + '</div>';
-              }
-
-              html += '</div>';
-            }
-            html += '</div>';
-          }
-
-          html += '</div></div>';
-        }
-
-        // Legacy bull_points / bear_points (flat arrays — pre-v2)
-        if (!hasBullCases && isArray(entry.bull_points) && entry.bull_points.length) {
-          html += '<div class="section"><h2>✅ 看好論點</h2><ul>';
-          entry.bull_points.forEach(p => html += '<li>' + esc(p) + '</li>');
+        
+        if (entry.bull_points?.length) {
+          html += '<div class="section"><h3>✅ 看好論點</h3><ul>';
+          for (const p of entry.bull_points) html += '<li>' + p + '</li>';
           html += '</ul></div>';
         }
-        if (!hasBearCases && isArray(entry.bear_points) && entry.bear_points.length) {
-          html += '<div class="section"><h2>❌ 看淡論點</h2><ul>';
-          entry.bear_points.forEach(p => html += '<li>' + esc(p) + '</li>');
+        
+        if (entry.bear_points?.length) {
+          html += '<div class="section"><h3>❌ 看淡論點</h3><ul>';
+          for (const p of entry.bear_points) html += '<li>' + p + '</li>';
           html += '</ul></div>';
         }
-
-        // ================================================================
-        // CATALYSTS (v2: {positive:[], negative:[]})
-        // ================================================================
-        if (isObject(entry.catalysts)) {
-          const pos = entry.catalysts.positive || [];
-          const neg = entry.catalysts.negative || [];
-          if (pos.length || neg.length) {
-            html += '<div class="section"><h2>🚀 催化劑</h2>';
-            if (pos.length) {
-              html += '<h3 class="positive-cat">🟢 正面催化劑</h3><ul class="catalyst-list">';
-              pos.forEach(c => html += '<li class="positive-cat">' + esc(c) + '</li>');
-              html += '</ul>';
-            }
-            if (neg.length) {
-              html += '<h3 class="negative-cat">🔴 負面催化劑</h3><ul class="catalyst-list">';
-              neg.forEach(c => html += '<li class="negative-cat">' + esc(c) + '</li>');
-              html += '</ul>';
-            }
-            html += '</div>';
-          }
-        } else if (isArray(entry.catalysts) && entry.catalysts.length) {
-          // Legacy flat array
-          html += '<div class="section"><h2>🚀 催化劑</h2><ul>';
-          entry.catalysts.forEach(c => html += '<li>' + esc(c) + '</li>');
+        
+        if (entry.catalysts?.length) {
+          html += '<div class="section"><h3>🚀 催化劑</h3><ul>';
+          for (const p of entry.catalysts) html += '<li>' + p + '</li>';
           html += '</ul></div>';
         }
-
-        // ================================================================
-        // RISKS (v2: {market:[], thematic:[], liquidity:[]})
-        // ================================================================
-        if (isObject(entry.risks)) {
-          const market = entry.risks.market || entry.risks.market_risks || entry.risks.macro || [];
-          const thematic = entry.risks.thematic || entry.risks.thematic_risks || entry.risks.policy_risks || [];
-          const liquidity = entry.risks.liquidity || entry.risks.liquidity_risks || entry.risks.execution || entry.risks.execution_risks || [];
-          const otherRiskGroups = flattenObjectLists(entry.risks).filter(x => !['market','market_risks','macro','thematic','thematic_risks','policy_risks','liquidity','liquidity_risks','execution','execution_risks'].includes(x.group));
-          if (market.length || thematic.length || liquidity.length || otherRiskGroups.length) {
-            html += '<div class="section"><h2>⚠️ 風險</h2>';
-            if (market.length) {
-              html += '<h3 style="color:#f59e0b">📊 市場風險</h3><ul class="risk-list">';
-              market.forEach(r => html += '<li>' + esc(r) + '</li>');
-              html += '</ul>';
-            }
-            if (thematic.length) {
-              html += '<h3 style="color:#ef4444">🎯 主題 / 政策風險</h3><ul class="risk-list">';
-              thematic.forEach(r => html += '<li>' + esc(r) + '</li>');
-              html += '</ul>';
-            }
-            if (liquidity.length) {
-              html += '<h3 style="color:#6366f1">💧 流動性 / 執行風險</h3><ul class="risk-list">';
-              liquidity.forEach(r => html += '<li>' + esc(r) + '</li>');
-              html += '</ul>';
-            }
-            if (otherRiskGroups.length) {
-              html += '<h3 style="color:#fca5a5">🧩 其他風險</h3><ul class="risk-list">';
-              otherRiskGroups.forEach(x => html += '<li><strong>' + esc(x.group) + '：</strong>' + esc(x.text) + '</li>');
-              html += '</ul>';
-            }
-            html += '</div>';
-          }
-        } else if (isArray(entry.risks) && entry.risks.length) {
-          // Legacy flat array
-          html += '<div class="section"><h2>⚠️ 風險</h2><ul>';
-          entry.risks.forEach(r => html += '<li>' + esc(r) + '</li>');
+        
+        if (entry.risks?.length) {
+          html += '<div class="section"><h3>⚠️ 風險</h3><ul>';
+          for (const p of entry.risks) html += '<li>' + p + '</li>';
           html += '</ul></div>';
         }
-
-        // ================================================================
-        // LOGIC CHAINS (v2)
-        // ================================================================
-        if (isArray(entry.logic_chains) && entry.logic_chains.length) {
-          html += '<div class="section"><h2>🧠 邏輯鏈</h2>';
-          for (const lc of entry.logic_chains) {
-            html += '<div class="logic-chain">';
-            html += '<div class="topic">📌 ' + esc(lc.topic || '') + '</div>';
-
-            if (isArray(lc.premise_facts) && lc.premise_facts.length) {
-              html += '<div class="premises"><strong>前提事實：</strong>';
-              lc.premise_facts.forEach(p => html += '<div>• ' + esc(p) + '</div>');
-              html += '</div>';
-            }
-
-            if (lc.reasoning_chain) {
-              html += '<div class="chain"><p><strong>推理鏈：</strong>' + esc(lc.reasoning_chain) + '</p></div>';
-            }
-
-            if (lc.speaker_conclusion) {
-              html += '<div class="conclusion">📣 結論：' + esc(lc.speaker_conclusion) + '</div>';
-            }
-
-            const conf = lc.confidence || '';
-            const confColor = conf === 'high' ? '#10b981' : conf === 'medium' ? '#f59e0b' : conf === 'low' ? '#ef4444' : '#8888a0';
-            if (conf) html += '<div style="margin-top:8px;font-size:12px;color:' + confColor + '">信心度：' + esc(conf) + '</div>';
-
-            if (lc.expiry_condition) html += '<div class="expiry">⚠️ 失效條件：' + esc(lc.expiry_condition) + '</div>';
-            if (lc.action) html += '<div class="action">🎯 操作：' + esc(lc.action) + '</div>';
-
-            html += '</div>';
-          }
-          html += '</div>';
-        }
-
-        // ================================================================
-        // CROSS REFERENCES (v2)
-        // ================================================================
-        if (isArray(entry.cross_references) && entry.cross_references.length) {
-          html += '<div class="section"><h2>🔄 交叉對比</h2>';
-          for (const cr of entry.cross_references) {
-            html += '<div class="cross-ref">';
-            html += '<div class="topic">📌 ' + esc(cr.topic || '') + '</div>';
-
-            if (cr.source_a) {
-              html += '<div class="source">';
-              html += '<span class="source-name">A：' + esc(cr.source_a.name || '') + '</span>';
-              if (cr.source_a.view) html += '<div style="color:#c0c0d0;font-size:13px;margin-top:4px">' + esc(cr.source_a.view) + '</div>';
-              if (cr.source_a.premise) html += '<div style="color:#8888a0;font-size:12px;margin-top:4px">前提：' + esc(cr.source_a.premise) + '</div>';
-              html += '</div>';
-            }
-
-            if (cr.source_b) {
-              html += '<div class="source">';
-              html += '<span class="source-name">B：' + esc(cr.source_b.name || '') + '</span>';
-              if (cr.source_b.view) html += '<div style="color:#c0c0d0;font-size:13px;margin-top:4px">' + esc(cr.source_b.view) + '</div>';
-              if (cr.source_b.premise) html += '<div style="color:#8888a0;font-size:12px;margin-top:4px">前提：' + esc(cr.source_b.premise) + '</div>';
-              html += '</div>';
-            }
-
-            if (cr.who_wins_when) html += '<div class="winner">🏆 邊個啱：' + esc(cr.who_wins_when) + '</div>';
-            if (cr.key_insight) html += '<div style="margin-top:8px;color:#f59e0b;font-size:13px">💡 ' + esc(cr.key_insight) + '</div>';
-
-            html += '</div>';
-          }
-          html += '</div>';
-        }
-
-        // ================================================================
-        // PORTFOLIO APPLICATION (v2)
-        // ================================================================
-        if (isObject(entry.portfolio_application) && Object.keys(entry.portfolio_application).length) {
-          const pa = entry.portfolio_application;
-          html += '<div class="portfolio-app"><h2>💼 Kenneth 個人應用</h2>';
-          const fields = [
-            ['kenneth_holds', 'Kenneth 持倉'],
-            ['hk_platform_action', 'Platform 股操作'],
-            ['gold_action', '黃金操作'],
-            ['a_share_action', 'A股操作'],
-            ['us_ai_action', '美股AI操作'],
-            ['asymmetric_bet', '非對稱押注'],
-            ['confidence', '信心度 (1-5)'],
-            ['note', '備註']
-          ];
-          for (const [k, label] of fields) {
-            if (pa[k]) {
-              html += '<div class="portfolio-row">';
-              html += '<div class="portfolio-label">' + esc(label) + '</div>';
-              html += '<div class="portfolio-value">' + esc(String(pa[k])) + '</div>';
-              html += '</div>';
-            }
-          }
-          html += '</div>';
-        }
-
-        // ================================================================
-        // OPEN QUESTIONS
-        // ================================================================
-        if (isArray(entry.open_questions) && entry.open_questions.length) {
-          html += '<div class="section"><h2>❓ 待解答問題</h2><ul>';
-          entry.open_questions.forEach(q => html += '<li>' + esc(q) + '</li>');
-          html += '</ul></div>';
-        } else if (isObject(entry.open_questions) && Object.keys(entry.open_questions).length) {
-          html += '<div class="section"><h2>❓ 待解答問題</h2>';
-          for (const [k, vals] of Object.entries(entry.open_questions)) {
-            const arr = normalizeList(vals);
-            if (!arr.length) continue;
-            html += '<h3>' + esc(k) + '</h3><ul>';
-            arr.forEach(v => html += '<li>' + esc(v) + '</li>');
-            html += '</ul>';
-          }
-          html += '</div>';
-        }
-
-        // ================================================================
-        // MACRO REGIME / TRANSCRIPT QUALITY / LEGACY RISKS
-        // ================================================================
-        if (isObject(entry.macro_regime) && Object.keys(entry.macro_regime).length) {
-          html += '<div class="section"><h2>🌍 宏觀框架</h2>';
-          for (const [k, v] of Object.entries(entry.macro_regime)) {
-            const arr = normalizeList(v);
-            if (arr.length > 1) {
-              html += '<h3>' + esc(k) + '</h3><ul>';
-              arr.forEach(x => html += '<li>' + esc(x) + '</li>');
-              html += '</ul>';
-            } else if (arr.length === 1) {
-              html += '<div style="margin:8px 0;color:#c0c0d0;line-height:1.7"><strong style="color:#a5b4fc">' + esc(k) + '：</strong>' + esc(arr[0]) + '</div>';
-            }
-          }
-          html += '</div>';
-        }
-        if (isArray(entry.legacy_risks) && entry.legacy_risks.length) {
-          html += '<div class="section"><h2>🧱 補充風險</h2><ul>';
-          entry.legacy_risks.forEach(r => html += '<li>' + esc(r) + '</li>');
-          html += '</ul></div>';
-        }
-        if (isObject(entry.transcript_quality) && Object.keys(entry.transcript_quality).length) {
-          html += '<div class="section"><h2>🧪 Transcript Quality</h2>';
-          for (const [k, v] of Object.entries(entry.transcript_quality)) {
-            html += '<div style="margin:6px 0;color:#b0b0c0;font-size:13px"><strong style="color:#a5b4fc">' + esc(k) + '：</strong>' + esc(String(v)) + '</div>';
-          }
-          html += '</div>';
-        }
-
-
-        // ================================================================
-        // LEGACY / EXTENDED SCHEMA COVERAGE
-        // ================================================================
-        if (isArray(entry.tickers) && entry.tickers.length) {
-          html += '<div class="section"><h2>🏷️ Tickers</h2><div style="margin-top:8px">';
-          entry.tickers.forEach(t => html += '<span class="tag" style="border-color:#10b981;color:#10b981">' + esc(t) + '</span>');
-          html += '</div></div>';
-        }
-        if (isArray(entry.tags) && entry.tags.length) {
-          html += '<div class="section"><h2>🧷 Tags</h2><div style="margin-top:8px">';
-          entry.tags.forEach(t => html += '<span class="tag" style="border-color:#f59e0b;color:#f59e0b">' + esc(t) + '</span>');
-          html += '</div></div>';
-        }
-        if (isObject(entry.presenter_profile) && Object.keys(entry.presenter_profile).length) {
-          html += '<div class="section"><h2>🎙️ 講者資料</h2>';
-          for (const [k, v] of Object.entries(entry.presenter_profile)) {
-            html += '<div style="margin:8px 0;color:#c0c0d0;line-height:1.7"><strong style="color:#a5b4fc">' + esc(k) + '：</strong>' + esc(String(v)) + '</div>';
-          }
-          html += '</div>';
-        }
-        if (isObject(entry.portfolio_summary) && Object.keys(entry.portfolio_summary).length) {
-          const ps = entry.portfolio_summary;
-          html += '<div class="section"><h2>🧺 Portfolio Summary</h2>';
-          for (const [k, v] of Object.entries(ps)) {
-            if (k === 'stocks' && isArray(v) && v.length) {
-              html += '<h3>持倉列表</h3>';
-              v.forEach(item => {
-                html += '<div style="margin:10px 0;padding:12px;background:#0f0f18;border-radius:10px;border:1px solid #2a2a3a">';
-                html += '<div style="font-weight:700;color:#e0e0f0">' + esc(item.ticker || item.name || '持倉') + '</div>';
-                const bits = [];
-                if (item.action) bits.push('操作：' + item.action);
-                if (item.role) bits.push('角色：' + item.role);
-                if (item.note) bits.push('說明：' + item.note);
-                html += '<div style="margin-top:6px;color:#b0b0c0;font-size:13px;line-height:1.7">' + esc(bits.join('｜')) + '</div>';
-                html += '</div>';
-              });
-            } else if (k !== 'stocks') {
-              html += '<div style="margin:8px 0;color:#c0c0d0;line-height:1.7"><strong style="color:#a5b4fc">' + esc(k) + '：</strong>' + esc(String(v)) + '</div>';
-            }
-          }
-          html += '</div>';
-        }
-        if (isArray(entry.investment_action_items) && entry.investment_action_items.length) {
-          html += '<div class="section"><h2>✅ Investment Action Items</h2>';
-          entry.investment_action_items.forEach(item => {
-            if (isObject(item)) {
-              html += '<div style="margin:10px 0;padding:12px;background:#0f0f18;border-radius:10px;border-left:3px solid #6366f1">';
-              if (item.action) html += '<div style="font-weight:700;color:#e0e0f0">' + esc(item.action) + '</div>';
-              if (item.applies_to) html += '<div style="margin-top:4px;color:#a5b4fc;font-size:12px">適用：' + esc(item.applies_to) + '</div>';
-              if (item.rationale) html += '<div style="margin-top:6px;color:#c0c0d0;font-size:13px;line-height:1.7">' + esc(item.rationale) + '</div>';
-              html += '</div>';
-            } else {
-              html += '<li>' + esc(String(item)) + '</li>';
-            }
-          });
-          html += '</div>';
-        }
-        if (isArray(entry.stock_deep_dive) && entry.stock_deep_dive.length) {
-          html += '<div class="section"><h2>🔬 Stock Deep Dive</h2>';
-          entry.stock_deep_dive.forEach(item => {
-            html += '<div style="margin:14px 0;padding:14px;background:#0f0f18;border-radius:12px;border:1px solid #2a2a3a">';
-            html += '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span style="font-size:18px;font-weight:700;color:#fff">' + esc(item.ticker || item.company || '') + '</span>';
-            if (item.company && item.company !== item.ticker) html += '<span style="color:#8888a0">' + esc(item.company) + '</span>';
-            html += '</div>';
-            if (item.investment_verdict) html += '<div style="margin:8px 0;color:#e0e0f0;line-height:1.7"><strong style="color:#a5b4fc">結論：</strong>' + esc(item.investment_verdict) + '</div>';
-            if (item.bull_case) html += '<div style="margin:6px 0;color:#bbf7d0;line-height:1.7"><strong>看好：</strong>' + esc(item.bull_case) + '</div>';
-            if (item.bear_case) html += '<div style="margin:6px 0;color:#fecaca;line-height:1.7"><strong>看淡：</strong>' + esc(item.bear_case) + '</div>';
-            if (item.presenter_action || item.presenter_size) html += '<div style="margin:6px 0;color:#c0c0d0;line-height:1.7"><strong style="color:#f59e0b">講者操作：</strong>' + esc([item.presenter_action, item.presenter_size].filter(Boolean).join('｜')) + '</div>';
-            if (isObject(item.key_data) && Object.keys(item.key_data).length) {
-              html += '<div style="margin:8px 0;padding:10px;background:#12121f;border-radius:8px">';
-              for (const [k, v] of Object.entries(item.key_data)) html += '<div style="margin:4px 0;color:#b0b0c0;font-size:13px"><strong style="color:#a5b4fc">' + esc(k) + '：</strong>' + esc(String(v)) + '</div>';
-              html += '</div>';
-            }
-            if (isArray(item.quotes) && item.quotes.length) html += '<div class="quote-box">' + item.quotes.map(q => '• ' + esc(q)).join('<br>') + '</div>';
-            if (isArray(item.risks_to_watch) && item.risks_to_watch.length) html += '<div style="margin-top:8px;color:#fca5a5"><strong>風險監察：</strong>' + esc(item.risks_to_watch.join('｜')) + '</div>';
-            html += '</div>';
-          });
-          html += '</div>';
-        }
-        if (isArray(entry.logic_chain) && entry.logic_chain.length) {
-          html += '<div class="section"><h2>🧠 Legacy Logic Chain</h2><ul>';
-          entry.logic_chain.forEach(x => html += '<li>' + esc(x) + '</li>');
-          html += '</ul></div>';
-        }
-        if (isArray(entry.notable_quotes) && entry.notable_quotes.length) {
-          html += '<div class="section"><h2>💬 Notable Quotes</h2><ul>';
-          entry.notable_quotes.forEach(q => html += '<li>' + esc(q) + '</li>');
-          html += '</ul></div>';
-        }
-        if (isObject(entry.content_quality) && Object.keys(entry.content_quality).length) {
-          html += '<div class="section"><h2>📏 Content Quality</h2>';
-          for (const [k, v] of Object.entries(entry.content_quality)) html += '<div style="margin:6px 0;color:#b0b0c0;font-size:13px"><strong style="color:#a5b4fc">' + esc(k) + '：</strong>' + esc(String(v)) + '</div>';
-          html += '</div>';
-        }
-        const sourceMeta = [
-          ['ID', entry.id],
-          ['created_at', entry.created_at],
-          ['date_added', entry.date_added],
-          ['duration', entry.duration],
-          ['views', entry.views],
-          ['speaker_title', entry.speaker_title],
-          ['source_lang', entry.source_lang],
-          ['platform', entry.platform],
-          ['channel', entry.channel],
-          ['channel_id', entry.channel_id],
-          ['source_video_id', entry.source_video_id],
-          ['video_id', entry.video_id],
-          ['source_id', entry.source_id],
-          ['transcript_source', entry.transcript_source],
-          ['transcript_lines', entry.transcript_lines],
-        ].filter(([,v]) => v !== undefined && v !== null && v !== '');
-        if (sourceMeta.length) {
-          html += '<div class="section"><h2>🧾 Metadata</h2>';
-          sourceMeta.forEach(([k, v]) => {
-            html += '<div style="margin:6px 0;color:#b0b0c0;font-size:13px"><strong style="color:#a5b4fc">' + esc(k) + '：</strong>' + esc(String(v)) + '</div>';
-          });
-          html += '</div>';
-        }
-        if (entry.transcript) {
-          html += '<div class="section"><h2>📜 Transcript</h2><details><summary style="cursor:pointer;color:#a5b4fc">展開原文 transcript</summary><pre style="white-space:pre-wrap;line-height:1.7;color:#c0c0d0;font-size:12px;margin-top:12px">' + esc(String(entry.transcript)) + '</pre></details></div>';
-        }
-
-        // ================================================================
-        // NOTES
-        // ================================================================
-        if (entry.notes) html += '<div class="section"><h2>📝 筆記</h2><p style="color:#8888a0;font-size:13px">' + esc(entry.notes) + '</p></div>';
-
-        // ================================================================
-        // SOURCE LINK
-        // ================================================================
-        if (entry.source_url) {
-          html += '<div style="margin:20px 0;text-align:center">';
-          html += '<a href="' + esc(entry.source_url) + '" target="_blank" style="padding:12px 24px;background:#ef4444;color:white;text-decoration:none;border-radius:8px;font-size:15px">▶️ 前往 YouTube 影片</a>';
-          html += '</div>';
-        }
-
+        
+        if (entry.notes) html += '<div class="section"><h3>📝 筆記</h3><p>' + entry.notes + '</p></div>';
+        
+        if (entry.source_url) html += '<div class="section"><h3>🔗 YouTube</h3><a href="' + entry.source_url + '" target="_blank">前往影片</a></div>';
+        
         document.getElementById('content').innerHTML = html;
       } catch(e) {
         document.getElementById('content').innerHTML = '<h1>Error: ' + e.message + '</h1>';

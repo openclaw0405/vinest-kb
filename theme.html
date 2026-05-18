@@ -4,26 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>主題詳情 - VINEST</title>
-  <link rel="stylesheet" href="styles.css?v=31">
+  <link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
   <div class="container">
-    <header class="site-header">
-      <a href="index.html" class="brand">
-        <span class="brand-mark">🧠</span>
-        <span class="brand-text">
-          <span>Vinest Research Hub</span>
-          <strong>VINEST 投資知識庫</strong>
-        </span>
-      </a>
-      <nav class="site-nav">
+    <header>
+      <h1><a href="index.html">🧠 VINEST 投資知識庫</a></h1>
+      <nav>
         <a href="index.html">首頁</a>
         <a href="library.html">知識庫</a>
       </nav>
     </header>
     <div id="content"><div class="empty-state">載入中...</div></div>
   </div>
-  <script src="app.v22.js?v=31"></script>
+  <script src="app.v22.js"></script>
   <script>
     async function init() {
       const data = await loadData();
@@ -41,9 +35,8 @@
 
       document.getElementById('content').innerHTML = `
         <div class="detail-header">
-          <div class="hero-kicker">Theme cluster</div>
           <h1>🎯 ${esc(themeName)}</h1>
-          <div class="meta"><span class="detail-badge primary">📝 ${entries.length} 條相關筆記</span></div>
+          <div class="meta"><span>📝 ${entries.length} 條相關筆記</span></div>
         </div>
         <div class="detail-section">
           <h3>🏢 相關公司</h3>
