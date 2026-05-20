@@ -1,6 +1,332 @@
 {
   "entries": [
     {
+      "id": "ent-20260520-11115-ZchdxS_xnR8",
+      "video_id": "ZchdxS_xnR8",
+      "source_video_id": "ZchdxS_xnR8",
+      "title": "阿記捧杯，港股幾時30000丨真實倉位分享",
+      "speaker": "紅磡索螺絲",
+      "date": "2025-05-20",
+      "summary_short": "紅磡索螺絲分享真實倉位操作：快手全數平倉錄得約30%回報、MU千萬倉位在726美元减持部分利润；探討美債4.7厘息投資邏輯，強調本金階段决定策略匹配，炒股必須有止損紀律。",
+      "summary_long": "紅磡索螺絲在節目中回顧近期真實倉位操作，快手(目標價60蚊)已全數平倉錄得約30%回報；MU(成本約692美元)千萬級倉位在726美元附近减持了20蚊利润，坦言買位超靚但現價唔會高追。對於美團單日跌14%，佢認為除非真係好睇好，否則冇理由唔走。節目核心在於探討投資策略與本金匹配的問題——本金大者可考慮美債收息消除再投資風險，本金細的應集中强勢股做資本增值。他強調炒股要有紀律，set好止損位，唔好短餅長焘；更重要係知道自己能力圈邊界，唔識就拒絕扮識，將分析當新聞係呃人把戲。",
+      "key_points": [
+        "快手(KS)已全數平倉，買入價約57蚊，目標60蚊已屆，錄得約30%回報",
+        "MU倉位過千萬港元，成本約692美元，726美元附近已减持20蚊利润",
+        "美團(3690)單日跌14%，認為除非好睇好否則冇理由唔走",
+        "美債十年期國債息率達4.7厘，認為對長線收息者合理吸引",
+        "炒股要有set位止損，短餅長焘係大忌",
+        "知道自己能力圈邊界，唔識就拒絕扮識",
+        "本金决定策略：大本金收息、小本金博增值",
+        "目標明確：資本增值定收息？呢個問題要先答",
+        "巴菲特：你買滾都唔會知幾時升",
+        "將新聞當分析係呃人，拒絕訪問解讀Nvidia業績"
+      ],
+      "companies": [
+        "快手科技",
+        "美團",
+        "MU (Micron)",
+        "中移動",
+        "中海油",
+        "騰訊",
+        "Micron Technology",
+        "美國十年期國債"
+      ],
+      "tickers": [
+        "KS",
+        "MU",
+        "3690",
+        "US10Y"
+      ],
+      "sectors": [
+        "半導體",
+        "短影片/社交媒體",
+        "科技消費",
+        "電信",
+        "石油",
+        "長債/固定收益"
+      ],
+      "themes": [
+        "真實倉位分享",
+        "美債投資邏輯",
+        "本金與策略匹配",
+        "止損紀律",
+        "能力圈原則",
+        "港股30000心理關口",
+        "炒股vs投資哲學"
+      ],
+      "insights": [
+        "本金階段决定工具：本金大可用美債收息消除再投資風險；本金細應集中强勢股博資本增值",
+        "知道自己唔識乜同知道自己賺咩錢同等重要，拒絕將數據當分析",
+        "炒股短餅長焘係人性弱點被放大，必須有set位止損紀律",
+        "美債4.7%回報對大本金有意義，但對追求刺激或本金細的回報不成比例",
+        "目標價到了就要執行，唔好被感情影響",
+        "巴菲特：你全部人一齊買滾都唔會知幾時升"
+      ],
+      "core_thesis": [
+        "投資決策前先問自己目標：資本增值定收息？炒定係投資？",
+        "本金大小决定工具選擇，唔好心態錯配",
+        "止損紀律係炒股生存關鍵，短餅長焘係致命錯誤",
+        "能力圈原則：知道自己唔識乜，拒絕扮識"
+      ],
+      "investment_mindset": {
+        "philosophy": "知道自己能力圈邊界，唔識就拒絕扮識；目標明確先至做對決策；本金决定策略匹配",
+        "distinctions": [
+          "炒股需要set位止損 vs 投資需要基本面支撐",
+          "大本金適合收息(美債) vs 小本金適合資本增值(强勢股)",
+          "知道自己能力圈 vs 將新聞當分析"
+        ],
+        "process": [
+          "第一步：問自己目標係資本增值定收息",
+          "第二步：根據本金大小選擇合適工具",
+          "第三步：炒股set好止損位，唔好短餅長焘",
+          "第四步：不斷反思係咪知道自己唔識邊樣",
+          "第五步：目標價到了果斷執行，唔被感情影響"
+        ]
+      },
+      "bull_cases": [
+        "MU千萬倉位帳面獲利豐厚，基本因素未改",
+        "快手30%回報成功鎖定",
+        "美債4.7厘對長線收息者具吸引力，可消除再投資風險",
+        "中移動、中海油等長線持倉基本面穩健"
+      ],
+      "bear_cases": [
+        "MU現價已高，唔值得高追",
+        "美團單日跌14%，趨勢未扭轉",
+        "美債若利率繼續上升，duration風險不容忽視",
+        "本金細炒美債回報不成比例，不如集中强勢股"
+      ],
+      "bull_points": [
+        "MU千萬倉位帳面獲利豐厚，基本因素未改",
+        "快手30%回報成功鎖定",
+        "美債4.7厘對長線收息者具吸引力，可消除再投資風險",
+        "中移動、中海油等長線持倉基本面穩健"
+      ],
+      "bear_points": [
+        "MU現價已高，唔值得高追",
+        "美團單日跌14%，趨勢未扭轉",
+        "美債若利率繼續上升，duration風險不容忽視",
+        "本金細炒美債回報不成比例，不如集中强勢股"
+      ],
+      "catalysts": [
+        "快手觸及目標價全數平倉",
+        "MU726美元附近减持20蚊锁定利润",
+        "美團14%單日跌幅引發走資討論",
+        "美國債息走勢影響大市氣氛"
+      ],
+      "risks": [
+        "MU波動性極大，高位加倉需要强心臟",
+        "美團趨勢轉弱，可能繼續尋底",
+        "美國債息若升至5厘，股市或面對更大調整",
+        "今晚Nvidia業績可能引發板塊波動"
+      ],
+      "legacy_risks": [
+        "中資科網股受宏觀政策及地緣政治影響持續",
+        "高位追入强勢股可能出現大幅回調"
+      ],
+      "personal_insights": [
+        "發言者坦言自己唔識Nvidia分析，故拒絕做相關訪談",
+        "強調唔會妒忌別人賺錢，因為唔係自己能力圈範圍內",
+        "認為美債適合做開定期的人作為替代，並非所有人都適合",
+        "炒股放大人性弱點，必須有紀律約束"
+      ],
+      "cross_references": [
+        "巴菲特：你買滾都唔會知幾時升",
+        "投資中的再投資風險 (Reinvestment Risk)"
+      ],
+      "open_questions": [
+        "快手係咪已經見頂？",
+        "MU幾時才有回調可以再加？",
+        "美團係咪可以撈底？",
+        "港股幾時上30000？",
+        "今晚Nvidia業績會係驚喜定驚嚇？"
+      ],
+      "logic_chains": [
+        {
+          "topic": "MU操作策略",
+          "premise_facts": [
+            "MU倉位過千萬港元，成本約692美元",
+            "726美元附近已减持20蚊利润",
+            "現價已升至710美元以上"
+          ],
+          "reasoning_chain": "發言者認為MU基本因素未改，但現價太高不想再加。他選擇在726附近减持20蚊锁定部分利润，並指出如果再跌到670-680蚊有機會再買。佢坦言自己唔識MU的基本面，只係睇位做事。",
+          "speaker_conclusion": "MU唔會高追，等回調先再加，炒股就要set好位。",
+          "confidence": "high",
+          "action": "持有MU做波段，等待670-680蚊回調再加倉"
+        },
+        {
+          "topic": "美債投資邏輯",
+          "premise_facts": [
+            "美國十年期國債息率達4.7厘",
+            "對做開定期的人可消除再投資風險",
+            "美股波動性遠高於美債"
+          ],
+          "reasoning_chain": "當倉位已經有很多美股，買美債是分散風險。但對於追求刺激感或本金細的人，美債4.7%回報太低，炒MU一日可以升幾個percent，性價比完全不一樣。關鍵係你想做乜——收息定資本增值？",
+          "speaker_conclusion": "美債適合大本金、長線收息、匹配做開定期的投資者；小本金應集中强勢股博增值。",
+          "confidence": "high",
+          "action": "按本金大小及目標選擇美債或强勢股"
+        },
+        {
+          "topic": "快手平倉决策",
+          "premise_facts": [
+            "快手買入價約57蚊",
+            "目標價60蚊附近",
+            "已全數平倉，錄得約30%回報"
+          ],
+          "reasoning_chain": "發言者設定了明確目標價，60蚊以上就開始走，唔留戀。強調炒股要有紀律，唔好短餅長焘。即使基本面可能仲有上升空間，但價位到了就要執行計劃。",
+          "speaker_conclusion": "設定目標價並堅定執行，唔好被感情影響决策。",
+          "confidence": "high",
+          "action": "目標價到了果斷平倉"
+        }
+      ],
+      "macro_regime": "美國十年期國債息率高企4.7厘令整體市場承壓，投資者需要在收息(美債)與資本增值(强勢股)之間做抉擇；美股估值偏高但强勢股仍獲資金青睞；港股受A股及美股雙重影響，30000點成心理關口。",
+      "portfolio_application": {
+        "core_message": "真倉分享：快手已清、MU减持部分，美團選擇走；投資决策要匹配本金大小與個人目標。",
+        "deployment_style": "强勢股波段操作為主，設定明確止賺位；大倉位配置考慮分散至美債收息。",
+        "watch_items": [
+          "MU能否回調至670-680蚊水平提供再加機會",
+          "美團係咪繼續尋底定係有撈底價值",
+          "港股能否突破30000點心理關口",
+          "美國債息會否突破5厘觸發更大調整",
+          "今晚Nvidia業績對半導體板塊影響"
+        ],
+        "confidence": "medium",
+        "note": "發言者强調呢啲係個人真實倉位分享，唔構成投資建議。佢坦言自己唔係乜都識，炒股有紀律但亦有運氣成分。"
+      },
+      "portfolio_summary": "發言者持倉以MU(千萬級)為主，已在726美元附近减持部分利润；快手已全數平倉(約30%回報)；美團(7692)選擇離場；中移動(941)及中海油(0883)為長線持倉；美債配置用於大倉位分散風險。",
+      "presenter_profile": "紅磡索螺絲，香港投資者，風格務實，強調知道自己的能力圈邊界，唔扮識，同時分享真實倉位不馬後炮，炒股有明確紀律。",
+      "notes": "【索索清談】系列視頻，標題中「阿記捧杯」指英超阿仙奴奪冠，與投資內容無直接關聯。發言者拒絕做Nvidia業績分析訪問，因定義自己唔識該領域，唔想將新聞當分析呃人。",
+      "stock_recommendations": [
+        {
+          "ticker": "KS",
+          "label": "快手",
+          "name": "快手科技",
+          "direction": "long",
+          "thesis": "目標價60蚊已屆，全數平倉，錄得約30%回報",
+          "speaker_rationale": "設定明確目標價並堅定執行，唔留戀",
+          "speaker_quote": "快手60附近就開始走，冇理由唔走",
+          "recommendation_role": "historical_proof_case",
+          "operation_points": [
+            "目標價60-65蚊果斷平倉",
+            "唔好短餅長焘"
+          ],
+          "risk_points": [
+            "可能繼續上升但性價比已低",
+            "全數平倉後錯過後續升幅"
+          ],
+          "entry_timing": "已完成平倉",
+          "thesis_status": "proved",
+          "reassessment_condition": "若股價回調至50蚊以下且基本面無大變化",
+          "note": "約30%回報，成功案例"
+        },
+        {
+          "ticker": "MU",
+          "label": "MU",
+          "name": "Micron Technology",
+          "direction": "neutral",
+          "thesis": "千萬倉位已部分减持，等回調再加",
+          "speaker_rationale": "現價已高唔會高追，但基本因素未改，等待670-680蚊回調機會再買",
+          "speaker_quote": "MU我唔會高追，你要set指啊，MU個波動有幾大啦",
+          "recommendation_role": "current_actionable_preference",
+          "operation_points": [
+            "設定回調目標價670-680美元",
+            "分階段建倉",
+            "有紀律止賺"
+          ],
+          "risk_points": [
+            "MU波動性極大，可能急速回調亦可能繼續升",
+            "高位接刀風險",
+            "基本因素變化難以第一時間掌握"
+          ],
+          "entry_timing": "等待回調至670-680蚊水平",
+          "thesis_status": "monitoring",
+          "reassessment_condition": "MU若回調至目標價且基本因素無大變化",
+          "note": "發言者强調自己唔識MU基本面，純粹睇位做事"
+        },
+        {
+          "ticker": "3690",
+          "label": "美團",
+          "name": "美團",
+          "direction": "short",
+          "thesis": "單日跌14%，認為應走而非撈底",
+          "speaker_rationale": "除非真係好睇好美團，否則冇理由唔走",
+          "speaker_quote": "美團呢一棍14%喎，真係冇理由唔走呀",
+          "recommendation_role": "relative_comparison",
+          "operation_points": [
+            "設定止損位",
+            "趨勢轉弱時果斷離場"
+          ],
+          "risk_points": [
+            "可能繼續尋底",
+            "若基本面無變壞可能錯誤止損"
+          ],
+          "entry_timing": "已離場",
+          "thesis_status": "monitoring",
+          "reassessment_condition": "若股價企穩且基本面確認無問題",
+          "note": "發言者個人選擇走，唔係建議其他人點做"
+        },
+        {
+          "ticker": "US10Y",
+          "label": "美債",
+          "name": "美國十年期國債",
+          "direction": "neutral",
+          "thesis": "4.7厘息率合理吸引，適合長線收息及大本金配置",
+          "speaker_rationale": "對做開定期的人而言，美債係好選擇，可消除再投資風險",
+          "speaker_quote": "呢個位真係好合理，好吸引，好合理",
+          "recommendation_role": "current_actionable_preference",
+          "operation_points": [
+            "適合大本金配置",
+            "長線持有收息",
+            "匹配做開定期的投資者"
+          ],
+          "risk_points": [
+            "若利率升至5厘以上，債價下跌",
+            "通脹影響實際回報",
+            "本金細炒美債回報不成比例"
+          ],
+          "entry_timing": "現價已具吸引力",
+          "thesis_status": "active",
+          "reassessment_condition": "美國通脹數據顯著回落，債息見頂",
+          "note": "只適合長線收息目標，本金大者"
+        }
+      ],
+      "investment_action_items": [
+        "設定明確止賺/止損位並堅定執行，唔好短餅長焘",
+        "先問自己目標係乜——資本增值定收息？再選擇合適工具",
+        "本金大考慮美債分散風險；本金細集中强勢股博增值",
+        "知道自己唔識乜，拒絕將新聞當分析",
+        "炒股有紀律，唔好被感情影響决策",
+        "目標價到了果斷執行，唔好留戀",
+        "能力圈原則：唔識就拒絕扮識"
+      ],
+      "source_name": "紅磡索螺絲",
+      "source_type": "youtube",
+      "source_url": "https://www.youtube.com/watch?v=ZchdxS_xnR8",
+      "source_id": "ZchdxS_xnR8",
+      "source_lang": "zh-Hant",
+      "platform": "youtube",
+      "channel": "紅磡索螺絲",
+      "channel_id": "UCxgro_A0DhEd_qXb-4_k_gA",
+      "duration": 4416,
+      "thumbnail": "https://i.ytimg.com/vi/ZchdxS_xnR8/maxresdefault.jpg",
+      "view_count": 3026,
+      "views": 3026,
+      "transcript_quality": {
+        "chars": 17247,
+        "lines": 1058,
+        "excerpted": true
+      },
+      "transcript_source": "subtitles",
+      "created_at": "2026-05-20T11:13:56Z",
+      "updated_at": "2026-05-20T11:13:56Z",
+      "date_added": "2026-05-20T11:13:56Z",
+      "content_quality": "auto-import",
+      "tags": [],
+      "related_videos": [],
+      "notable_quotes": [],
+      "stock_deep_dive": [],
+      "speaker_title": ""
+    },
+    {
       "id": "ent-20260519-16410-OHkgxOAX50o",
       "video_id": "OHkgxOAX50o",
       "source_video_id": "OHkgxOAX50o",
@@ -19745,7 +20071,7 @@
     },
     {
       "id": "comp-43",
-      "name": "Marvell",
+      "name": "MU (Micron)",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -19753,7 +20079,7 @@
     },
     {
       "id": "comp-44",
-      "name": "McDonald's",
+      "name": "Marvell",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -19761,7 +20087,7 @@
     },
     {
       "id": "comp-45",
-      "name": "MediaTek",
+      "name": "McDonald's",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -19769,7 +20095,7 @@
     },
     {
       "id": "comp-46",
-      "name": "Meituan",
+      "name": "MediaTek",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -19777,6 +20103,14 @@
     },
     {
       "id": "comp-47",
+      "name": "Meituan",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-48",
       "name": "Meta",
       "ticker": "",
       "aliases": [],
@@ -19784,7 +20118,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-48",
+      "id": "comp-49",
       "name": "Meta（Facebook）",
       "ticker": "",
       "aliases": [],
@@ -19792,7 +20126,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-49",
+      "id": "comp-50",
       "name": "Micron",
       "ticker": "",
       "aliases": [],
@@ -19800,7 +20134,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-50",
+      "id": "comp-51",
       "name": "Micron (MU)",
       "ticker": "",
       "aliases": [],
@@ -19808,15 +20142,15 @@
       "entry_count": 1
     },
     {
-      "id": "comp-51",
+      "id": "comp-52",
       "name": "Micron Technology",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 7
+      "entry_count": 8
     },
     {
-      "id": "comp-52",
+      "id": "comp-53",
       "name": "Micron（美光）",
       "ticker": "",
       "aliases": [],
@@ -19824,7 +20158,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-53",
+      "id": "comp-54",
       "name": "Microsoft",
       "ticker": "",
       "aliases": [],
@@ -19832,7 +20166,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-54",
+      "id": "comp-55",
       "name": "Microsoft（微軟）",
       "ticker": "",
       "aliases": [],
@@ -19840,7 +20174,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-55",
+      "id": "comp-56",
       "name": "MiniMax",
       "ticker": "",
       "aliases": [],
@@ -19848,7 +20182,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-56",
+      "id": "comp-57",
       "name": "NS&I",
       "ticker": "",
       "aliases": [],
@@ -19856,7 +20190,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-57",
+      "id": "comp-58",
       "name": "NVDA",
       "ticker": "",
       "aliases": [],
@@ -19864,7 +20198,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-58",
+      "id": "comp-59",
       "name": "NVIDIA",
       "ticker": "",
       "aliases": [],
@@ -19872,7 +20206,7 @@
       "entry_count": 12
     },
     {
-      "id": "comp-59",
+      "id": "comp-60",
       "name": "Nvidia",
       "ticker": "",
       "aliases": [],
@@ -19880,7 +20214,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-60",
+      "id": "comp-61",
       "name": "Occidental Petroleum",
       "ticker": "",
       "aliases": [],
@@ -19888,7 +20222,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-61",
+      "id": "comp-62",
       "name": "OpenAI",
       "ticker": "",
       "aliases": [],
@@ -19896,7 +20230,7 @@
       "entry_count": 6
     },
     {
-      "id": "comp-62",
+      "id": "comp-63",
       "name": "Philip Morris",
       "ticker": "",
       "aliases": [],
@@ -19904,7 +20238,7 @@
       "entry_count": 11
     },
     {
-      "id": "comp-63",
+      "id": "comp-64",
       "name": "Philip Morris (PM)",
       "ticker": "",
       "aliases": [],
@@ -19912,7 +20246,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-64",
+      "id": "comp-65",
       "name": "Qualcomm",
       "ticker": "",
       "aliases": [],
@@ -19920,7 +20254,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-65",
+      "id": "comp-66",
       "name": "SK Hynix",
       "ticker": "",
       "aliases": [],
@@ -19928,7 +20262,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-66",
+      "id": "comp-67",
       "name": "SK海力士",
       "ticker": "",
       "aliases": [],
@@ -19936,7 +20270,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-67",
+      "id": "comp-68",
       "name": "SNDK",
       "ticker": "",
       "aliases": [],
@@ -19944,7 +20278,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-68",
+      "id": "comp-69",
       "name": "SPDR Gold Shares",
       "ticker": "",
       "aliases": [],
@@ -19952,7 +20286,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-69",
+      "id": "comp-70",
       "name": "Samsung",
       "ticker": "",
       "aliases": [],
@@ -19960,7 +20294,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-70",
+      "id": "comp-71",
       "name": "Samsung Electronics",
       "ticker": "",
       "aliases": [],
@@ -19968,7 +20302,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-71",
+      "id": "comp-72",
       "name": "Seagate",
       "ticker": "",
       "aliases": [],
@@ -19976,7 +20310,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-72",
+      "id": "comp-73",
       "name": "SoftBank",
       "ticker": "",
       "aliases": [],
@@ -19984,7 +20318,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-73",
+      "id": "comp-74",
       "name": "SpaceX",
       "ticker": "",
       "aliases": [],
@@ -19992,7 +20326,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-74",
+      "id": "comp-75",
       "name": "TSM",
       "ticker": "",
       "aliases": [],
@@ -20000,7 +20334,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-75",
+      "id": "comp-76",
       "name": "Taiwan Semiconductor Manufacturing",
       "ticker": "",
       "aliases": [],
@@ -20008,7 +20342,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-76",
+      "id": "comp-77",
       "name": "Tencent",
       "ticker": "",
       "aliases": [],
@@ -20016,7 +20350,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-77",
+      "id": "comp-78",
       "name": "Tesla",
       "ticker": "",
       "aliases": [],
@@ -20024,7 +20358,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-78",
+      "id": "comp-79",
       "name": "Uber",
       "ticker": "",
       "aliases": [],
@@ -20032,7 +20366,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-79",
+      "id": "comp-80",
       "name": "Vanguard（VB）",
       "ticker": "",
       "aliases": [],
@@ -20040,7 +20374,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-80",
+      "id": "comp-81",
       "name": "Visa",
       "ticker": "",
       "aliases": [],
@@ -20048,7 +20382,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-81",
+      "id": "comp-82",
       "name": "WDC",
       "ticker": "",
       "aliases": [],
@@ -20056,7 +20390,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-82",
+      "id": "comp-83",
       "name": "Western Digital",
       "ticker": "",
       "aliases": [],
@@ -20064,7 +20398,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-83",
+      "id": "comp-84",
       "name": "XLE",
       "ticker": "",
       "aliases": [],
@@ -20072,7 +20406,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-84",
+      "id": "comp-85",
       "name": "YMTC",
       "ticker": "",
       "aliases": [],
@@ -20080,7 +20414,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-85",
+      "id": "comp-86",
       "name": "三星",
       "ticker": "",
       "aliases": [],
@@ -20088,7 +20422,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-86",
+      "id": "comp-87",
       "name": "中國移動",
       "ticker": "",
       "aliases": [],
@@ -20096,15 +20430,23 @@
       "entry_count": 1
     },
     {
-      "id": "comp-87",
+      "id": "comp-88",
       "name": "中海油",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 2
+      "entry_count": 3
     },
     {
-      "id": "comp-88",
+      "id": "comp-89",
+      "name": "中移動",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-90",
       "name": "中興",
       "ticker": "",
       "aliases": [],
@@ -20112,7 +20454,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-89",
+      "id": "comp-91",
       "name": "中芯國際",
       "ticker": "",
       "aliases": [],
@@ -20120,7 +20462,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-90",
+      "id": "comp-92",
       "name": "京东",
       "ticker": "",
       "aliases": [],
@@ -20128,7 +20470,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-91",
+      "id": "comp-93",
       "name": "京東",
       "ticker": "",
       "aliases": [],
@@ -20136,7 +20478,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-92",
+      "id": "comp-94",
       "name": "京東工業",
       "ticker": "",
       "aliases": [],
@@ -20144,7 +20486,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-93",
+      "id": "comp-95",
       "name": "保利",
       "ticker": "",
       "aliases": [],
@@ -20152,7 +20494,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-94",
+      "id": "comp-96",
       "name": "信和置業",
       "ticker": "",
       "aliases": [],
@@ -20160,7 +20502,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-95",
+      "id": "comp-97",
       "name": "信諾美達",
       "ticker": "",
       "aliases": [],
@@ -20168,7 +20510,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-96",
+      "id": "comp-98",
       "name": "健身房",
       "ticker": "",
       "aliases": [],
@@ -20176,7 +20518,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-97",
+      "id": "comp-99",
       "name": "億和",
       "ticker": "",
       "aliases": [],
@@ -20184,7 +20526,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-98",
+      "id": "comp-100",
       "name": "匯豐",
       "ticker": "",
       "aliases": [],
@@ -20192,7 +20534,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-99",
+      "id": "comp-101",
       "name": "匯豐控股",
       "ticker": "",
       "aliases": [],
@@ -20200,7 +20542,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-100",
+      "id": "comp-102",
       "name": "半導體ETF",
       "ticker": "",
       "aliases": [],
@@ -20208,7 +20550,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-101",
+      "id": "comp-103",
       "name": "吉利",
       "ticker": "",
       "aliases": [],
@@ -20216,7 +20558,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-102",
+      "id": "comp-104",
       "name": "吉利汽車",
       "ticker": "",
       "aliases": [],
@@ -20224,7 +20566,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-103",
+      "id": "comp-105",
       "name": "大家樂",
       "ticker": "",
       "aliases": [],
@@ -20232,7 +20574,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-104",
+      "id": "comp-106",
       "name": "好孩子國際",
       "ticker": "",
       "aliases": [],
@@ -20240,7 +20582,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-105",
+      "id": "comp-107",
       "name": "宁德时代",
       "ticker": "",
       "aliases": [],
@@ -20248,7 +20590,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-106",
+      "id": "comp-108",
       "name": "寧德時代",
       "ticker": "",
       "aliases": [],
@@ -20256,7 +20598,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-107",
+      "id": "comp-109",
       "name": "小米",
       "ticker": "",
       "aliases": [],
@@ -20264,7 +20606,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-108",
+      "id": "comp-110",
       "name": "小鵬",
       "ticker": "",
       "aliases": [],
@@ -20272,7 +20614,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-109",
+      "id": "comp-111",
       "name": "巴菲特",
       "ticker": "",
       "aliases": [],
@@ -20280,7 +20622,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-110",
+      "id": "comp-112",
       "name": "快手",
       "ticker": "",
       "aliases": [],
@@ -20288,7 +20630,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-111",
+      "id": "comp-113",
       "name": "快手 (1024)",
       "ticker": "",
       "aliases": [],
@@ -20296,7 +20638,15 @@
       "entry_count": 1
     },
     {
-      "id": "comp-112",
+      "id": "comp-114",
+      "name": "快手科技",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-115",
       "name": "恒基兆業",
       "ticker": "",
       "aliases": [],
@@ -20304,7 +20654,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-113",
+      "id": "comp-116",
       "name": "恒基地產",
       "ticker": "",
       "aliases": [],
@@ -20312,7 +20662,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-114",
+      "id": "comp-117",
       "name": "攜程",
       "ticker": "",
       "aliases": [],
@@ -20320,7 +20670,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-115",
+      "id": "comp-118",
       "name": "新世界發展",
       "ticker": "",
       "aliases": [],
@@ -20328,7 +20678,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-116",
+      "id": "comp-119",
       "name": "新鴻基地產",
       "ticker": "",
       "aliases": [],
@@ -20336,7 +20686,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-117",
+      "id": "comp-120",
       "name": "智谱",
       "ticker": "",
       "aliases": [],
@@ -20344,7 +20694,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-118",
+      "id": "comp-121",
       "name": "東吳證券",
       "ticker": "",
       "aliases": [],
@@ -20352,7 +20702,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-119",
+      "id": "comp-122",
       "name": "比亞迪",
       "ticker": "",
       "aliases": [],
@@ -20360,7 +20710,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-120",
+      "id": "comp-123",
       "name": "比亞迪股份",
       "ticker": "",
       "aliases": [],
@@ -20368,7 +20718,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-121",
+      "id": "comp-124",
       "name": "波音",
       "ticker": "",
       "aliases": [],
@@ -20376,7 +20726,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-122",
+      "id": "comp-125",
       "name": "津上機床",
       "ticker": "",
       "aliases": [],
@@ -20384,7 +20734,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-123",
+      "id": "comp-126",
       "name": "津上機床中國",
       "ticker": "",
       "aliases": [],
@@ -20392,7 +20742,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-124",
+      "id": "comp-127",
       "name": "津上精密機床（中國）",
       "ticker": "",
       "aliases": [],
@@ -20400,7 +20750,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-125",
+      "id": "comp-128",
       "name": "渣打集團",
       "ticker": "",
       "aliases": [],
@@ -20408,7 +20758,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-126",
+      "id": "comp-129",
       "name": "港交所",
       "ticker": "",
       "aliases": [],
@@ -20416,7 +20766,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-127",
+      "id": "comp-130",
       "name": "滴滴",
       "ticker": "",
       "aliases": [],
@@ -20424,7 +20774,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-128",
+      "id": "comp-131",
       "name": "理想汽車",
       "ticker": "",
       "aliases": [],
@@ -20432,7 +20782,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-129",
+      "id": "comp-132",
       "name": "甲酚",
       "ticker": "",
       "aliases": [],
@@ -20440,7 +20790,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-130",
+      "id": "comp-133",
       "name": "百度",
       "ticker": "",
       "aliases": [],
@@ -20448,7 +20798,7 @@
       "entry_count": 7
     },
     {
-      "id": "comp-131",
+      "id": "comp-134",
       "name": "百度集團",
       "ticker": "",
       "aliases": [],
@@ -20456,7 +20806,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-132",
+      "id": "comp-135",
       "name": "美团",
       "ticker": "",
       "aliases": [],
@@ -20464,15 +20814,23 @@
       "entry_count": 1
     },
     {
-      "id": "comp-133",
+      "id": "comp-136",
+      "name": "美國十年期國債",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-137",
       "name": "美團",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 10
+      "entry_count": 11
     },
     {
-      "id": "comp-134",
+      "id": "comp-138",
       "name": "聯想",
       "ticker": "",
       "aliases": [],
@@ -20480,7 +20838,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-135",
+      "id": "comp-139",
       "name": "腾讯",
       "ticker": "",
       "aliases": [],
@@ -20488,7 +20846,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-136",
+      "id": "comp-140",
       "name": "英特爾",
       "ticker": "",
       "aliases": [],
@@ -20496,7 +20854,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-137",
+      "id": "comp-141",
       "name": "華潤",
       "ticker": "",
       "aliases": [],
@@ -20504,7 +20862,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-138",
+      "id": "comp-142",
       "name": "螞蟻集團",
       "ticker": "",
       "aliases": [],
@@ -20512,7 +20870,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-139",
+      "id": "comp-143",
       "name": "補習社",
       "ticker": "",
       "aliases": [],
@@ -20520,7 +20878,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-140",
+      "id": "comp-144",
       "name": "金管局",
       "ticker": "",
       "aliases": [],
@@ -20528,7 +20886,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-141",
+      "id": "comp-145",
       "name": "金茂",
       "ticker": "",
       "aliases": [],
@@ -20536,7 +20894,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-142",
+      "id": "comp-146",
       "name": "長實集團",
       "ticker": "",
       "aliases": [],
@@ -20544,7 +20902,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-143",
+      "id": "comp-147",
       "name": "阿里巴巴",
       "ticker": "",
       "aliases": [],
@@ -20552,7 +20910,7 @@
       "entry_count": 20
     },
     {
-      "id": "comp-144",
+      "id": "comp-148",
       "name": "阿里巴巴集團",
       "ticker": "",
       "aliases": [],
@@ -20560,7 +20918,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-145",
+      "id": "comp-149",
       "name": "陽光電源",
       "ticker": "",
       "aliases": [],
@@ -20568,7 +20926,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-146",
+      "id": "comp-150",
       "name": "零跑汽車",
       "ticker": "",
       "aliases": [],
@@ -20576,7 +20934,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-147",
+      "id": "comp-151",
       "name": "領展",
       "ticker": "",
       "aliases": [],
@@ -20584,7 +20942,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-148",
+      "id": "comp-152",
       "name": "餐廳",
       "ticker": "",
       "aliases": [],
@@ -20592,7 +20950,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-149",
+      "id": "comp-153",
       "name": "香港地產發展商",
       "ticker": "",
       "aliases": [],
@@ -20600,15 +20958,15 @@
       "entry_count": 1
     },
     {
-      "id": "comp-150",
+      "id": "comp-154",
       "name": "騰訊",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 19
+      "entry_count": 20
     },
     {
-      "id": "comp-151",
+      "id": "comp-155",
       "name": "騰訊控股",
       "ticker": "",
       "aliases": [],
@@ -20616,7 +20974,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-152",
+      "id": "comp-156",
       "name": "麥當奴",
       "ticker": "",
       "aliases": [],
@@ -20624,7 +20982,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-153",
+      "id": "comp-157",
       "name": "黃金ETF",
       "ticker": "",
       "aliases": [],
@@ -20726,7 +21084,7 @@
     {
       "id": "sector-19",
       "name": "半導體",
-      "entry_count": 15
+      "entry_count": 16
     },
     {
       "id": "sector-20",
@@ -20945,216 +21303,241 @@
     },
     {
       "id": "sector-63",
-      "name": "石油能源",
+      "name": "短影片/社交媒體",
       "entry_count": 1
     },
     {
       "id": "sector-64",
-      "name": "社區服務",
+      "name": "石油",
       "entry_count": 1
     },
     {
       "id": "sector-65",
+      "name": "石油能源",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-66",
+      "name": "社區服務",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-67",
       "name": "私募信貸",
       "entry_count": 2
     },
     {
-      "id": "sector-66",
+      "id": "sector-68",
       "name": "科技",
       "entry_count": 37
     },
     {
-      "id": "sector-67",
+      "id": "sector-69",
       "name": "科技/AI",
       "entry_count": 1
     },
     {
-      "id": "sector-68",
+      "id": "sector-70",
+      "name": "科技消費",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-71",
       "name": "科技股",
       "entry_count": 3
     },
     {
-      "id": "sector-69",
+      "id": "sector-72",
       "name": "精密機床",
       "entry_count": 1
     },
     {
-      "id": "sector-70",
+      "id": "sector-73",
       "name": "精密製造",
       "entry_count": 2
     },
     {
-      "id": "sector-71",
+      "id": "sector-74",
       "name": "納指",
       "entry_count": 1
     },
     {
-      "id": "sector-72",
+      "id": "sector-75",
       "name": "美國國債",
       "entry_count": 1
     },
     {
-      "id": "sector-73",
+      "id": "sector-76",
       "name": "美股",
       "entry_count": 8
     },
     {
-      "id": "sector-74",
+      "id": "sector-77",
       "name": "股票/A股",
       "entry_count": 4
     },
     {
-      "id": "sector-75",
+      "id": "sector-78",
       "name": "股票/港股",
       "entry_count": 32
     },
     {
-      "id": "sector-76",
+      "id": "sector-79",
       "name": "股票/美股",
       "entry_count": 4
     },
     {
-      "id": "sector-77",
+      "id": "sector-80",
       "name": "股票/能源",
       "entry_count": 1
     },
     {
-      "id": "sector-78",
+      "id": "sector-81",
       "name": "股票/黃金",
       "entry_count": 1
     },
     {
-      "id": "sector-79",
+      "id": "sector-82",
       "name": "能源",
       "entry_count": 2
     },
     {
-      "id": "sector-80",
+      "id": "sector-83",
       "name": "能源/油價",
       "entry_count": 1
     },
     {
-      "id": "sector-81",
+      "id": "sector-84",
       "name": "自動駕駛",
       "entry_count": 1
     },
     {
-      "id": "sector-82",
+      "id": "sector-85",
       "name": "航空",
       "entry_count": 2
     },
     {
-      "id": "sector-83",
+      "id": "sector-86",
       "name": "英國政治",
       "entry_count": 1
     },
     {
-      "id": "sector-84",
+      "id": "sector-87",
       "name": "記憶體",
       "entry_count": 1
     },
     {
-      "id": "sector-85",
+      "id": "sector-88",
       "name": "财富階級",
       "entry_count": 1
     },
     {
-      "id": "sector-86",
+      "id": "sector-89",
       "name": "軍工工業",
       "entry_count": 1
     },
     {
-      "id": "sector-87",
+      "id": "sector-90",
       "name": "軟件行業",
       "entry_count": 1
     },
     {
-      "id": "sector-88",
+      "id": "sector-91",
       "name": "醫美化妝品",
       "entry_count": 1
     },
     {
-      "id": "sector-89",
+      "id": "sector-92",
       "name": "金融",
       "entry_count": 21
     },
     {
-      "id": "sector-90",
+      "id": "sector-93",
       "name": "金融服務",
       "entry_count": 1
     },
     {
-      "id": "sector-91",
-      "name": "雲計算",
-      "entry_count": 2
-    },
-    {
-      "id": "sector-92",
-      "name": "零售",
-      "entry_count": 1
-    },
-    {
-      "id": "sector-93",
-      "name": "電力",
-      "entry_count": 1
-    },
-    {
       "id": "sector-94",
-      "name": "電商",
+      "name": "長債/固定收益",
       "entry_count": 1
     },
     {
       "id": "sector-95",
-      "name": "電子商務",
-      "entry_count": 1
+      "name": "雲計算",
+      "entry_count": 2
     },
     {
       "id": "sector-96",
-      "name": "韓國股市",
+      "name": "零售",
       "entry_count": 1
     },
     {
       "id": "sector-97",
-      "name": "韓股",
+      "name": "電信",
       "entry_count": 1
     },
     {
       "id": "sector-98",
-      "name": "餐飲",
+      "name": "電力",
       "entry_count": 1
     },
     {
       "id": "sector-99",
-      "name": "香港地產",
+      "name": "電商",
       "entry_count": 1
     },
     {
       "id": "sector-100",
-      "name": "香港宏觀經濟",
+      "name": "電子商務",
       "entry_count": 1
     },
     {
       "id": "sector-101",
-      "name": "香港樓市",
+      "name": "韓國股市",
       "entry_count": 1
     },
     {
       "id": "sector-102",
-      "name": "高息ETF",
+      "name": "韓股",
       "entry_count": 1
     },
     {
       "id": "sector-103",
+      "name": "餐飲",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-104",
+      "name": "香港地產",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-105",
+      "name": "香港宏觀經濟",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-106",
+      "name": "香港樓市",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-107",
+      "name": "高息ETF",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-108",
       "name": "高端裝備",
       "entry_count": 3
     },
     {
-      "id": "sector-104",
+      "id": "sector-109",
       "name": "黃金",
       "entry_count": 2
     },
     {
-      "id": "sector-105",
+      "id": "sector-110",
       "name": "黃金珠宝",
       "entry_count": 1
     }
@@ -21702,476 +22085,511 @@
     },
     {
       "id": "theme-109",
-      "name": "李嘉誠",
+      "name": "本金與策略匹配",
       "entry_count": 1
     },
     {
       "id": "theme-110",
-      "name": "業績",
+      "name": "李嘉誠",
       "entry_count": 1
     },
     {
       "id": "theme-111",
-      "name": "槓桿風險",
+      "name": "業績",
       "entry_count": 1
     },
     {
       "id": "theme-112",
+      "name": "槓桿風險",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-113",
       "name": "樓價走勢",
       "entry_count": 2
     },
     {
-      "id": "theme-113",
+      "id": "theme-114",
       "name": "樓市周期",
       "entry_count": 1
     },
     {
-      "id": "theme-114",
+      "id": "theme-115",
+      "name": "止損紀律",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-116",
       "name": "止蝕紀律",
       "entry_count": 10
     },
     {
-      "id": "theme-115",
+      "id": "theme-117",
       "name": "比特幣",
       "entry_count": 2
     },
     {
-      "id": "theme-116",
+      "id": "theme-118",
       "name": "汽車電動化",
       "entry_count": 1
     },
     {
-      "id": "theme-117",
+      "id": "theme-119",
       "name": "油價",
       "entry_count": 12
     },
     {
-      "id": "theme-118",
+      "id": "theme-120",
       "name": "油價通脹",
       "entry_count": 1
     },
     {
-      "id": "theme-119",
+      "id": "theme-121",
       "name": "流動性",
       "entry_count": 2
     },
     {
-      "id": "theme-120",
+      "id": "theme-122",
       "name": "流動性危機",
       "entry_count": 2
     },
     {
-      "id": "theme-121",
+      "id": "theme-123",
       "name": "流動性風險",
       "entry_count": 1
     },
     {
-      "id": "theme-122",
+      "id": "theme-124",
       "name": "消費出海",
       "entry_count": 1
     },
     {
-      "id": "theme-123",
+      "id": "theme-125",
       "name": "液冷散熱",
       "entry_count": 1
     },
     {
-      "id": "theme-124",
+      "id": "theme-126",
       "name": "減息",
       "entry_count": 1
     },
     {
-      "id": "theme-125",
+      "id": "theme-127",
       "name": "港交所",
       "entry_count": 1
     },
     {
-      "id": "theme-126",
+      "id": "theme-128",
       "name": "港樓",
       "entry_count": 1
     },
     {
-      "id": "theme-127",
+      "id": "theme-129",
       "name": "港股",
       "entry_count": 19
     },
     {
-      "id": "theme-128",
-      "name": "港股技術分析",
-      "entry_count": 1
-    },
-    {
-      "id": "theme-129",
-      "name": "港股業績",
-      "entry_count": 1
-    },
-    {
       "id": "theme-130",
-      "name": "港股消費股",
+      "name": "港股30000心理關口",
       "entry_count": 1
     },
     {
       "id": "theme-131",
-      "name": "港股策略",
+      "name": "港股技術分析",
       "entry_count": 1
     },
     {
       "id": "theme-132",
-      "name": "灰犀牛",
+      "name": "港股業績",
       "entry_count": 1
     },
     {
       "id": "theme-133",
-      "name": "現金為王",
+      "name": "港股消費股",
       "entry_count": 1
     },
     {
       "id": "theme-134",
-      "name": "現金管理",
+      "name": "港股策略",
       "entry_count": 1
     },
     {
       "id": "theme-135",
-      "name": "環球債息",
+      "name": "灰犀牛",
       "entry_count": 1
     },
     {
       "id": "theme-136",
-      "name": "短線操作 vs 長線持有",
+      "name": "炒股vs投資哲學",
       "entry_count": 1
     },
     {
       "id": "theme-137",
-      "name": "私募估值",
+      "name": "現金為王",
       "entry_count": 1
     },
     {
       "id": "theme-138",
-      "name": "私募信貸",
-      "entry_count": 2
+      "name": "現金管理",
+      "entry_count": 1
     },
     {
       "id": "theme-139",
-      "name": "科技",
+      "name": "環球債息",
       "entry_count": 1
     },
     {
       "id": "theme-140",
-      "name": "科技股估值重估",
+      "name": "真實倉位分享",
       "entry_count": 1
     },
     {
       "id": "theme-141",
-      "name": "科技股估值重評",
+      "name": "短線操作 vs 長線持有",
       "entry_count": 1
     },
     {
       "id": "theme-142",
-      "name": "科技股基本面",
+      "name": "私募估值",
       "entry_count": 1
     },
     {
       "id": "theme-143",
-      "name": "科技股壓力",
-      "entry_count": 1
+      "name": "私募信貸",
+      "entry_count": 2
     },
     {
       "id": "theme-144",
-      "name": "科網股輪動",
+      "name": "科技",
       "entry_count": 1
     },
     {
       "id": "theme-145",
-      "name": "等待",
+      "name": "科技股估值重估",
       "entry_count": 1
     },
     {
       "id": "theme-146",
-      "name": "結構性調整",
+      "name": "科技股估值重評",
       "entry_count": 1
     },
     {
       "id": "theme-147",
-      "name": "線上滲透率提升",
+      "name": "科技股基本面",
       "entry_count": 1
     },
     {
       "id": "theme-148",
-      "name": "美伊局勢",
-      "entry_count": 2
+      "name": "科技股壓力",
+      "entry_count": 1
     },
     {
       "id": "theme-149",
-      "name": "美債息",
+      "name": "科網股輪動",
       "entry_count": 1
     },
     {
       "id": "theme-150",
-      "name": "美債息上升",
+      "name": "等待",
       "entry_count": 1
     },
     {
       "id": "theme-151",
-      "name": "美債息走勢與美股後向",
+      "name": "結構性調整",
       "entry_count": 1
     },
     {
       "id": "theme-152",
-      "name": "美元走勢",
+      "name": "線上滲透率提升",
       "entry_count": 1
     },
     {
       "id": "theme-153",
-      "name": "美國政治",
-      "entry_count": 1
+      "name": "美伊局勢",
+      "entry_count": 2
     },
     {
       "id": "theme-154",
-      "name": "美國經濟",
+      "name": "美債息",
       "entry_count": 1
     },
     {
       "id": "theme-155",
-      "name": "美股",
-      "entry_count": 13
+      "name": "美債息上升",
+      "entry_count": 1
     },
     {
       "id": "theme-156",
-      "name": "美股高位調整",
+      "name": "美債息走勢與美股後向",
       "entry_count": 1
     },
     {
       "id": "theme-157",
-      "name": "美關稅戰影響",
+      "name": "美債投資邏輯",
       "entry_count": 1
     },
     {
       "id": "theme-158",
-      "name": "習特會",
+      "name": "美元走勢",
       "entry_count": 1
     },
     {
       "id": "theme-159",
-      "name": "聯儲局",
+      "name": "美國政治",
       "entry_count": 1
     },
     {
       "id": "theme-160",
-      "name": "聯儲局利率",
+      "name": "美國經濟",
       "entry_count": 1
     },
     {
       "id": "theme-161",
-      "name": "聯儲局減息預期逆轉",
-      "entry_count": 1
+      "name": "美股",
+      "entry_count": 13
     },
     {
       "id": "theme-162",
-      "name": "聯繫匯率",
+      "name": "美股高位調整",
       "entry_count": 1
     },
     {
       "id": "theme-163",
-      "name": "能源",
+      "name": "美關稅戰影響",
       "entry_count": 1
     },
     {
       "id": "theme-164",
-      "name": "英鎊",
+      "name": "習特會",
       "entry_count": 1
     },
     {
       "id": "theme-165",
-      "name": "製造業",
+      "name": "聯儲局",
       "entry_count": 1
     },
     {
       "id": "theme-166",
-      "name": "製造業升級",
+      "name": "聯儲局利率",
       "entry_count": 1
     },
     {
       "id": "theme-167",
-      "name": "記憶體",
+      "name": "聯儲局減息預期逆轉",
       "entry_count": 1
     },
     {
       "id": "theme-168",
-      "name": "設備更新週期",
+      "name": "聯繫匯率",
       "entry_count": 1
     },
     {
       "id": "theme-169",
-      "name": "貧富差距",
+      "name": "能力圈原則",
       "entry_count": 1
     },
     {
       "id": "theme-170",
-      "name": "貨幣幻覺",
+      "name": "能源",
       "entry_count": 1
     },
     {
       "id": "theme-171",
-      "name": "資本保護",
+      "name": "英鎊",
       "entry_count": 1
     },
     {
       "id": "theme-172",
-      "name": "資本開支",
+      "name": "製造業",
       "entry_count": 1
     },
     {
       "id": "theme-173",
-      "name": "資源股",
+      "name": "製造業升級",
       "entry_count": 1
     },
     {
       "id": "theme-174",
-      "name": "資產配置",
-      "entry_count": 3
+      "name": "記憶體",
+      "entry_count": 1
     },
     {
       "id": "theme-175",
-      "name": "資金換馬",
+      "name": "設備更新週期",
       "entry_count": 1
     },
     {
       "id": "theme-176",
-      "name": "資金流",
+      "name": "貧富差距",
       "entry_count": 1
     },
     {
       "id": "theme-177",
-      "name": "贖回潮",
+      "name": "貨幣幻覺",
       "entry_count": 1
     },
     {
       "id": "theme-178",
-      "name": "趨勢投資",
+      "name": "資本保護",
       "entry_count": 1
     },
     {
       "id": "theme-179",
-      "name": "車企價格戰",
+      "name": "資本開支",
       "entry_count": 1
     },
     {
       "id": "theme-180",
-      "name": "軍工",
+      "name": "資源股",
       "entry_count": 1
     },
     {
       "id": "theme-181",
-      "name": "軟件股",
-      "entry_count": 1
-    },
-    {
-      "id": "theme-182",
-      "name": "通脹",
+      "name": "資產配置",
       "entry_count": 3
     },
     {
+      "id": "theme-182",
+      "name": "資金換馬",
+      "entry_count": 1
+    },
+    {
       "id": "theme-183",
-      "name": "通脹壓力",
+      "name": "資金流",
       "entry_count": 1
     },
     {
       "id": "theme-184",
-      "name": "重資產",
+      "name": "贖回潮",
       "entry_count": 1
     },
     {
       "id": "theme-185",
-      "name": "重資產低消耗率策略",
+      "name": "趨勢投資",
       "entry_count": 1
     },
     {
       "id": "theme-186",
-      "name": "金價",
-      "entry_count": 3
+      "name": "車企價格戰",
+      "entry_count": 1
     },
     {
       "id": "theme-187",
-      "name": "金融海嘥",
+      "name": "軍工",
       "entry_count": 1
     },
     {
       "id": "theme-188",
-      "name": "銀行收緊信貸",
+      "name": "軟件股",
       "entry_count": 1
     },
     {
       "id": "theme-189",
-      "name": "長期投資",
-      "entry_count": 1
+      "name": "通脹",
+      "entry_count": 3
     },
     {
       "id": "theme-190",
-      "name": "關稅戰爭與油價",
+      "name": "通脹壓力",
       "entry_count": 1
     },
     {
       "id": "theme-191",
-      "name": "防騙",
-      "entry_count": 2
+      "name": "重資產",
+      "entry_count": 1
     },
     {
       "id": "theme-192",
-      "name": "零售化",
+      "name": "重資產低消耗率策略",
       "entry_count": 1
     },
     {
       "id": "theme-193",
-      "name": "電力設備",
-      "entry_count": 1
+      "name": "金價",
+      "entry_count": 3
     },
     {
       "id": "theme-194",
-      "name": "青年失業",
+      "name": "金融海嘥",
       "entry_count": 1
     },
     {
       "id": "theme-195",
-      "name": "風險管理",
-      "entry_count": 3
+      "name": "銀行收緊信貸",
+      "entry_count": 1
     },
     {
       "id": "theme-196",
-      "name": "風險調整回報",
+      "name": "長期投資",
       "entry_count": 1
     },
     {
       "id": "theme-197",
-      "name": "香港樓市",
-      "entry_count": 4
-    },
-    {
-      "id": "theme-198",
-      "name": "香港樓市泡沫",
+      "name": "關稅戰爭與油價",
       "entry_count": 1
     },
     {
+      "id": "theme-198",
+      "name": "防騙",
+      "entry_count": 2
+    },
+    {
       "id": "theme-199",
-      "name": "高息股",
-      "entry_count": 9
+      "name": "零售化",
+      "entry_count": 1
     },
     {
       "id": "theme-200",
-      "name": "高端消費品牌出海",
+      "name": "電力設備",
       "entry_count": 1
     },
     {
       "id": "theme-201",
+      "name": "青年失業",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-202",
+      "name": "風險管理",
+      "entry_count": 3
+    },
+    {
+      "id": "theme-203",
+      "name": "風險調整回報",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-204",
+      "name": "香港樓市",
+      "entry_count": 4
+    },
+    {
+      "id": "theme-205",
+      "name": "香港樓市泡沫",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-206",
+      "name": "高息股",
+      "entry_count": 9
+    },
+    {
+      "id": "theme-207",
+      "name": "高端消費品牌出海",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-208",
       "name": "黃金",
       "entry_count": 2
     },
     {
-      "id": "theme-202",
+      "id": "theme-209",
       "name": "黃金避險作用",
       "entry_count": 1
     },
     {
-      "id": "theme-203",
+      "id": "theme-210",
       "name": "黃金零售",
       "entry_count": 1
     }
