@@ -1,6 +1,207 @@
 {
   "entries": [
     {
+      "id": "ent-20260520-18422-tTuzzLpru4M",
+      "video_id": "tTuzzLpru4M",
+      "source_video_id": "tTuzzLpru4M",
+      "title": "美債敲響警鐘",
+      "speaker": "陶冬",
+      "date": "2026-05-19",
+      "summary_short": "美國國債收益率大幅攀升，通脹壓力與聯儲局政策取向令市場擔憂。陶冬博士分析美債利率上升成因，並探討特朗普外交政策對油價及通脹預期的影響。",
+      "summary_long": "美國兩年期國債收益率上周急升14個點子，升穿4%關口，10年期亦逼近5.1%。陶冬博士指出通脹回落之路並非線性，聯儲局在通脹與就業之間陷入兩難。美國4月CPI按年上升3.8%創新高，加上油價上升四成，通脹預期升溫，令市場基於減息預期的交易出現崩盤。陶冬認為特朗普傾向支持減息，但白宮對聯儲局的壓力令市場對財政控制信心不足，美債收益率曲線全線上揚，反映流動性及資金成本警號。",
+      "key_points": [
+        "美國兩年期國債收益率突破4%，10年期逼近5.1%",
+        "美國4月CPI按年上升3.8%創新高",
+        "油價上升四成，帶動通脹預期升溫",
+        "聯儲局陷入通脹與就業兩難，取態偏向凱恩斯主義",
+        "市場定價70%機會於未來數月啟動減息",
+        "特朗普傾向支持減息，但白宮對聯儲局施壓",
+        "伊朗及地緣政治風險升溫，增加市場不確定性",
+        "美國愛國者防空系統成本高昂，補充速度追不上消耗"
+      ],
+      "companies": [],
+      "tickers": [],
+      "sectors": [
+        "宏觀經濟",
+        "美國國債",
+        "固定收益",
+        "地緣政治"
+      ],
+      "themes": [
+        "美國國債收益率上升",
+        "通脹壓力",
+        "聯儲局政策取向",
+        "美債收益率曲線",
+        "地緣政治風險",
+        "油價通脹",
+        "特朗普財政政策",
+        "伊朗核問題"
+      ],
+      "insights": [
+        "美債利率急升反映市場對通脹及財政赤字的憂慮",
+        "聯儲局在物價穩定與最大化就業之間難以平衡",
+        "特朗普的減息意願與白宮對聯儲局的壓力形成市場變數",
+        "伊朗問題的主導權在革命衛隊而非文官談判團隊",
+        "美國防空系統成本高昂，成為長期財政負擔"
+      ],
+      "core_thesis": [
+        "美國國債收益率曲線全線上揚，反映市場對通脹及資金成本的憂慮",
+        "聯儲局在通脹與失業之間陷入凱恩斯式兩難，減息路徑一波三折",
+        "地緣政治風險（伊朗）令通脹壓力加劇，並增加軍事開支壓力"
+      ],
+      "investment_mindset": {
+        "philosophy": "宏觀驅動的國債及外匯分析，強調央行政策與通脹預期的互動關係",
+        "distinctions": [
+          "債息上升不等於立即看淡國債，要分辨是通脹預期還是實質利率驱动",
+          "聯儲局獨立性受壓時，市場定價往往出現偏差"
+        ],
+        "process": [
+          "追蹤CPI及通脹數據",
+          "觀察聯儲局官員言論及貨幣政策取向",
+          "評估地緣政治對油價及通脹預期的傳導效應",
+          "關注美債收益率曲線變化作為資金成本領先指標"
+        ]
+      },
+      "bull_cases": [
+        "特朗普支持減息立場明確，或推动貨幣政策轉向寬鬆",
+        "通脹壓力或隨油價回穩而逐步降溫",
+        "地緣衝突受控或減少軍事及能源開支壓力"
+      ],
+      "bear_cases": [
+        "美國4月CPI已達3.8%高位，通脹回落路徑不明",
+        "油價上升四成及戰爭累積財政壓力，通脹難以快速受控",
+        "聯儲局獨立性受白宮壓力，市場對政策信任度下降",
+        "收益率曲線全面上揚，流動性收緊對經濟構成下行壓力"
+      ],
+      "bull_points": [
+        "特朗普支持減息立場明確，或推动貨幣政策轉向寬鬆",
+        "通脹壓力或隨油價回穩而逐步降溫",
+        "地緣衝突受控或減少軍事及能源開支壓力"
+      ],
+      "bear_points": [
+        "美國4月CPI已達3.8%高位，通脹回落路徑不明",
+        "油價上升四成及戰爭累積財政壓力，通脹難以快速受控",
+        "聯儲局獨立性受白宮壓力，市場對政策信任度下降",
+        "收益率曲線全面上揚，流動性收緊對經濟構成下行壓力"
+      ],
+      "catalysts": [
+        "美國CPI數據進一步突破",
+        "聯儲局減息時間表再度推遲",
+        "伊朗問題談判破裂或軍事升級",
+        "美中貿易關係惡化"
+      ],
+      "risks": [
+        "通脹預期失控，聯儲局被迫加大加息力度",
+        "美國財政赤字持續擴大，市場對國債需求信心不足",
+        "地緣政治升級令油價及通脹壓力加劇"
+      ],
+      "legacy_risks": [
+        "2008年後量化寬鬆政策常規化，資產負債表過度膨脹",
+        "聯儲局資產負債表規模龐大，退出過程漫長且具不確定性"
+      ],
+      "personal_insights": [
+        "陶冬博士認為特朗普傾向減息但受通脹約束，政策空間有限",
+        "伊朗問題主導權已轉向革命衛隊，談判窗口實質關閉",
+        "美國防空系統成本過高，長期軍事負擔難以為繼"
+      ],
+      "cross_references": [],
+      "open_questions": [
+        "聯儲局年內能否成功減息一次",
+        "伊朗談判能否在特朗普任期內達成協議",
+        "油價上升對通脹的傳導效應何時見頂"
+      ],
+      "logic_chains": [
+        {
+          "topic": "美債收益率上升的原因",
+          "premise_facts": [
+            "美國4月CPI按年上升3.8%創新高",
+            "油價上升四成",
+            "聯儲局前主席預測年內或減息一次",
+            "市場基於減息的交易出現崩盤"
+          ],
+          "reasoning_chain": "通脹壓力並未如預期般回落，油價急升加劇通脹預期，令市場對聯儲局減息預期降温並重新定價，導致美債收益率全線上升。",
+          "speaker_conclusion": "美國國債收益率曲線全線上揚反映資金成本上升及流動性警號，並非單純的利率問題。",
+          "confidence": "high",
+          "action": "密切關注通脹數據及聯儲局言論，評估美債收益率是否持續高企"
+        },
+        {
+          "topic": "聯儲局貨幣政策取向",
+          "premise_facts": [
+            "聯儲局強調穩定物價及最大化就業的雙重使命",
+            "特朗普傾向支持減息",
+            "白宮對聯儲局存在影響壓力"
+          ],
+          "reasoning_chain": "聯儲局在通脹高企與失業之間陷入兩難，需靠加息壓制勞工市場過熱；但特朗普希望減息支持經濟，政策取態出現分歧。",
+          "speaker_conclusion": "聯儲局政策獨立性受壓，令市場難以對減息時間表形成穩定預期。",
+          "confidence": "medium",
+          "action": "關注聯儲局官員言論及 Trump 與 Fed 之間的互動動態"
+        },
+        {
+          "topic": "伊朗地緣政治風險",
+          "premise_facts": [
+            "伊朗革命衛隊實際掌控談判主導權",
+            "蘭實際掌握戰爭開戰權",
+            "美國防空系統成本過高且補充不足"
+          ],
+          "reasoning_chain": "伊朗問題的核心決策權已不在文官政府，革命衛隊對美國談判條件擁有一票否決權，美國難以單方面結束軍事行動，談判陷入僵局。",
+          "speaker_conclusion": "伊朗問題令油價及通脹壓力持續，並增加美國軍事及財政負擔，短期內難以緩解。",
+          "confidence": "medium",
+          "action": "持續追蹤伊朗局勢對油價及通脹的影響"
+        }
+      ],
+      "macro_regime": "通脹壓力高企、聯儲局政策受壓、地緣政治風險升級的宏觀環境",
+      "portfolio_application": {
+        "core_message": "美債收益率上升反映資金成本上揚，通脹未如預期回落，投資者需對國債及美元保持謹慎",
+        "deployment_style": "防御性配置，等待通脹數據明確回落及聯儲局政策方向明朗化",
+        "watch_items": [
+          "美國CPI數據走勢",
+          "兩年期及十年期美債收益率變化",
+          "聯儲局官員言論及減息時間表",
+          "伊朗局勢及油價走向"
+        ],
+        "confidence": "medium",
+        "note": "宏觀驅動分析為主，缺乏具體股票推薦，適合作為宏觀背景參考"
+      },
+      "portfolio_summary": "本視頻屬宏觀分析性質，聚焦美國國債收益率、通脹及地緣政治風險，並無具體股票推薦。投資者適合作為宏觀背景參考，了解當前資金成本及通脹環境的整體趨勢。",
+      "presenter_profile": "陶冬博士為淡頭資行政總裁，專注宏觀經濟及金融市場分析，常於媒體發表經濟觀點。",
+      "notes": "本視頻內容為廣東話訪談，討論美國國債、通脹壓力、聯儲局政策及伊朗地緣政治風險。 transcript 質量較差，部分段落存在OCR識別錯誤，但主要資訊可識別。",
+      "stock_recommendations": [],
+      "investment_action_items": [
+        "密切追蹤美國CPI及通脹數據",
+        "關注兩年期及十年期美債收益率突破關鍵位",
+        "評估聯儲局減息時間表的市場定價是否過於樂觀",
+        "關注伊朗局勢對油價及通脹的傳導效應",
+        "等待美債收益率走勢明確後再作部署"
+      ],
+      "source_name": "etnet",
+      "source_type": "youtube",
+      "source_url": "https://www.youtube.com/watch?v=tTuzzLpru4M",
+      "source_id": "tTuzzLpru4M",
+      "source_lang": "zh-Hant",
+      "platform": "youtube",
+      "channel": "etnet",
+      "channel_id": "UCmMV_kEiVCf8Mgsep0Ncfqw",
+      "duration": 482,
+      "thumbnail": "https://i.ytimg.com/vi/tTuzzLpru4M/maxresdefault.jpg",
+      "view_count": 16189,
+      "views": 16189,
+      "transcript_quality": {
+        "chars": 1281,
+        "lines": 87,
+        "excerpted": false
+      },
+      "transcript_source": "subtitles",
+      "created_at": "2026-05-20T18:42:57Z",
+      "updated_at": "2026-05-20T18:42:57Z",
+      "date_added": "2026-05-20T18:42:57Z",
+      "content_quality": "auto-import",
+      "tags": [],
+      "related_videos": [],
+      "notable_quotes": [],
+      "stock_deep_dive": [],
+      "speaker_title": ""
+    },
+    {
       "id": "ent-20260520-11115-ZchdxS_xnR8",
       "video_id": "ZchdxS_xnR8",
       "source_video_id": "ZchdxS_xnR8",
@@ -21113,431 +21314,436 @@
     },
     {
       "id": "sector-25",
+      "name": "固定收益",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-26",
       "name": "地產",
       "entry_count": 7
     },
     {
-      "id": "sector-26",
+      "id": "sector-27",
       "name": "地緣政治",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
-      "id": "sector-27",
+      "id": "sector-28",
       "name": "外匯",
       "entry_count": 1
     },
     {
-      "id": "sector-28",
+      "id": "sector-29",
       "name": "大宗供應鏈",
       "entry_count": 1
     },
     {
-      "id": "sector-29",
+      "id": "sector-30",
       "name": "嬰童用品",
       "entry_count": 1
     },
     {
-      "id": "sector-30",
+      "id": "sector-31",
       "name": "宏觀流動性",
       "entry_count": 1
     },
     {
-      "id": "sector-31",
+      "id": "sector-32",
       "name": "宏觀經濟",
-      "entry_count": 36
+      "entry_count": 37
     },
     {
-      "id": "sector-32",
+      "id": "sector-33",
       "name": "宠物食品",
       "entry_count": 1
     },
     {
-      "id": "sector-33",
+      "id": "sector-34",
       "name": "家庭電器及用品",
       "entry_count": 1
     },
     {
-      "id": "sector-34",
+      "id": "sector-35",
       "name": "工業",
       "entry_count": 2
     },
     {
-      "id": "sector-35",
+      "id": "sector-36",
       "name": "工業機械",
       "entry_count": 1
     },
     {
-      "id": "sector-36",
+      "id": "sector-37",
       "name": "工業自動化",
       "entry_count": 1
     },
     {
-      "id": "sector-37",
+      "id": "sector-38",
       "name": "平台經濟",
       "entry_count": 1
     },
     {
-      "id": "sector-38",
+      "id": "sector-39",
       "name": "建築",
       "entry_count": 1
     },
     {
-      "id": "sector-39",
+      "id": "sector-40",
       "name": "房地產",
       "entry_count": 3
     },
     {
-      "id": "sector-40",
+      "id": "sector-41",
       "name": "投資哲學",
       "entry_count": 1
     },
     {
-      "id": "sector-41",
+      "id": "sector-42",
       "name": "投資策略",
       "entry_count": 3
     },
     {
-      "id": "sector-42",
+      "id": "sector-43",
       "name": "數控工具機",
       "entry_count": 1
     },
     {
-      "id": "sector-43",
+      "id": "sector-44",
       "name": "新能源",
       "entry_count": 1
     },
     {
-      "id": "sector-44",
+      "id": "sector-45",
       "name": "新能源汽車",
       "entry_count": 1
     },
     {
-      "id": "sector-45",
+      "id": "sector-46",
       "name": "新能源車",
       "entry_count": 2
     },
     {
-      "id": "sector-46",
+      "id": "sector-47",
       "name": "旅遊景區",
       "entry_count": 1
     },
     {
-      "id": "sector-47",
+      "id": "sector-48",
       "name": "日本股市",
       "entry_count": 1
     },
     {
-      "id": "sector-48",
+      "id": "sector-49",
       "name": "日股",
       "entry_count": 1
     },
     {
-      "id": "sector-49",
+      "id": "sector-50",
       "name": "晶片設備",
       "entry_count": 1
     },
     {
-      "id": "sector-50",
+      "id": "sector-51",
       "name": "智能駕駛",
       "entry_count": 1
     },
     {
-      "id": "sector-51",
+      "id": "sector-52",
       "name": "期權/衍生品",
       "entry_count": 1
     },
     {
-      "id": "sector-52",
+      "id": "sector-53",
       "name": "樓市",
       "entry_count": 1
     },
     {
-      "id": "sector-53",
+      "id": "sector-54",
       "name": "機械",
       "entry_count": 3
     },
     {
-      "id": "sector-54",
+      "id": "sector-55",
       "name": "汽車",
       "entry_count": 1
     },
     {
-      "id": "sector-55",
+      "id": "sector-56",
       "name": "汽車零部件",
       "entry_count": 1
     },
     {
-      "id": "sector-56",
+      "id": "sector-57",
       "name": "油氣/能源",
       "entry_count": 21
     },
     {
-      "id": "sector-57",
+      "id": "sector-58",
       "name": "消費出海",
       "entry_count": 1
     },
     {
-      "id": "sector-58",
+      "id": "sector-59",
       "name": "消費品",
       "entry_count": 1
     },
     {
-      "id": "sector-59",
+      "id": "sector-60",
       "name": "消費品/煙草",
       "entry_count": 1
     },
     {
-      "id": "sector-60",
+      "id": "sector-61",
       "name": "港股",
       "entry_count": 4
     },
     {
-      "id": "sector-61",
+      "id": "sector-62",
       "name": "港股/中概股",
       "entry_count": 1
     },
     {
-      "id": "sector-62",
+      "id": "sector-63",
       "name": "煙草",
       "entry_count": 8
     },
     {
-      "id": "sector-63",
+      "id": "sector-64",
       "name": "短影片/社交媒體",
       "entry_count": 1
     },
     {
-      "id": "sector-64",
+      "id": "sector-65",
       "name": "石油",
       "entry_count": 1
     },
     {
-      "id": "sector-65",
+      "id": "sector-66",
       "name": "石油能源",
       "entry_count": 1
     },
     {
-      "id": "sector-66",
+      "id": "sector-67",
       "name": "社區服務",
       "entry_count": 1
     },
     {
-      "id": "sector-67",
+      "id": "sector-68",
       "name": "私募信貸",
       "entry_count": 2
     },
     {
-      "id": "sector-68",
+      "id": "sector-69",
       "name": "科技",
       "entry_count": 37
     },
     {
-      "id": "sector-69",
+      "id": "sector-70",
       "name": "科技/AI",
       "entry_count": 1
     },
     {
-      "id": "sector-70",
+      "id": "sector-71",
       "name": "科技消費",
       "entry_count": 1
     },
     {
-      "id": "sector-71",
+      "id": "sector-72",
       "name": "科技股",
       "entry_count": 3
     },
     {
-      "id": "sector-72",
+      "id": "sector-73",
       "name": "精密機床",
       "entry_count": 1
     },
     {
-      "id": "sector-73",
+      "id": "sector-74",
       "name": "精密製造",
       "entry_count": 2
     },
     {
-      "id": "sector-74",
+      "id": "sector-75",
       "name": "納指",
       "entry_count": 1
     },
     {
-      "id": "sector-75",
+      "id": "sector-76",
       "name": "美國國債",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
-      "id": "sector-76",
+      "id": "sector-77",
       "name": "美股",
       "entry_count": 8
     },
     {
-      "id": "sector-77",
+      "id": "sector-78",
       "name": "股票/A股",
       "entry_count": 4
     },
     {
-      "id": "sector-78",
+      "id": "sector-79",
       "name": "股票/港股",
       "entry_count": 32
     },
     {
-      "id": "sector-79",
+      "id": "sector-80",
       "name": "股票/美股",
       "entry_count": 4
     },
     {
-      "id": "sector-80",
+      "id": "sector-81",
       "name": "股票/能源",
       "entry_count": 1
     },
     {
-      "id": "sector-81",
+      "id": "sector-82",
       "name": "股票/黃金",
       "entry_count": 1
     },
     {
-      "id": "sector-82",
+      "id": "sector-83",
       "name": "能源",
       "entry_count": 2
     },
     {
-      "id": "sector-83",
+      "id": "sector-84",
       "name": "能源/油價",
       "entry_count": 1
     },
     {
-      "id": "sector-84",
+      "id": "sector-85",
       "name": "自動駕駛",
       "entry_count": 1
     },
     {
-      "id": "sector-85",
+      "id": "sector-86",
       "name": "航空",
       "entry_count": 2
     },
     {
-      "id": "sector-86",
+      "id": "sector-87",
       "name": "英國政治",
       "entry_count": 1
     },
     {
-      "id": "sector-87",
+      "id": "sector-88",
       "name": "記憶體",
       "entry_count": 1
     },
     {
-      "id": "sector-88",
+      "id": "sector-89",
       "name": "财富階級",
       "entry_count": 1
     },
     {
-      "id": "sector-89",
+      "id": "sector-90",
       "name": "軍工工業",
       "entry_count": 1
     },
     {
-      "id": "sector-90",
+      "id": "sector-91",
       "name": "軟件行業",
       "entry_count": 1
     },
     {
-      "id": "sector-91",
+      "id": "sector-92",
       "name": "醫美化妝品",
       "entry_count": 1
     },
     {
-      "id": "sector-92",
+      "id": "sector-93",
       "name": "金融",
       "entry_count": 21
     },
     {
-      "id": "sector-93",
+      "id": "sector-94",
       "name": "金融服務",
       "entry_count": 1
     },
     {
-      "id": "sector-94",
+      "id": "sector-95",
       "name": "長債/固定收益",
       "entry_count": 1
     },
     {
-      "id": "sector-95",
+      "id": "sector-96",
       "name": "雲計算",
       "entry_count": 2
     },
     {
-      "id": "sector-96",
+      "id": "sector-97",
       "name": "零售",
       "entry_count": 1
     },
     {
-      "id": "sector-97",
+      "id": "sector-98",
       "name": "電信",
       "entry_count": 1
     },
     {
-      "id": "sector-98",
+      "id": "sector-99",
       "name": "電力",
       "entry_count": 1
     },
     {
-      "id": "sector-99",
+      "id": "sector-100",
       "name": "電商",
       "entry_count": 1
     },
     {
-      "id": "sector-100",
+      "id": "sector-101",
       "name": "電子商務",
       "entry_count": 1
     },
     {
-      "id": "sector-101",
+      "id": "sector-102",
       "name": "韓國股市",
       "entry_count": 1
     },
     {
-      "id": "sector-102",
+      "id": "sector-103",
       "name": "韓股",
       "entry_count": 1
     },
     {
-      "id": "sector-103",
+      "id": "sector-104",
       "name": "餐飲",
       "entry_count": 1
     },
     {
-      "id": "sector-104",
+      "id": "sector-105",
       "name": "香港地產",
       "entry_count": 1
     },
     {
-      "id": "sector-105",
+      "id": "sector-106",
       "name": "香港宏觀經濟",
       "entry_count": 1
     },
     {
-      "id": "sector-106",
+      "id": "sector-107",
       "name": "香港樓市",
       "entry_count": 1
     },
     {
-      "id": "sector-107",
+      "id": "sector-108",
       "name": "高息ETF",
       "entry_count": 1
     },
     {
-      "id": "sector-108",
+      "id": "sector-109",
       "name": "高端裝備",
       "entry_count": 3
     },
     {
-      "id": "sector-109",
+      "id": "sector-110",
       "name": "黃金",
       "entry_count": 2
     },
     {
-      "id": "sector-110",
+      "id": "sector-111",
       "name": "黃金珠宝",
       "entry_count": 1
     }
@@ -21730,866 +21936,896 @@
     },
     {
       "id": "theme-38",
-      "name": "估值",
+      "name": "伊朗核問題",
       "entry_count": 1
     },
     {
       "id": "theme-39",
-      "name": "估值與基本分析",
+      "name": "估值",
       "entry_count": 1
     },
     {
       "id": "theme-40",
+      "name": "估值與基本分析",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-41",
       "name": "住宅市道",
       "entry_count": 2
     },
     {
-      "id": "theme-41",
+      "id": "theme-42",
       "name": "供應過剩",
       "entry_count": 1
     },
     {
-      "id": "theme-42",
+      "id": "theme-43",
       "name": "信貸危機",
       "entry_count": 1
     },
     {
-      "id": "theme-43",
+      "id": "theme-44",
       "name": "修昔底德陷阱",
       "entry_count": 1
     },
     {
-      "id": "theme-44",
+      "id": "theme-45",
       "name": "倉位管理",
       "entry_count": 11
     },
     {
-      "id": "theme-45",
+      "id": "theme-46",
       "name": "價值平均策略",
       "entry_count": 1
     },
     {
-      "id": "theme-46",
+      "id": "theme-47",
       "name": "價值投資",
       "entry_count": 2
     },
     {
-      "id": "theme-47",
+      "id": "theme-48",
       "name": "光纖/光通信",
       "entry_count": 1
     },
     {
-      "id": "theme-48",
+      "id": "theme-49",
       "name": "內地買家",
       "entry_count": 2
     },
     {
-      "id": "theme-49",
+      "id": "theme-50",
       "name": "內房",
       "entry_count": 1
     },
     {
-      "id": "theme-50",
+      "id": "theme-51",
       "name": "內需疲弱",
       "entry_count": 1
     },
     {
-      "id": "theme-51",
+      "id": "theme-52",
       "name": "全球再軍事化",
       "entry_count": 1
     },
     {
-      "id": "theme-52",
+      "id": "theme-53",
       "name": "具身機器人",
       "entry_count": 1
     },
     {
-      "id": "theme-53",
+      "id": "theme-54",
       "name": "分紅回報",
       "entry_count": 1
     },
     {
-      "id": "theme-54",
+      "id": "theme-55",
       "name": "利率",
       "entry_count": 4
     },
     {
-      "id": "theme-55",
+      "id": "theme-56",
       "name": "北上消費",
       "entry_count": 1
     },
     {
-      "id": "theme-56",
+      "id": "theme-57",
       "name": "半導體",
       "entry_count": 4
     },
     {
-      "id": "theme-57",
+      "id": "theme-58",
       "name": "去美元化",
       "entry_count": 2
     },
     {
-      "id": "theme-58",
+      "id": "theme-59",
       "name": "反內卷",
       "entry_count": 1
     },
     {
-      "id": "theme-59",
+      "id": "theme-60",
       "name": "同城化",
       "entry_count": 1
     },
     {
-      "id": "theme-60",
+      "id": "theme-61",
       "name": "品牌全球化",
       "entry_count": 1
     },
     {
-      "id": "theme-61",
+      "id": "theme-62",
       "name": "品牌升級",
       "entry_count": 1
     },
     {
-      "id": "theme-62",
+      "id": "theme-63",
       "name": "國補政策",
       "entry_count": 1
     },
     {
-      "id": "theme-63",
+      "id": "theme-64",
       "name": "地產",
       "entry_count": 1
     },
     {
-      "id": "theme-64",
+      "id": "theme-65",
       "name": "地緣政治",
       "entry_count": 20
     },
     {
-      "id": "theme-65",
-      "name": "大宗商貿拐點",
-      "entry_count": 1
-    },
-    {
       "id": "theme-66",
-      "name": "大牛市",
+      "name": "地緣政治風險",
       "entry_count": 1
     },
     {
       "id": "theme-67",
-      "name": "太空經濟",
+      "name": "大宗商貿拐點",
       "entry_count": 1
     },
     {
       "id": "theme-68",
-      "name": "失業率",
+      "name": "大牛市",
       "entry_count": 1
     },
     {
       "id": "theme-69",
-      "name": "嬰童耐用品",
+      "name": "太空經濟",
       "entry_count": 1
     },
     {
       "id": "theme-70",
-      "name": "宏觀分析",
-      "entry_count": 4
+      "name": "失業率",
+      "entry_count": 1
     },
     {
       "id": "theme-71",
-      "name": "宏觀利率",
+      "name": "嬰童耐用品",
       "entry_count": 1
     },
     {
       "id": "theme-72",
+      "name": "宏觀分析",
+      "entry_count": 4
+    },
+    {
+      "id": "theme-73",
+      "name": "宏觀利率",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-74",
       "name": "宏觀波動與流動性",
       "entry_count": 1
     },
     {
-      "id": "theme-73",
+      "id": "theme-75",
       "name": "宏觀經濟",
       "entry_count": 8
     },
     {
-      "id": "theme-74",
+      "id": "theme-76",
       "name": "實質利率",
       "entry_count": 1
     },
     {
-      "id": "theme-75",
+      "id": "theme-77",
       "name": "對華關稅",
       "entry_count": 1
     },
     {
-      "id": "theme-76",
+      "id": "theme-78",
       "name": "工具機",
       "entry_count": 1
     },
     {
-      "id": "theme-77",
+      "id": "theme-79",
       "name": "工業再回流",
       "entry_count": 1
     },
     {
-      "id": "theme-78",
+      "id": "theme-80",
       "name": "巴菲特",
       "entry_count": 2
     },
     {
-      "id": "theme-79",
+      "id": "theme-81",
       "name": "巴郡13F",
       "entry_count": 1
     },
     {
-      "id": "theme-80",
+      "id": "theme-82",
       "name": "市場估值",
       "entry_count": 1
     },
     {
-      "id": "theme-81",
+      "id": "theme-83",
       "name": "市場市寬",
       "entry_count": 1
     },
     {
-      "id": "theme-82",
+      "id": "theme-84",
       "name": "市場心理",
       "entry_count": 1
     },
     {
-      "id": "theme-83",
+      "id": "theme-85",
       "name": "市場情緒",
       "entry_count": 5
     },
     {
-      "id": "theme-84",
+      "id": "theme-86",
       "name": "平台經濟",
       "entry_count": 3
     },
     {
-      "id": "theme-85",
+      "id": "theme-87",
       "name": "平台經濟監管",
       "entry_count": 1
     },
     {
-      "id": "theme-86",
+      "id": "theme-88",
       "name": "平台股",
       "entry_count": 2
     },
     {
-      "id": "theme-87",
+      "id": "theme-89",
       "name": "年齡與風險承受能力差異",
       "entry_count": 1
     },
     {
-      "id": "theme-88",
+      "id": "theme-90",
       "name": "微型精密製造",
       "entry_count": 1
     },
     {
-      "id": "theme-89",
+      "id": "theme-91",
       "name": "技術分析",
       "entry_count": 1
     },
     {
-      "id": "theme-90",
+      "id": "theme-92",
       "name": "投資心理",
       "entry_count": 8
     },
     {
-      "id": "theme-91",
+      "id": "theme-93",
       "name": "投資策略",
       "entry_count": 37
     },
     {
-      "id": "theme-92",
+      "id": "theme-94",
       "name": "投資組合調整",
       "entry_count": 1
     },
     {
-      "id": "theme-93",
+      "id": "theme-95",
       "name": "投資評級",
       "entry_count": 1
     },
     {
-      "id": "theme-94",
+      "id": "theme-96",
       "name": "投資風險",
       "entry_count": 16
     },
     {
-      "id": "theme-95",
+      "id": "theme-97",
       "name": "持倉分享",
       "entry_count": 1
     },
     {
-      "id": "theme-96",
+      "id": "theme-98",
       "name": "指數結構",
       "entry_count": 1
     },
     {
-      "id": "theme-97",
+      "id": "theme-99",
       "name": "收息組合",
       "entry_count": 1
     },
     {
-      "id": "theme-98",
+      "id": "theme-100",
       "name": "政治風險",
       "entry_count": 1
     },
     {
-      "id": "theme-99",
+      "id": "theme-101",
       "name": "新消費",
       "entry_count": 1
     },
     {
-      "id": "theme-100",
+      "id": "theme-102",
       "name": "新能源汽車供應鏈",
       "entry_count": 1
     },
     {
-      "id": "theme-101",
+      "id": "theme-103",
       "name": "新能源汽車產業鏈",
       "entry_count": 1
     },
     {
-      "id": "theme-102",
+      "id": "theme-104",
       "name": "新能源汽車零部件",
       "entry_count": 1
     },
     {
-      "id": "theme-103",
+      "id": "theme-105",
       "name": "新能源車",
       "entry_count": 1
     },
     {
-      "id": "theme-104",
+      "id": "theme-106",
       "name": "日經",
       "entry_count": 1
     },
     {
-      "id": "theme-105",
+      "id": "theme-107",
       "name": "月結",
       "entry_count": 1
     },
     {
-      "id": "theme-106",
+      "id": "theme-108",
       "name": "期權",
       "entry_count": 1
     },
     {
-      "id": "theme-107",
+      "id": "theme-109",
       "name": "期權交易",
       "entry_count": 1
     },
     {
-      "id": "theme-108",
+      "id": "theme-110",
       "name": "末日論",
       "entry_count": 1
     },
     {
-      "id": "theme-109",
+      "id": "theme-111",
       "name": "本金與策略匹配",
       "entry_count": 1
     },
     {
-      "id": "theme-110",
+      "id": "theme-112",
       "name": "李嘉誠",
       "entry_count": 1
     },
     {
-      "id": "theme-111",
+      "id": "theme-113",
       "name": "業績",
       "entry_count": 1
     },
     {
-      "id": "theme-112",
+      "id": "theme-114",
       "name": "槓桿風險",
       "entry_count": 1
     },
     {
-      "id": "theme-113",
+      "id": "theme-115",
       "name": "樓價走勢",
       "entry_count": 2
     },
     {
-      "id": "theme-114",
+      "id": "theme-116",
       "name": "樓市周期",
       "entry_count": 1
     },
     {
-      "id": "theme-115",
+      "id": "theme-117",
       "name": "止損紀律",
       "entry_count": 1
     },
     {
-      "id": "theme-116",
+      "id": "theme-118",
       "name": "止蝕紀律",
       "entry_count": 10
     },
     {
-      "id": "theme-117",
+      "id": "theme-119",
       "name": "比特幣",
       "entry_count": 2
     },
     {
-      "id": "theme-118",
+      "id": "theme-120",
       "name": "汽車電動化",
       "entry_count": 1
     },
     {
-      "id": "theme-119",
+      "id": "theme-121",
       "name": "油價",
       "entry_count": 12
     },
     {
-      "id": "theme-120",
-      "name": "油價通脹",
-      "entry_count": 1
-    },
-    {
-      "id": "theme-121",
-      "name": "流動性",
-      "entry_count": 2
-    },
-    {
       "id": "theme-122",
-      "name": "流動性危機",
+      "name": "油價通脹",
       "entry_count": 2
     },
     {
       "id": "theme-123",
+      "name": "流動性",
+      "entry_count": 2
+    },
+    {
+      "id": "theme-124",
+      "name": "流動性危機",
+      "entry_count": 2
+    },
+    {
+      "id": "theme-125",
       "name": "流動性風險",
       "entry_count": 1
     },
     {
-      "id": "theme-124",
+      "id": "theme-126",
       "name": "消費出海",
       "entry_count": 1
     },
     {
-      "id": "theme-125",
+      "id": "theme-127",
       "name": "液冷散熱",
       "entry_count": 1
     },
     {
-      "id": "theme-126",
+      "id": "theme-128",
       "name": "減息",
       "entry_count": 1
     },
     {
-      "id": "theme-127",
+      "id": "theme-129",
       "name": "港交所",
       "entry_count": 1
     },
     {
-      "id": "theme-128",
+      "id": "theme-130",
       "name": "港樓",
       "entry_count": 1
     },
     {
-      "id": "theme-129",
+      "id": "theme-131",
       "name": "港股",
       "entry_count": 19
     },
     {
-      "id": "theme-130",
+      "id": "theme-132",
       "name": "港股30000心理關口",
       "entry_count": 1
     },
     {
-      "id": "theme-131",
+      "id": "theme-133",
       "name": "港股技術分析",
       "entry_count": 1
     },
     {
-      "id": "theme-132",
+      "id": "theme-134",
       "name": "港股業績",
       "entry_count": 1
     },
     {
-      "id": "theme-133",
+      "id": "theme-135",
       "name": "港股消費股",
       "entry_count": 1
     },
     {
-      "id": "theme-134",
+      "id": "theme-136",
       "name": "港股策略",
       "entry_count": 1
     },
     {
-      "id": "theme-135",
+      "id": "theme-137",
       "name": "灰犀牛",
       "entry_count": 1
     },
     {
-      "id": "theme-136",
+      "id": "theme-138",
       "name": "炒股vs投資哲學",
       "entry_count": 1
     },
     {
-      "id": "theme-137",
-      "name": "現金為王",
-      "entry_count": 1
-    },
-    {
-      "id": "theme-138",
-      "name": "現金管理",
-      "entry_count": 1
-    },
-    {
       "id": "theme-139",
-      "name": "環球債息",
+      "name": "特朗普財政政策",
       "entry_count": 1
     },
     {
       "id": "theme-140",
-      "name": "真實倉位分享",
+      "name": "現金為王",
       "entry_count": 1
     },
     {
       "id": "theme-141",
-      "name": "短線操作 vs 長線持有",
+      "name": "現金管理",
       "entry_count": 1
     },
     {
       "id": "theme-142",
-      "name": "私募估值",
+      "name": "環球債息",
       "entry_count": 1
     },
     {
       "id": "theme-143",
-      "name": "私募信貸",
-      "entry_count": 2
+      "name": "真實倉位分享",
+      "entry_count": 1
     },
     {
       "id": "theme-144",
-      "name": "科技",
+      "name": "短線操作 vs 長線持有",
       "entry_count": 1
     },
     {
       "id": "theme-145",
-      "name": "科技股估值重估",
+      "name": "私募估值",
       "entry_count": 1
     },
     {
       "id": "theme-146",
-      "name": "科技股估值重評",
-      "entry_count": 1
+      "name": "私募信貸",
+      "entry_count": 2
     },
     {
       "id": "theme-147",
-      "name": "科技股基本面",
+      "name": "科技",
       "entry_count": 1
     },
     {
       "id": "theme-148",
-      "name": "科技股壓力",
+      "name": "科技股估值重估",
       "entry_count": 1
     },
     {
       "id": "theme-149",
-      "name": "科網股輪動",
+      "name": "科技股估值重評",
       "entry_count": 1
     },
     {
       "id": "theme-150",
-      "name": "等待",
+      "name": "科技股基本面",
       "entry_count": 1
     },
     {
       "id": "theme-151",
-      "name": "結構性調整",
+      "name": "科技股壓力",
       "entry_count": 1
     },
     {
       "id": "theme-152",
-      "name": "線上滲透率提升",
+      "name": "科網股輪動",
       "entry_count": 1
     },
     {
       "id": "theme-153",
-      "name": "美伊局勢",
-      "entry_count": 2
+      "name": "等待",
+      "entry_count": 1
     },
     {
       "id": "theme-154",
-      "name": "美債息",
+      "name": "結構性調整",
       "entry_count": 1
     },
     {
       "id": "theme-155",
-      "name": "美債息上升",
+      "name": "線上滲透率提升",
       "entry_count": 1
     },
     {
       "id": "theme-156",
-      "name": "美債息走勢與美股後向",
-      "entry_count": 1
+      "name": "美伊局勢",
+      "entry_count": 2
     },
     {
       "id": "theme-157",
-      "name": "美債投資邏輯",
+      "name": "美債息",
       "entry_count": 1
     },
     {
       "id": "theme-158",
-      "name": "美元走勢",
+      "name": "美債息上升",
       "entry_count": 1
     },
     {
       "id": "theme-159",
-      "name": "美國政治",
+      "name": "美債息走勢與美股後向",
       "entry_count": 1
     },
     {
       "id": "theme-160",
-      "name": "美國經濟",
+      "name": "美債投資邏輯",
       "entry_count": 1
     },
     {
       "id": "theme-161",
-      "name": "美股",
-      "entry_count": 13
+      "name": "美債收益率曲線",
+      "entry_count": 1
     },
     {
       "id": "theme-162",
-      "name": "美股高位調整",
+      "name": "美元走勢",
       "entry_count": 1
     },
     {
       "id": "theme-163",
-      "name": "美關稅戰影響",
+      "name": "美國國債收益率上升",
       "entry_count": 1
     },
     {
       "id": "theme-164",
-      "name": "習特會",
+      "name": "美國政治",
       "entry_count": 1
     },
     {
       "id": "theme-165",
-      "name": "聯儲局",
+      "name": "美國經濟",
       "entry_count": 1
     },
     {
       "id": "theme-166",
-      "name": "聯儲局利率",
-      "entry_count": 1
+      "name": "美股",
+      "entry_count": 13
     },
     {
       "id": "theme-167",
-      "name": "聯儲局減息預期逆轉",
+      "name": "美股高位調整",
       "entry_count": 1
     },
     {
       "id": "theme-168",
-      "name": "聯繫匯率",
+      "name": "美關稅戰影響",
       "entry_count": 1
     },
     {
       "id": "theme-169",
-      "name": "能力圈原則",
+      "name": "習特會",
       "entry_count": 1
     },
     {
       "id": "theme-170",
-      "name": "能源",
+      "name": "聯儲局",
       "entry_count": 1
     },
     {
       "id": "theme-171",
-      "name": "英鎊",
+      "name": "聯儲局利率",
       "entry_count": 1
     },
     {
       "id": "theme-172",
-      "name": "製造業",
+      "name": "聯儲局政策取向",
       "entry_count": 1
     },
     {
       "id": "theme-173",
-      "name": "製造業升級",
+      "name": "聯儲局減息預期逆轉",
       "entry_count": 1
     },
     {
       "id": "theme-174",
-      "name": "記憶體",
+      "name": "聯繫匯率",
       "entry_count": 1
     },
     {
       "id": "theme-175",
-      "name": "設備更新週期",
+      "name": "能力圈原則",
       "entry_count": 1
     },
     {
       "id": "theme-176",
-      "name": "貧富差距",
+      "name": "能源",
       "entry_count": 1
     },
     {
       "id": "theme-177",
-      "name": "貨幣幻覺",
+      "name": "英鎊",
       "entry_count": 1
     },
     {
       "id": "theme-178",
-      "name": "資本保護",
+      "name": "製造業",
       "entry_count": 1
     },
     {
       "id": "theme-179",
-      "name": "資本開支",
+      "name": "製造業升級",
       "entry_count": 1
     },
     {
       "id": "theme-180",
-      "name": "資源股",
+      "name": "記憶體",
       "entry_count": 1
     },
     {
       "id": "theme-181",
-      "name": "資產配置",
-      "entry_count": 3
+      "name": "設備更新週期",
+      "entry_count": 1
     },
     {
       "id": "theme-182",
-      "name": "資金換馬",
+      "name": "貧富差距",
       "entry_count": 1
     },
     {
       "id": "theme-183",
-      "name": "資金流",
+      "name": "貨幣幻覺",
       "entry_count": 1
     },
     {
       "id": "theme-184",
-      "name": "贖回潮",
+      "name": "資本保護",
       "entry_count": 1
     },
     {
       "id": "theme-185",
-      "name": "趨勢投資",
+      "name": "資本開支",
       "entry_count": 1
     },
     {
       "id": "theme-186",
-      "name": "車企價格戰",
+      "name": "資源股",
       "entry_count": 1
     },
     {
       "id": "theme-187",
-      "name": "軍工",
-      "entry_count": 1
+      "name": "資產配置",
+      "entry_count": 3
     },
     {
       "id": "theme-188",
-      "name": "軟件股",
+      "name": "資金換馬",
       "entry_count": 1
     },
     {
       "id": "theme-189",
-      "name": "通脹",
-      "entry_count": 3
+      "name": "資金流",
+      "entry_count": 1
     },
     {
       "id": "theme-190",
-      "name": "通脹壓力",
+      "name": "贖回潮",
       "entry_count": 1
     },
     {
       "id": "theme-191",
-      "name": "重資產",
+      "name": "趨勢投資",
       "entry_count": 1
     },
     {
       "id": "theme-192",
-      "name": "重資產低消耗率策略",
+      "name": "車企價格戰",
       "entry_count": 1
     },
     {
       "id": "theme-193",
-      "name": "金價",
-      "entry_count": 3
+      "name": "軍工",
+      "entry_count": 1
     },
     {
       "id": "theme-194",
-      "name": "金融海嘥",
+      "name": "軟件股",
       "entry_count": 1
     },
     {
       "id": "theme-195",
-      "name": "銀行收緊信貸",
-      "entry_count": 1
+      "name": "通脹",
+      "entry_count": 3
     },
     {
       "id": "theme-196",
-      "name": "長期投資",
-      "entry_count": 1
+      "name": "通脹壓力",
+      "entry_count": 2
     },
     {
       "id": "theme-197",
-      "name": "關稅戰爭與油價",
+      "name": "重資產",
       "entry_count": 1
     },
     {
       "id": "theme-198",
-      "name": "防騙",
-      "entry_count": 2
-    },
-    {
-      "id": "theme-199",
-      "name": "零售化",
+      "name": "重資產低消耗率策略",
       "entry_count": 1
     },
     {
+      "id": "theme-199",
+      "name": "金價",
+      "entry_count": 3
+    },
+    {
       "id": "theme-200",
-      "name": "電力設備",
+      "name": "金融海嘥",
       "entry_count": 1
     },
     {
       "id": "theme-201",
-      "name": "青年失業",
+      "name": "銀行收緊信貸",
       "entry_count": 1
     },
     {
       "id": "theme-202",
-      "name": "風險管理",
-      "entry_count": 3
+      "name": "長期投資",
+      "entry_count": 1
     },
     {
       "id": "theme-203",
-      "name": "風險調整回報",
+      "name": "關稅戰爭與油價",
       "entry_count": 1
     },
     {
       "id": "theme-204",
-      "name": "香港樓市",
-      "entry_count": 4
+      "name": "防騙",
+      "entry_count": 2
     },
     {
       "id": "theme-205",
-      "name": "香港樓市泡沫",
+      "name": "零售化",
       "entry_count": 1
     },
     {
       "id": "theme-206",
-      "name": "高息股",
-      "entry_count": 9
+      "name": "電力設備",
+      "entry_count": 1
     },
     {
       "id": "theme-207",
-      "name": "高端消費品牌出海",
+      "name": "青年失業",
       "entry_count": 1
     },
     {
       "id": "theme-208",
-      "name": "黃金",
-      "entry_count": 2
+      "name": "風險管理",
+      "entry_count": 3
     },
     {
       "id": "theme-209",
-      "name": "黃金避險作用",
+      "name": "風險調整回報",
       "entry_count": 1
     },
     {
       "id": "theme-210",
+      "name": "香港樓市",
+      "entry_count": 4
+    },
+    {
+      "id": "theme-211",
+      "name": "香港樓市泡沫",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-212",
+      "name": "高息股",
+      "entry_count": 9
+    },
+    {
+      "id": "theme-213",
+      "name": "高端消費品牌出海",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-214",
+      "name": "黃金",
+      "entry_count": 2
+    },
+    {
+      "id": "theme-215",
+      "name": "黃金避險作用",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-216",
       "name": "黃金零售",
       "entry_count": 1
     }
