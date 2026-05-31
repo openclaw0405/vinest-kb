@@ -196,8 +196,105 @@
       },
       "portfolio_summary": "集中持有記憶體核心資產，回調增持，長線目標10-20年超級周期。重點留意中國國企巨頭IPO可能帶來的額外阿爾法機會。",
       "presenter_profile": "譚新強是香港資深投資分析師，Sun Channel主持人，專注宏觀經濟、地緣政治及科技投資研究。他经常出席國際投資會議（大摩、港大等），多次準確預測市場走勢，擅長用歷史數據（台灣、日本）和邏輯鏈相結合的方式分析問題。他以直言不諱著稱，敢於在別人恐懼時提出不同觀點。",
-      "notes": "口語化內容較多，部分公司名稱未完整提及（如中國國企巨頭具體名字、CXMT為推測）。NVIDIA具體數據（PE 15-16倍）來自英文部分。",
-      "stock_recommendations": [],
+      "notes": "口語化內容為主，粵語夾雜少量英文。記憶體相關內容極為充實，是難得的深度分析。NVDA數據（PE 15-16倍）部分來自英文術語。譚新強多次強調自己錯過了記憶體股幾十倍的升幅，態度值得參考。",
+      "stock_recommendations": [
+        {
+          "ticker": "000660.KS",
+          "name": "SK海力士",
+          "name_en": "SK Hynix",
+          "direction": "long",
+          "role": "current actionable preference",
+          "note": "今年最強記憶體股，升90%；UBS大幅調高目標價，板塊一周內急升20-36%；上週SK海力士罷工已解決，員工獲11.2%額外花紅，公司同時回購股份減少攤薄，股價幾乎不受影響。記憶體超級周期核心持倉。",
+          "speaker_quote": "韓國啦，因為佢有佢有呢個升咗90%",
+          "thesis": "AI記憶體超級周期最強受益者，PE Compression中，估值仍吸引",
+          "operation_points": [
+            "回調時增持，RSI回到60-70以下是較安全切入點",
+            "長線持有，不因短期技術超買而全數離場"
+          ],
+          "risk_points": [
+            "員工薪酬上調11.2%影響利潤率",
+            "16倍槓桿ETF加劇散戶情緒波幅",
+            "地緣政治風險（東北亞局勢）"
+          ]
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "name_en": "NVIDIA",
+          "direction": "watch/underweight",
+          "role": "relative comparison / watchlist",
+          "note": "從高位跌超10%，PE回落至15-16倍，看似便宜但面對多重挑戰：地緣政治導致客戶減少採購、德國不願大量採用NVIDIA晶片、機會被miss。並非當前記憶體超級周期的核心受益者。",
+          "speaker_quote": "NVIDIA最近創咗身高，但係而家又跌咗超過10%喇，PE大約15、16倍，但係佢有好多挑戰",
+          "thesis": "GPU需求放緩份額流失性價比下降，地緣政治風險加劇",
+          "operation_points": [
+            "作為AI情緒指標觀察，不作為主要持倉",
+            "關注下一個 earnings 的 AI 晶片需求指引"
+          ],
+          "risk_points": [
+            "地緣政治導致客戶流失",
+            "機會被miss（ presenter 自己做錯的trade）",
+            "CPO等新技術或削弱GPU主導地位"
+          ]
+        },
+        {
+          "ticker": "TSM",
+          "name": "台積電",
+          "name_en": "TSMC",
+          "direction": "long",
+          "role": "historical proof case / thematic exposure",
+          "note": "已確認加入萬億美元市值俱樂部（全球14間之一），作為台灣AI供應鏈核心上游，地位穩固。但presenter當前更看好記憶體股而非TSMC作為核心持倉。",
+          "speaker_quote": "台積電嗰間就二萬幾億囉，已經加入咗呢個trillion dollar club",
+          "thesis": "AI芯片製造核心供應商，長期結構性增長確認，但估值已反映較多",
+          "operation_points": [
+            "作為AI供應鏈的核心持有，但不特別作為current actionable idea",
+            "估值已貴，長線投資者可繼續持有"
+          ],
+          "risk_points": [
+            "地緣政治風險（台灣議題）",
+            "客戶集中度風險",
+            "COWoS封裝產能瓶頸"
+          ]
+        },
+        {
+          "ticker": "CXMT / 01249.HK (待上市)",
+          "name": "長鑫存儲（CXMT，預期港股IPO）",
+          "name_en": "CXMT (expected HK IPO)",
+          "direction": "long (IPO認購)",
+          "role": "current actionable preference (IPO plays)",
+          "note": "中國國企記憶體巨頭，估計今年盈利1200億人民幣，以估值4-5千億計算PE僅約3-4倍，遠低於國際記憶體股。若以平均83倍市盈率上市，首日可能暴升數倍，輕易去到2-3萬億市值，成為中國首間萬億美元企業。記憶體市場分割（美國禁HBM出口）保護下，不會摧毁國際定價。",
+          "speaker_quote": "如果佢頭先講嘅話，初期個估值只係四、五千億，係得三四倍PE嘅咋，如果喺平均贏率系83倍，預以外第一日就會升幾倍㗎啦，會去到已經輕易係二萬億嗰頭，甚至成為中國第一大股，可能去到爾三萬億",
+          "thesis": "中國國家隊記憶體巨頭，低PE IPO後被瘋炒，可能是中國首間萬億美元企業；對國際記憶體股有拉高rating的正面作用而非破壞",
+          "operation_points": [
+            "密切關注IPO時間和定價（預期2025-2026年）",
+            "若以低PE開放認購，積極參與",
+            "牢記市場分割邏輯——炒作不會影響國際記憶體定價"
+          ],
+          "risk_points": [
+            "IPO時間和定價未知，可能延遲",
+            "中國資金管制和技術出口限制風險",
+            "投資者情緒可能過度亢奮導致首日炒上天"
+          ]
+        },
+        {
+          "ticker": "YMTC (待上市)",
+          "name": "長江存儲（YMTC，預期A股IPO）",
+          "name_en": "YMTC (expected A-share IPO)",
+          "direction": "long (IPO認購，優先級更高)",
+          "role": "current actionable preference (IPO plays, highest priority)",
+          "note": "Presenter認為YMTC比CXMT更有機會先成為中國首間萬億美元企業。YMTC使用Hybrid Bonding技術，在NAND堆疊上已達到230層以上，可能在技術上不落後甚至領先國際對手。盈利和市佔率都比CXMT更佳。如以低PE IPO，炒作空間極大。",
+          "speaker_quote": "YMTC係利用呢個Hybrid bonding，所以佢係disruptor，佢哋甚至乎喺技術上都唔落後，甚至乎領先，所以佢就有資格成為快啲成為一個萬億級市值嘅公司",
+          "thesis": "技術領先的NAND Flash廠商，IPO可能比CXMT更快達到萬億美元市值",
+          "operation_points": [
+            "優先於CXMT關注，技術故事更強",
+            "IPO認購優先參與"
+          ],
+          "risk_points": [
+            "美國實體清單限制對其HBM和最先進NAND的影響",
+            "IPO時間未定",
+            "中美科技戰升級風險"
+          ]
+        }
+      ],
       "investment_action_items": [
         "關注記憶體股回調時的增持機會",
         "追蹤中國國企記憶體巨頭IPO時間和定價",
@@ -225,9 +322,9 @@
       },
       "transcript_source": "subtitles",
       "created_at": "2026-05-31T19:36:03Z",
-      "updated_at": "2026-05-31T19:36:03Z",
+      "updated_at": "2026-05-31T20:36:00Z",
       "date_added": "2026-05-31T19:36:03Z",
-      "content_quality": "auto-import",
+      "content_quality": "manual-reviewed",
       "tags": [],
       "related_videos": [],
       "notable_quotes": [],
