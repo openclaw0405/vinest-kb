@@ -1,6 +1,171 @@
 {
   "entries": [
     {
+      "id": "ent-20260621-120000-3ZdkxVi9mLk",
+      "video_id": "3ZdkxVi9mLk",
+      "title": "蔡金强 Oscar Choi - 新疆未来趋势---中国命脉之一（有字幕）",
+      "speaker": "蔡金强 Oscar Choi（金人金語）",
+      "date": "2026-06-21",
+      "source_url": "https://www.youtube.com/watch?v=3ZdkxVi9mLk",
+      "source_type": "youtube",
+      "summary_short": "蔡金強（Oscar Choi）分享近期新疆之旅觀察，從地理歷史、經濟發展、能源戰略、糧食安全和地緣政治五個角度，分析新疆作為「中國命脈」的戰略地位——能源自主的後盾、糧食安全的新基地、陸路通往中亞南亞的樞紐，以及繞過馬六甲海峽的關鍵。",
+      "summary_long": "Oscar Choi剛從新疆考察回來，用48分鐘詳細分享對新疆的全方位觀察。首先回顧新疆的地理格局（166萬平方公里，三個山脈、兩個盆地）和歷史沿革——1757年清朝消滅準噶爾汗國後命名「新疆」，但漢唐時期已有管轄。現有人口約2600萬，維吾爾族約1000萬主要聚居南疆（喀什、和田）。經濟方面，中央今年3月宣佈三萬多億投資，基建大幅改善，當地人眼神比十多年前友善很多，關鍵是企業僱用60-70%本地人可享免稅補貼。能源是新疆最大王牌：煤炭、油氣儲量豐富，更關鍵的是光電和風電——新疆太陽能發電佔全國27%、風電10-20%，電價極低（民用約5-6分/度），通過5條超高壓輸電線送往東部，未來可達全國15%發電量。中亞天然氣管道（土庫曼斯坦）經新疆入境，未來俄羅斯石油也可經哈薩克斯坦入疆。糧食方面，新疆已是全國第十大產糧省（2800萬噸），擁有最大後備耕地，若「紅旗河」引西藏水入南疆成事，糧食產能將更恐怖。地緣政治上，中吉烏鐵路加速建設，將打通中國與中亞、南亞的陸路通道；喀什飛杜拜/伊朗只需4小時，比飛上海深圳更快；阿克賽欽距新德里僅三四百公里，戰略威懾力極強。Oscar總結：新疆是中國能源安全、糧食安全、地緣戰略三條生命線的交匯點，重要性遠超一般認知。",
+      "key_points": [
+        "新疆面積166萬平方公里，佔中國六分之一，等於5個日本大",
+        "由三條山脈（阿爾泰、天山、崑崙）分成北疆（準噶爾盆地）和南疆（塔里木盆地）",
+        "「新疆」名字來自1757年清朝消滅準噶爾汗國後，意為「新收復的疆土」",
+        "實際上漢唐時期已管轄西域（安西都護府、北庭都護府），宋明時期失去控制",
+        "現人口約2600萬，維吾爾族約1000萬，主要在南疆喀什、和田一帶",
+        "中央政府今年3月宣佈三萬多億投資（中央7900億+地方配套），基建大幅改善",
+        "企業僱用60-70%本地人可享免稅和補貼政策，有效提升當地就業和融合",
+        "能源：煤炭佔全國4%、油3%、天然氣顯著，最大王牌是光電（27%）和風電（10-20%）",
+        "新疆電價極低（民用約5-6分/度，工業約2-3分/度），通過5條超高壓線送往東部",
+        "中亞天然氣管道（土庫曼斯坦）和未來俄羅斯石油管道均經新疆入境",
+        "巴基斯坦瓜達爾港經喀什的油氣管道一旦建成，可徹底繞開馬六甲海峽",
+        "糧食：新疆已是全國第十大產糧省（2800萬噸），擁有最大後備耕地儲備",
+        "「紅旗河」引西藏水入南疆項目若成，可大規模擴大耕作面積",
+        "中吉烏鐵路（中國-吉爾吉斯-烏茲別克）加速建設，打通中亞陸路通道",
+        "喀什飛杜拜/伊朗約4小時，比飛上海深圳更快，凸顯新疆作為歐亞樞紐的地理優勢",
+        "阿克賽欽距新德里僅三四百公里，具有重大戰略威懾意義",
+        "新疆已成為全球最大人造鑽石生產中心之一（佔全球70%），因耗電量極大、新疆電價極低",
+        "塔吉克斯坦人偷渡入新疆假冒本地人，反映中國對穆斯林政策比周邊國家更優厚"
+      ],
+      "companies": [
+        "中吉烏鐵路",
+        "紅旗河工程"
+      ],
+      "tickers": [],
+      "sectors": [
+        "能源",
+        "糧食農業",
+        "基建",
+        "地緣政治",
+        "光電",
+        "風電",
+        "交通運輸"
+      ],
+      "themes": [
+        "中國能源自主",
+        "一帶一路陸路戰略",
+        "新疆經濟發展",
+        "糧食安全",
+        "中亞地緣政治",
+        "繞開馬六甲海峽"
+      ],
+      "insights": [
+        "新疆電價極低（民用5-6分/度 vs 歐洲幾蚊/度）已形成巨大製造業競爭優勢，全球70%人造鑽石轉移至新疆生產",
+        "中國能源自主的關鍵不在海上而在陸路——新疆是中亞油氣管道的門戶，徹底繞開馬六甲海峽",
+        "新疆光電和風電資源極其豐富，可提供全國15%電力，且大部分是綠色能源",
+        "新疆在普通港人認知中被嚴重低估——其戰略重要性甚至高於很多中國外交優先地區（如哈薩克斯坦）",
+        "中央通過經濟誘因（稅務優惠、補貼）而非單純鎮壓來穩定新疆，效果顯著",
+        "「紅旗河」引西藏水入新疆若成，可將南疆大片荒漠變良田，徹底改變中國糧食安全格局"
+      ],
+      "core_thesis": [
+        "新疆是中國能源安全、糧食安全和地緣戰略三條生命線的關鍵交匯點",
+        "通過新疆的陸路通道（油氣管道+鐵路），中國可徹底繞開馬六甲海峽的戰略脆弱性",
+        "新疆的經濟發展（低成本電力、政策補貼）正在創造一個全新的產業和糧食基地"
+      ],
+      "investment_mindset": {
+        "philosophy": "從實地考察出發，結合歷史、地理、經濟、能源、地緣政治多維度分析一個地區的戰略價值，不只看財務報表，而是看國運級別的結構性趨勢。",
+        "distinctions": [
+          "認識到新疆在普通投資者認知中的巨大低估",
+          "將能源自主和糧食安全視為中國國運的底層支撐",
+          "關注基建投資和產業轉移帶來的長期結構性機會"
+        ],
+        "process": [
+          "親自實地考察，感受當地變化",
+          "從歷史脈絡理解當代政治局勢",
+          "宏觀（能源/糧食/地緣）→中觀（產業/基建）→微觀（企業/政策）",
+          "比較不同國家的成本和資源稟賦"
+        ]
+      },
+      "bull_cases": [
+        "新疆低電價+政策補貼持續吸引高耗能產業（如人造鑽石）遷入",
+        "中吉烏鐵路和中巴經濟走廊打通後，新疆成為歐亞大陸樞紐",
+        "能源自主戰略下，新疆的油氣和電力產能持續擴張",
+        "糧食安全需求推動新疆農業現代化和水利工程"
+      ],
+      "bear_cases": [
+        "民族問題和宗教矛盾可能再次升溫",
+        "中亞地緣政治局勢不穩（阿富汗、巴基斯坦）影響陸路通道安全",
+        "紅旗河等大型水利工程的環境和外交爭議",
+        "印度在邊境的軍事壓力"
+      ],
+      "catalysts": [
+        "中吉烏鐵路建成通車",
+        "紅旗河工程正式立項",
+        "中巴油氣管道建成",
+        "新疆光電和風電裝機容量持續擴張"
+      ],
+      "risks": [
+        "地緣政治風險（中亞動盪、中印邊境衝突）",
+        "民族宗教矛盾激化風險",
+        "大型基建工程延誤或成本超支",
+        "國際制裁影響新疆產業出口"
+      ],
+      "logic_chains": [
+        {
+          "topic": "新疆如何成為中國能源自主的關鍵",
+          "premise_facts": [
+            "中國表面上60-70%天然氣依賴入口",
+            "新疆有全中國最豐富的光電和風電資源（光電27%、風電10-20%）",
+            "新疆電價極低（民用5-6分/度）",
+            "中亞天然氣管道經新疆入境",
+            "未來巴基斯坦油氣管道經新疆可繞開馬六甲"
+          ],
+          "reasoning_chain": "表面上中國能源依賴進口，但新疆本身產能巨大（煤炭、油氣、光電、風電），且是中亞油氣管道的必經門戶。光是新疆的清潔能源已可供應全國15%電力。一旦中巴管道建成，中東油氣可不經馬六甲直接經陸路入中國。因此中國的能源自主程度遠比表面數字顯示的高。",
+          "speaker_conclusion": "中國的能源自主極度穩固，新疆是背後最大功臣",
+          "confidence": "high",
+          "action": "持續關注新疆能源基建和管道項目進展"
+        },
+        {
+          "topic": "新疆在國家糧食安全中的角色",
+          "premise_facts": [
+            "新疆已是全國第十大產糧省（2800萬噸）",
+            "新疆擁有中國最大的後備耕地儲備",
+            "滴灌技術先進，瓜果品質極高",
+            "紅旗河工程可引入西藏水資源灌溉南疆"
+          ],
+          "reasoning_chain": "隨著氣候變化和東部耕地減少，糧食安全日益重要。新疆有大片可開墾土地，缺的是水。若紅旗河或類似水利工程成功，南疆大片荒漠可變良田，新疆將從第十大產糧省躍升為中國糧倉。",
+          "speaker_conclusion": "新疆是中國未來糧食安全的最大潛力所在",
+          "confidence": "medium",
+          "action": "關注紅旗河等水利工程的進展"
+        },
+        {
+          "topic": "新疆作為歐亞大陸樞紐的地緣戰略價值",
+          "premise_facts": [
+            "中吉烏鐵路加速建設",
+            "喀什飛杜拜/伊朗僅4小時（比飛上海深圳更快）",
+            "阿克賽欽距新德里僅300-400公里",
+            "新疆與8個國家接壤"
+          ],
+          "reasoning_chain": "新疆的地理位置使其成為中國連接俄羅斯、中亞、南亞、中東和歐洲的陸路樞紐。中吉烏鐵路打開通往中亞的大門，中巴走廊通往阿拉伯海，喀什的4小時飛行圈覆蓋整個中東核心區。這條陸路軸線的戰略價值，隨著一帶一路推進只會越來越高。",
+          "speaker_conclusion": "新疆是中國陸權戰略的核心節點，重要性將持續上升",
+          "confidence": "high",
+          "action": "關注中亞鐵路和公路基建的推進速度"
+        }
+      ],
+      "stock_recommendations": [],
+      "notable_quotes": [
+        "新疆係大到無論嘅，如果你成個版圖上面去睇，佢有5個日本咁大。",
+        "新疆呢個名改得有啲衰，1757年打敗咗準噶爾汗國之後叫『新收復嘅疆土』，搞到好似好後來先有咁。其實漢唐時期已經管到呢度。",
+        "十幾年前我去烏魯木齊，啲人嘅眼神係好唔友善嘅；今次我去到喀什、和田，啲人嘅眼神係友善咗好多好多。",
+        "新疆嘅電平到痴線，民用電5、6分錢一度，工業用電2、3分，歐洲要幾蚊一度。",
+        "全球70%嘅人造鑽石而家喺新疆生產，因為佢用電量極大，新疆電費平到唔使錢咁滯。",
+        "中國表面上六七成天然氣入口，但背後最大嘅牌就係新疆。佢嘅能源自主我係極度有信心。",
+        "喀什飛杜拜、伊朗得四個鐘，快過去上海深圳，你就知呢個區有幾重要。",
+        "阿克賽欽距離印度首都新德里得三、四百公里，你如果用長程火箭炮射到㗎。",
+        "馬六甲對中國嘅威脅，當新疆嘅陸路通道打通之後，應該就唔使驚咯。",
+        "成個中亞嘅天然氣、石油都係經過新疆入嚟嘅，呢條係中國嘅能源生命線。"
+      ],
+      "source_lang": "zh-Hant",
+      "transcript_quality": {
+        "chars": 27940,
+        "lines": 594,
+        "excerpted": false
+      }
+    },
+    {
       "id": "ent-20260619-120000---qyEX-vUEE",
       "video_id": "--qyEX-vUEE",
       "title": "交棒後，價值投資變質？巴郡第一份成績表！新CEO擲100億加倉Google，手揸3970億現金等崩盤？",
@@ -21842,7 +22007,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 6
+      "entry_count": 5
     },
     {
       "id": "comp-18",
@@ -22146,7 +22311,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 2
+      "entry_count": 1
     },
     {
       "id": "comp-56",
@@ -22298,7 +22463,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 2
+      "entry_count": 1
     },
     {
       "id": "comp-75",
@@ -22746,7 +22911,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 4
+      "entry_count": 3
     },
     {
       "id": "comp-131",
@@ -22806,7 +22971,7 @@
     },
     {
       "id": "comp-138",
-      "name": "中國移動",
+      "name": "中吉烏鐵路",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -22814,6 +22979,14 @@
     },
     {
       "id": "comp-139",
+      "name": "中國移動",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-140",
       "name": "中海油",
       "ticker": "",
       "aliases": [],
@@ -22821,7 +22994,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-140",
+      "id": "comp-141",
       "name": "中興",
       "ticker": "",
       "aliases": [],
@@ -22829,7 +23002,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-141",
+      "id": "comp-142",
       "name": "中興通訊",
       "ticker": "",
       "aliases": [],
@@ -22837,7 +23010,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-142",
+      "id": "comp-143",
       "name": "中船服務",
       "ticker": "",
       "aliases": [],
@@ -22845,7 +23018,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-143",
+      "id": "comp-144",
       "name": "中芯國際",
       "ticker": "",
       "aliases": [],
@@ -22853,7 +23026,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-144",
+      "id": "comp-145",
       "name": "京东",
       "ticker": "",
       "aliases": [],
@@ -22861,7 +23034,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-145",
+      "id": "comp-146",
       "name": "京東",
       "ticker": "",
       "aliases": [],
@@ -22869,7 +23042,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-146",
+      "id": "comp-147",
       "name": "京東工業",
       "ticker": "",
       "aliases": [],
@@ -22877,7 +23050,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-147",
+      "id": "comp-148",
       "name": "伯克希爾哈撒韋",
       "ticker": "",
       "aliases": [],
@@ -22885,7 +23058,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-148",
+      "id": "comp-149",
       "name": "保利",
       "ticker": "",
       "aliases": [],
@@ -22893,7 +23066,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-149",
+      "id": "comp-150",
       "name": "信和置業",
       "ticker": "",
       "aliases": [],
@@ -22901,7 +23074,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-150",
+      "id": "comp-151",
       "name": "信諾美達",
       "ticker": "",
       "aliases": [],
@@ -22909,7 +23082,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-151",
+      "id": "comp-152",
       "name": "健身房",
       "ticker": "",
       "aliases": [],
@@ -22917,7 +23090,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-152",
+      "id": "comp-153",
       "name": "億和",
       "ticker": "",
       "aliases": [],
@@ -22925,7 +23098,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-153",
+      "id": "comp-154",
       "name": "匯豐",
       "ticker": "",
       "aliases": [],
@@ -22933,15 +23106,15 @@
       "entry_count": 2
     },
     {
-      "id": "comp-154",
+      "id": "comp-155",
       "name": "可口可樂 (Coca-Cola)",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 2
+      "entry_count": 1
     },
     {
-      "id": "comp-155",
+      "id": "comp-156",
       "name": "台積電",
       "ticker": "",
       "aliases": [],
@@ -22949,7 +23122,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-156",
+      "id": "comp-157",
       "name": "吉利",
       "ticker": "",
       "aliases": [],
@@ -22957,7 +23130,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-157",
+      "id": "comp-158",
       "name": "吉利汽車",
       "ticker": "",
       "aliases": [],
@@ -22965,7 +23138,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-158",
+      "id": "comp-159",
       "name": "大家樂",
       "ticker": "",
       "aliases": [],
@@ -22973,7 +23146,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-159",
+      "id": "comp-160",
       "name": "好孩子國際",
       "ticker": "",
       "aliases": [],
@@ -22981,7 +23154,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-160",
+      "id": "comp-161",
       "name": "字節跳動 (ByteDance)",
       "ticker": "",
       "aliases": [],
@@ -22989,7 +23162,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-161",
+      "id": "comp-162",
       "name": "宁德时代",
       "ticker": "",
       "aliases": [],
@@ -22997,7 +23170,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-162",
+      "id": "comp-163",
       "name": "寧德時代",
       "ticker": "",
       "aliases": [],
@@ -23005,7 +23178,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-163",
+      "id": "comp-164",
       "name": "寶騰 Proton",
       "ticker": "",
       "aliases": [],
@@ -23013,7 +23186,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-164",
+      "id": "comp-165",
       "name": "小米",
       "ticker": "",
       "aliases": [],
@@ -23021,7 +23194,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-165",
+      "id": "comp-166",
       "name": "小鵬",
       "ticker": "",
       "aliases": [],
@@ -23029,7 +23202,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-166",
+      "id": "comp-167",
       "name": "小鵬汽車",
       "ticker": "",
       "aliases": [],
@@ -23037,7 +23210,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-167",
+      "id": "comp-168",
       "name": "巴菲特",
       "ticker": "",
       "aliases": [],
@@ -23045,16 +23218,8 @@
       "entry_count": 1
     },
     {
-      "id": "comp-168",
-      "name": "巴郡 (Berkshire Hathaway)",
-      "ticker": "",
-      "aliases": [],
-      "sector_ids": [],
-      "entry_count": 2
-    },
-    {
       "id": "comp-169",
-      "name": "平醫",
+      "name": "巴郡 (Berkshire Hathaway)",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -23062,7 +23227,7 @@
     },
     {
       "id": "comp-170",
-      "name": "微軟",
+      "name": "平醫",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -23070,6 +23235,14 @@
     },
     {
       "id": "comp-171",
+      "name": "微軟",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-172",
       "name": "快手",
       "ticker": "",
       "aliases": [],
@@ -23077,7 +23250,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-172",
+      "id": "comp-173",
       "name": "快手 (1024)",
       "ticker": "",
       "aliases": [],
@@ -23085,7 +23258,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-173",
+      "id": "comp-174",
       "name": "恒基兆業",
       "ticker": "",
       "aliases": [],
@@ -23093,7 +23266,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-174",
+      "id": "comp-175",
       "name": "恒基地產",
       "ticker": "",
       "aliases": [],
@@ -23101,7 +23274,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-175",
+      "id": "comp-176",
       "name": "攜程",
       "ticker": "",
       "aliases": [],
@@ -23109,7 +23282,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-176",
+      "id": "comp-177",
       "name": "新希望集團",
       "ticker": "",
       "aliases": [],
@@ -23117,7 +23290,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-177",
+      "id": "comp-178",
       "name": "新鴻基地產",
       "ticker": "",
       "aliases": [],
@@ -23125,16 +23298,8 @@
       "entry_count": 2
     },
     {
-      "id": "comp-178",
-      "name": "日本五大商社",
-      "ticker": "",
-      "aliases": [],
-      "sector_ids": [],
-      "entry_count": 2
-    },
-    {
       "id": "comp-179",
-      "name": "智谱",
+      "name": "日本五大商社",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -23142,7 +23307,7 @@
     },
     {
       "id": "comp-180",
-      "name": "李成教授",
+      "name": "智谱",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -23150,7 +23315,7 @@
     },
     {
       "id": "comp-181",
-      "name": "東吳證券",
+      "name": "李成教授",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
@@ -23158,6 +23323,14 @@
     },
     {
       "id": "comp-182",
+      "name": "東吳證券",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-183",
       "name": "比亞迪",
       "ticker": "",
       "aliases": [],
@@ -23165,7 +23338,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-183",
+      "id": "comp-184",
       "name": "民生銀行",
       "ticker": "",
       "aliases": [],
@@ -23173,7 +23346,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-184",
+      "id": "comp-185",
       "name": "泡泡瑪特",
       "ticker": "",
       "aliases": [],
@@ -23181,7 +23354,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-185",
+      "id": "comp-186",
       "name": "津上機床",
       "ticker": "",
       "aliases": [],
@@ -23189,7 +23362,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-186",
+      "id": "comp-187",
       "name": "津上機床中國",
       "ticker": "",
       "aliases": [],
@@ -23197,7 +23370,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-187",
+      "id": "comp-188",
       "name": "津上精密機床（中國）",
       "ticker": "",
       "aliases": [],
@@ -23205,7 +23378,7 @@
       "entry_count": 3
     },
     {
-      "id": "comp-188",
+      "id": "comp-189",
       "name": "港交所",
       "ticker": "",
       "aliases": [],
@@ -23213,7 +23386,7 @@
       "entry_count": 4
     },
     {
-      "id": "comp-189",
+      "id": "comp-190",
       "name": "滴滴",
       "ticker": "",
       "aliases": [],
@@ -23221,7 +23394,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-190",
+      "id": "comp-191",
       "name": "理想汽車",
       "ticker": "",
       "aliases": [],
@@ -23229,7 +23402,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-191",
+      "id": "comp-192",
       "name": "甲酚",
       "ticker": "",
       "aliases": [],
@@ -23237,7 +23410,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-192",
+      "id": "comp-193",
       "name": "百度",
       "ticker": "",
       "aliases": [],
@@ -23245,7 +23418,7 @@
       "entry_count": 7
     },
     {
-      "id": "comp-193",
+      "id": "comp-194",
       "name": "精英匯集團 (01775.HK) — 林博士曾賣教育平台部分股權",
       "ticker": "",
       "aliases": [],
@@ -23253,7 +23426,15 @@
       "entry_count": 1
     },
     {
-      "id": "comp-194",
+      "id": "comp-195",
+      "name": "紅旗河工程",
+      "ticker": "",
+      "aliases": [],
+      "sector_ids": [],
+      "entry_count": 1
+    },
+    {
+      "id": "comp-196",
       "name": "美团",
       "ticker": "",
       "aliases": [],
@@ -23261,15 +23442,15 @@
       "entry_count": 1
     },
     {
-      "id": "comp-195",
+      "id": "comp-197",
       "name": "美國銀行 (Bank of America)",
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 2
+      "entry_count": 1
     },
     {
-      "id": "comp-196",
+      "id": "comp-198",
       "name": "美團",
       "ticker": "",
       "aliases": [],
@@ -23277,7 +23458,7 @@
       "entry_count": 11
     },
     {
-      "id": "comp-197",
+      "id": "comp-199",
       "name": "聯想",
       "ticker": "",
       "aliases": [],
@@ -23285,7 +23466,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-198",
+      "id": "comp-200",
       "name": "腾讯",
       "ticker": "",
       "aliases": [],
@@ -23293,7 +23474,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-199",
+      "id": "comp-201",
       "name": "艾財說",
       "ticker": "",
       "aliases": [],
@@ -23301,7 +23482,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-200",
+      "id": "comp-202",
       "name": "英偉達",
       "ticker": "",
       "aliases": [],
@@ -23309,7 +23490,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-201",
+      "id": "comp-203",
       "name": "英國工黨",
       "ticker": "",
       "aliases": [],
@@ -23317,7 +23498,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-202",
+      "id": "comp-204",
       "name": "英國政府",
       "ticker": "",
       "aliases": [],
@@ -23325,7 +23506,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-203",
+      "id": "comp-205",
       "name": "英諾賽科",
       "ticker": "",
       "aliases": [],
@@ -23333,7 +23514,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-204",
+      "id": "comp-206",
       "name": "華潤",
       "ticker": "",
       "aliases": [],
@@ -23341,7 +23522,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-205",
+      "id": "comp-207",
       "name": "華為",
       "ticker": "",
       "aliases": [],
@@ -23349,7 +23530,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-206",
+      "id": "comp-208",
       "name": "華為 (Huawei)",
       "ticker": "",
       "aliases": [],
@@ -23357,7 +23538,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-207",
+      "id": "comp-209",
       "name": "蘋果",
       "ticker": "",
       "aliases": [],
@@ -23365,7 +23546,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-208",
+      "id": "comp-210",
       "name": "螞蟻集團",
       "ticker": "",
       "aliases": [],
@@ -23373,7 +23554,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-209",
+      "id": "comp-211",
       "name": "補習社",
       "ticker": "",
       "aliases": [],
@@ -23381,7 +23562,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-210",
+      "id": "comp-212",
       "name": "通用電氣",
       "ticker": "",
       "aliases": [],
@@ -23389,7 +23570,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-211",
+      "id": "comp-213",
       "name": "遵理 (合作虛擬課室)",
       "ticker": "",
       "aliases": [],
@@ -23397,7 +23578,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-212",
+      "id": "comp-214",
       "name": "金管局",
       "ticker": "",
       "aliases": [],
@@ -23405,7 +23586,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-213",
+      "id": "comp-215",
       "name": "金茂",
       "ticker": "",
       "aliases": [],
@@ -23413,7 +23594,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-214",
+      "id": "comp-216",
       "name": "長實集團",
       "ticker": "",
       "aliases": [],
@@ -23421,7 +23602,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-215",
+      "id": "comp-217",
       "name": "阿裏巴巴",
       "ticker": "",
       "aliases": [],
@@ -23429,7 +23610,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-216",
+      "id": "comp-218",
       "name": "阿里",
       "ticker": "",
       "aliases": [],
@@ -23437,7 +23618,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-217",
+      "id": "comp-219",
       "name": "阿里巴巴",
       "ticker": "",
       "aliases": [],
@@ -23445,7 +23626,7 @@
       "entry_count": 20
     },
     {
-      "id": "comp-218",
+      "id": "comp-220",
       "name": "阿里巴巴 (BABA)",
       "ticker": "",
       "aliases": [],
@@ -23453,7 +23634,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-219",
+      "id": "comp-221",
       "name": "陽光電源",
       "ticker": "",
       "aliases": [],
@@ -23461,7 +23642,7 @@
       "entry_count": 2
     },
     {
-      "id": "comp-220",
+      "id": "comp-222",
       "name": "隆基",
       "ticker": "",
       "aliases": [],
@@ -23469,7 +23650,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-221",
+      "id": "comp-223",
       "name": "零得時代",
       "ticker": "",
       "aliases": [],
@@ -23477,7 +23658,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-222",
+      "id": "comp-224",
       "name": "順豐同城",
       "ticker": "",
       "aliases": [],
@@ -23485,7 +23666,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-223",
+      "id": "comp-225",
       "name": "領展",
       "ticker": "",
       "aliases": [],
@@ -23493,7 +23674,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-224",
+      "id": "comp-226",
       "name": "餐廳",
       "ticker": "",
       "aliases": [],
@@ -23501,7 +23682,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-225",
+      "id": "comp-227",
       "name": "香港地產發展商",
       "ticker": "",
       "aliases": [],
@@ -23509,7 +23690,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-226",
+      "id": "comp-228",
       "name": "騰訊",
       "ticker": "",
       "aliases": [],
@@ -23517,7 +23698,7 @@
       "entry_count": 20
     },
     {
-      "id": "comp-227",
+      "id": "comp-229",
       "name": "高盛",
       "ticker": "",
       "aliases": [],
@@ -23525,7 +23706,7 @@
       "entry_count": 1
     },
     {
-      "id": "comp-228",
+      "id": "comp-230",
       "name": "麥當奴",
       "ticker": "",
       "aliases": [],
@@ -23721,716 +23902,741 @@
     },
     {
       "id": "sector-38",
-      "name": "人才競爭",
+      "name": "交通運輸",
       "entry_count": 1
     },
     {
       "id": "sector-39",
-      "name": "住宅市場",
+      "name": "人才競爭",
       "entry_count": 1
     },
     {
       "id": "sector-40",
-      "name": "住宅樓市",
+      "name": "住宅市場",
       "entry_count": 1
     },
     {
       "id": "sector-41",
-      "name": "個人投資",
+      "name": "住宅樓市",
       "entry_count": 1
     },
     {
       "id": "sector-42",
-      "name": "債券",
+      "name": "個人投資",
       "entry_count": 1
     },
     {
       "id": "sector-43",
-      "name": "儲蓄",
+      "name": "債券",
       "entry_count": 1
     },
     {
       "id": "sector-44",
-      "name": "元宇宙/NFT (歷史案例)",
+      "name": "儲蓄",
       "entry_count": 1
     },
     {
       "id": "sector-45",
-      "name": "光模塊",
+      "name": "元宇宙/NFT (歷史案例)",
       "entry_count": 1
     },
     {
       "id": "sector-46",
-      "name": "全球Trillion Club",
+      "name": "光模塊",
       "entry_count": 1
     },
     {
       "id": "sector-47",
-      "name": "公用事業",
-      "entry_count": 2
+      "name": "光電",
+      "entry_count": 1
     },
     {
       "id": "sector-48",
-      "name": "出口貿易",
+      "name": "全球Trillion Club",
       "entry_count": 1
     },
     {
       "id": "sector-49",
-      "name": "利率",
-      "entry_count": 1
+      "name": "公用事業",
+      "entry_count": 2
     },
     {
       "id": "sector-50",
-      "name": "創新經濟 (0→1 vs 1→N)",
+      "name": "出口貿易",
       "entry_count": 1
     },
     {
       "id": "sector-51",
-      "name": "升空/商業航天",
+      "name": "利率",
       "entry_count": 1
     },
     {
       "id": "sector-52",
-      "name": "半導體",
-      "entry_count": 13
+      "name": "創新經濟 (0→1 vs 1→N)",
+      "entry_count": 1
     },
     {
       "id": "sector-53",
-      "name": "半導體/HBM",
+      "name": "升空/商業航天",
       "entry_count": 1
     },
     {
       "id": "sector-54",
+      "name": "半導體",
+      "entry_count": 13
+    },
+    {
+      "id": "sector-55",
+      "name": "半導體/HBM",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-56",
       "name": "半導體/內存",
       "entry_count": 1
     },
     {
-      "id": "sector-55",
+      "id": "sector-57",
       "name": "半導體/記憶體",
       "entry_count": 4
     },
     {
-      "id": "sector-56",
+      "id": "sector-58",
       "name": "半導體材料",
       "entry_count": 1
     },
     {
-      "id": "sector-57",
+      "id": "sector-59",
       "name": "半導體製造",
       "entry_count": 1
     },
     {
-      "id": "sector-58",
+      "id": "sector-60",
       "name": "南韓半導體",
       "entry_count": 1
     },
     {
-      "id": "sector-59",
+      "id": "sector-61",
       "name": "南韓科技",
       "entry_count": 1
     },
     {
-      "id": "sector-60",
+      "id": "sector-62",
       "name": "台股",
       "entry_count": 1
     },
     {
-      "id": "sector-61",
+      "id": "sector-63",
       "name": "商貿零售",
       "entry_count": 1
     },
     {
-      "id": "sector-62",
+      "id": "sector-64",
       "name": "國債",
       "entry_count": 1
     },
     {
-      "id": "sector-63",
+      "id": "sector-65",
       "name": "國防",
       "entry_count": 1
     },
     {
-      "id": "sector-64",
+      "id": "sector-66",
       "name": "國防/伊朗地緣",
       "entry_count": 1
     },
     {
-      "id": "sector-65",
+      "id": "sector-67",
       "name": "國際金融中心",
       "entry_count": 1
     },
     {
-      "id": "sector-66",
+      "id": "sector-68",
       "name": "地產",
       "entry_count": 7
     },
     {
-      "id": "sector-67",
+      "id": "sector-69",
       "name": "地緣政治",
-      "entry_count": 2
+      "entry_count": 3
     },
     {
-      "id": "sector-68",
+      "id": "sector-70",
+      "name": "基建",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-71",
       "name": "外匯",
       "entry_count": 1
     },
     {
-      "id": "sector-69",
+      "id": "sector-72",
       "name": "大宗供應鏈",
       "entry_count": 1
     },
     {
-      "id": "sector-70",
+      "id": "sector-73",
       "name": "太空科技",
       "entry_count": 2
     },
     {
-      "id": "sector-71",
+      "id": "sector-74",
       "name": "太空科技/SpaceX",
       "entry_count": 1
     },
     {
-      "id": "sector-72",
+      "id": "sector-75",
       "name": "太陽能光伏",
       "entry_count": 1
     },
     {
-      "id": "sector-73",
+      "id": "sector-76",
       "name": "央行政策",
       "entry_count": 1
     },
     {
-      "id": "sector-74",
+      "id": "sector-77",
       "name": "嬰童用品",
       "entry_count": 1
     },
     {
-      "id": "sector-75",
+      "id": "sector-78",
       "name": "宏觀",
       "entry_count": 2
     },
     {
-      "id": "sector-76",
+      "id": "sector-79",
       "name": "宏觀/債息",
       "entry_count": 1
     },
     {
-      "id": "sector-77",
+      "id": "sector-80",
       "name": "宏觀/聯儲局",
       "entry_count": 1
     },
     {
-      "id": "sector-78",
+      "id": "sector-81",
       "name": "宏觀經濟",
       "entry_count": 33
     },
     {
-      "id": "sector-79",
+      "id": "sector-82",
       "name": "定制 ASIC",
       "entry_count": 1
     },
     {
-      "id": "sector-80",
+      "id": "sector-83",
       "name": "宠物食品",
       "entry_count": 1
     },
     {
-      "id": "sector-81",
+      "id": "sector-84",
       "name": "家庭電器及用品",
       "entry_count": 1
     },
     {
-      "id": "sector-82",
+      "id": "sector-85",
       "name": "工業",
       "entry_count": 2
     },
     {
-      "id": "sector-83",
+      "id": "sector-86",
       "name": "工業機械",
       "entry_count": 1
     },
     {
-      "id": "sector-84",
+      "id": "sector-87",
       "name": "工業自動化",
       "entry_count": 1
     },
     {
-      "id": "sector-85",
+      "id": "sector-88",
       "name": "平台經濟",
       "entry_count": 1
     },
     {
-      "id": "sector-86",
+      "id": "sector-89",
       "name": "建築",
       "entry_count": 1
     },
     {
-      "id": "sector-87",
+      "id": "sector-90",
       "name": "房地產",
       "entry_count": 2
     },
     {
-      "id": "sector-88",
+      "id": "sector-91",
       "name": "投資哲學",
       "entry_count": 1
     },
     {
-      "id": "sector-89",
+      "id": "sector-92",
       "name": "投資工具",
       "entry_count": 1
     },
     {
-      "id": "sector-90",
+      "id": "sector-93",
       "name": "投資心理",
       "entry_count": 1
     },
     {
-      "id": "sector-91",
+      "id": "sector-94",
       "name": "投資策略",
       "entry_count": 5
     },
     {
-      "id": "sector-92",
+      "id": "sector-95",
       "name": "收息",
       "entry_count": 1
     },
     {
-      "id": "sector-93",
+      "id": "sector-96",
       "name": "政治風險",
       "entry_count": 1
     },
     {
-      "id": "sector-94",
+      "id": "sector-97",
       "name": "教育科技",
       "entry_count": 1
     },
     {
-      "id": "sector-95",
+      "id": "sector-98",
       "name": "數控工具機",
       "entry_count": 1
     },
     {
-      "id": "sector-96",
+      "id": "sector-99",
       "name": "數據中心",
       "entry_count": 1
     },
     {
-      "id": "sector-97",
+      "id": "sector-100",
       "name": "新能源",
       "entry_count": 1
     },
     {
-      "id": "sector-98",
+      "id": "sector-101",
       "name": "新能源車",
       "entry_count": 2
     },
     {
-      "id": "sector-99",
+      "id": "sector-102",
       "name": "旅遊景區",
       "entry_count": 1
     },
     {
-      "id": "sector-100",
+      "id": "sector-103",
       "name": "日股",
       "entry_count": 1
     },
     {
-      "id": "sector-101",
+      "id": "sector-104",
       "name": "晶片設備",
       "entry_count": 1
     },
     {
-      "id": "sector-102",
+      "id": "sector-105",
       "name": "東協市場",
       "entry_count": 1
     },
     {
-      "id": "sector-103",
+      "id": "sector-106",
       "name": "樓市",
       "entry_count": 2
     },
     {
-      "id": "sector-104",
+      "id": "sector-107",
       "name": "機械",
       "entry_count": 3
     },
     {
-      "id": "sector-105",
+      "id": "sector-108",
       "name": "汽車",
       "entry_count": 1
     },
     {
-      "id": "sector-106",
+      "id": "sector-109",
       "name": "汽車零部件",
       "entry_count": 1
     },
     {
-      "id": "sector-107",
+      "id": "sector-110",
       "name": "油氣",
       "entry_count": 1
     },
     {
-      "id": "sector-108",
+      "id": "sector-111",
       "name": "油氣/能源",
       "entry_count": 19
     },
     {
-      "id": "sector-109",
+      "id": "sector-112",
       "name": "流媒體",
       "entry_count": 1
     },
     {
-      "id": "sector-110",
+      "id": "sector-113",
       "name": "消費",
       "entry_count": 1
     },
     {
-      "id": "sector-111",
+      "id": "sector-114",
       "name": "消費出海",
       "entry_count": 1
     },
     {
-      "id": "sector-112",
+      "id": "sector-115",
       "name": "消費品",
-      "entry_count": 3
+      "entry_count": 2
     },
     {
-      "id": "sector-113",
+      "id": "sector-116",
       "name": "消費品/煙草",
       "entry_count": 1
     },
     {
-      "id": "sector-114",
+      "id": "sector-117",
       "name": "消費必需",
       "entry_count": 1
     },
     {
-      "id": "sector-115",
+      "id": "sector-118",
       "name": "消費零售/中國經濟",
       "entry_count": 1
     },
     {
-      "id": "sector-116",
+      "id": "sector-119",
       "name": "港樓",
       "entry_count": 1
     },
     {
-      "id": "sector-117",
+      "id": "sector-120",
       "name": "港股",
       "entry_count": 11
     },
     {
-      "id": "sector-118",
+      "id": "sector-121",
       "name": "港股/中概股",
       "entry_count": 1
     },
     {
-      "id": "sector-119",
+      "id": "sector-122",
       "name": "潮玩 IP",
       "entry_count": 1
     },
     {
-      "id": "sector-120",
+      "id": "sector-123",
       "name": "無人機",
       "entry_count": 1
     },
     {
-      "id": "sector-121",
+      "id": "sector-124",
       "name": "煙草",
       "entry_count": 8
     },
     {
-      "id": "sector-122",
+      "id": "sector-125",
       "name": "生物科技/GLP-1",
       "entry_count": 1
     },
     {
-      "id": "sector-123",
+      "id": "sector-126",
       "name": "社區服務",
       "entry_count": 1
     },
     {
-      "id": "sector-124",
+      "id": "sector-127",
       "name": "私募信貸",
       "entry_count": 2
     },
     {
-      "id": "sector-125",
+      "id": "sector-128",
       "name": "科技",
       "entry_count": 35
     },
     {
-      "id": "sector-126",
+      "id": "sector-129",
       "name": "科技/AI",
       "entry_count": 3
     },
     {
-      "id": "sector-127",
-      "name": "科技股",
-      "entry_count": 3
-    },
-    {
-      "id": "sector-128",
-      "name": "精密機床",
-      "entry_count": 1
-    },
-    {
-      "id": "sector-129",
-      "name": "精密製造",
-      "entry_count": 2
-    },
-    {
       "id": "sector-130",
-      "name": "綜合企業",
+      "name": "科技股",
       "entry_count": 2
     },
     {
       "id": "sector-131",
-      "name": "網絡安全",
+      "name": "精密機床",
       "entry_count": 1
     },
     {
       "id": "sector-132",
-      "name": "美債",
-      "entry_count": 3
+      "name": "精密製造",
+      "entry_count": 2
     },
     {
       "id": "sector-133",
-      "name": "美股",
-      "entry_count": 14
+      "name": "糧食農業",
+      "entry_count": 1
     },
     {
       "id": "sector-134",
-      "name": "美股估值",
+      "name": "綜合企業",
       "entry_count": 1
     },
     {
       "id": "sector-135",
-      "name": "聯儲局",
+      "name": "網絡安全",
       "entry_count": 1
     },
     {
       "id": "sector-136",
+      "name": "美債",
+      "entry_count": 3
+    },
+    {
+      "id": "sector-137",
+      "name": "美股",
+      "entry_count": 14
+    },
+    {
+      "id": "sector-138",
+      "name": "美股估值",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-139",
+      "name": "聯儲局",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-140",
       "name": "聯儲局/中央銀行",
       "entry_count": 1
     },
     {
-      "id": "sector-137",
+      "id": "sector-141",
       "name": "股票/A股",
       "entry_count": 4
     },
     {
-      "id": "sector-138",
+      "id": "sector-142",
       "name": "股票/港股",
       "entry_count": 28
     },
     {
-      "id": "sector-139",
+      "id": "sector-143",
       "name": "股票/美股",
       "entry_count": 3
     },
     {
-      "id": "sector-140",
+      "id": "sector-144",
       "name": "股票/能源",
       "entry_count": 1
     },
     {
-      "id": "sector-141",
+      "id": "sector-145",
       "name": "股票/黃金",
       "entry_count": 1
     },
     {
-      "id": "sector-142",
+      "id": "sector-146",
       "name": "能源",
-      "entry_count": 4
+      "entry_count": 5
     },
     {
-      "id": "sector-143",
+      "id": "sector-147",
       "name": "能源 (太空太陽能)",
       "entry_count": 1
     },
     {
-      "id": "sector-144",
+      "id": "sector-148",
       "name": "能源/油價",
       "entry_count": 1
     },
     {
-      "id": "sector-145",
+      "id": "sector-149",
       "name": "航天 / 私人航天",
       "entry_count": 1
     },
     {
-      "id": "sector-146",
-      "name": "航空",
-      "entry_count": 2
-    },
-    {
-      "id": "sector-147",
-      "name": "芯片製造",
-      "entry_count": 1
-    },
-    {
-      "id": "sector-148",
-      "name": "英國市場",
-      "entry_count": 1
-    },
-    {
-      "id": "sector-149",
-      "name": "衛星通訊",
-      "entry_count": 1
-    },
-    {
       "id": "sector-150",
-      "name": "被動收入",
+      "name": "航空",
       "entry_count": 1
     },
     {
       "id": "sector-151",
-      "name": "記憶體",
+      "name": "芯片製造",
       "entry_count": 1
     },
     {
       "id": "sector-152",
-      "name": "記憶體/半導體",
+      "name": "英國市場",
       "entry_count": 1
     },
     {
       "id": "sector-153",
-      "name": "資本帳管制",
+      "name": "衛星通訊",
       "entry_count": 1
     },
     {
       "id": "sector-154",
-      "name": "資本管制/金融開放",
+      "name": "被動收入",
       "entry_count": 1
     },
     {
       "id": "sector-155",
-      "name": "資產配置",
-      "entry_count": 2
+      "name": "記憶體",
+      "entry_count": 1
     },
     {
       "id": "sector-156",
-      "name": "軟件",
-      "entry_count": 2
+      "name": "記憶體/半導體",
+      "entry_count": 1
     },
     {
       "id": "sector-157",
-      "name": "軟件行業",
-      "entry_count": 2
+      "name": "資本帳管制",
+      "entry_count": 1
     },
     {
       "id": "sector-158",
-      "name": "通訊衛星/Starlink",
+      "name": "資本管制/金融開放",
       "entry_count": 1
     },
     {
       "id": "sector-159",
-      "name": "醫美化妝品",
-      "entry_count": 1
+      "name": "資產配置",
+      "entry_count": 2
     },
     {
       "id": "sector-160",
-      "name": "金融",
-      "entry_count": 23
+      "name": "軟件",
+      "entry_count": 2
     },
     {
       "id": "sector-161",
-      "name": "金融服務",
-      "entry_count": 6
+      "name": "軟件行業",
+      "entry_count": 2
     },
     {
       "id": "sector-162",
-      "name": "金融科技",
+      "name": "通訊衛星/Starlink",
       "entry_count": 1
     },
     {
       "id": "sector-163",
-      "name": "鋰電池",
+      "name": "醫美化妝品",
       "entry_count": 1
     },
     {
       "id": "sector-164",
-      "name": "零售",
-      "entry_count": 1
+      "name": "金融",
+      "entry_count": 23
     },
     {
       "id": "sector-165",
-      "name": "電力",
-      "entry_count": 1
+      "name": "金融服務",
+      "entry_count": 5
     },
     {
       "id": "sector-166",
-      "name": "電動車",
+      "name": "金融科技",
       "entry_count": 1
     },
     {
       "id": "sector-167",
-      "name": "電商",
+      "name": "鋰電池",
       "entry_count": 1
     },
     {
       "id": "sector-168",
-      "name": "電池技術",
+      "name": "零售",
       "entry_count": 1
     },
     {
       "id": "sector-169",
-      "name": "韓股",
+      "name": "電力",
       "entry_count": 1
     },
     {
       "id": "sector-170",
-      "name": "風險管理",
-      "entry_count": 2
+      "name": "電動車",
+      "entry_count": 1
     },
     {
       "id": "sector-171",
-      "name": "餐飲",
+      "name": "電商",
       "entry_count": 1
     },
     {
       "id": "sector-172",
-      "name": "香港地產",
-      "entry_count": 2
+      "name": "電池技術",
+      "entry_count": 1
     },
     {
       "id": "sector-173",
-      "name": "香港地產股/收租股",
+      "name": "韓股",
       "entry_count": 1
     },
     {
       "id": "sector-174",
-      "name": "香港宏觀經濟",
-      "entry_count": 1
+      "name": "風險管理",
+      "entry_count": 2
     },
     {
       "id": "sector-175",
-      "name": "香港房地產",
+      "name": "風電",
       "entry_count": 1
     },
     {
       "id": "sector-176",
-      "name": "香港樓市",
+      "name": "餐飲",
       "entry_count": 1
     },
     {
       "id": "sector-177",
+      "name": "香港地產",
+      "entry_count": 2
+    },
+    {
+      "id": "sector-178",
+      "name": "香港地產股/收租股",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-179",
+      "name": "香港宏觀經濟",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-180",
+      "name": "香港房地產",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-181",
+      "name": "香港樓市",
+      "entry_count": 1
+    },
+    {
+      "id": "sector-182",
       "name": "高息收息股",
       "entry_count": 1
     },
     {
-      "id": "sector-178",
+      "id": "sector-183",
       "name": "高端裝備",
       "entry_count": 3
     },
     {
-      "id": "sector-179",
+      "id": "sector-184",
       "name": "黃金",
       "entry_count": 3
     },
     {
-      "id": "sector-180",
+      "id": "sector-185",
       "name": "黃金珠宝",
       "entry_count": 1
     }
@@ -24808,1281 +25014,1311 @@
     },
     {
       "id": "theme-75",
-      "name": "一潭死水樓市",
+      "name": "一帶一路陸路戰略",
       "entry_count": 1
     },
     {
       "id": "theme-76",
-      "name": "三階段金融中心",
+      "name": "一潭死水樓市",
       "entry_count": 1
     },
     {
       "id": "theme-77",
-      "name": "中國 600+ 太空民企內捲",
+      "name": "三階段金融中心",
       "entry_count": 1
     },
     {
       "id": "theme-78",
-      "name": "中國出口去美國化",
+      "name": "中亞地緣政治",
       "entry_count": 1
     },
     {
       "id": "theme-79",
-      "name": "中國半導體追趕",
+      "name": "中國 600+ 太空民企內捲",
       "entry_count": 1
     },
     {
       "id": "theme-80",
-      "name": "中國嚴控資本出口",
+      "name": "中國出口去美國化",
       "entry_count": 1
     },
     {
       "id": "theme-81",
-      "name": "中國國企記憶體巨頭IPO",
+      "name": "中國半導體追趕",
       "entry_count": 1
     },
     {
       "id": "theme-82",
-      "name": "中國宏觀放緩",
+      "name": "中國嚴控資本出口",
       "entry_count": 1
     },
     {
       "id": "theme-83",
-      "name": "中國政府用「取消補貼」處理內捲",
+      "name": "中國國企記憶體巨頭IPO",
       "entry_count": 1
     },
     {
       "id": "theme-84",
-      "name": "中國製造升級",
+      "name": "中國宏觀放緩",
       "entry_count": 1
     },
     {
       "id": "theme-85",
-      "name": "中國製造業升級",
-      "entry_count": 3
+      "name": "中國政府用「取消補貼」處理內捲",
+      "entry_count": 1
     },
     {
       "id": "theme-86",
-      "name": "中東局勢",
+      "name": "中國能源自主",
       "entry_count": 1
     },
     {
       "id": "theme-87",
-      "name": "中東局勢與油價",
+      "name": "中國製造升級",
       "entry_count": 1
     },
     {
       "id": "theme-88",
-      "name": "中東油價博弈",
-      "entry_count": 1
+      "name": "中國製造業升級",
+      "entry_count": 3
     },
     {
       "id": "theme-89",
-      "name": "中東資金",
+      "name": "中東局勢",
       "entry_count": 1
     },
     {
       "id": "theme-90",
-      "name": "中港科技",
+      "name": "中東局勢與油價",
       "entry_count": 1
     },
     {
       "id": "theme-91",
-      "name": "中美 4 次峰會框架",
+      "name": "中東油價博弈",
       "entry_count": 1
     },
     {
       "id": "theme-92",
-      "name": "中美人才競爭",
+      "name": "中東資金",
       "entry_count": 1
     },
     {
       "id": "theme-93",
-      "name": "中美關係",
-      "entry_count": 2
+      "name": "中港科技",
+      "entry_count": 1
     },
     {
       "id": "theme-94",
-      "name": "二手市場",
+      "name": "中美 4 次峰會框架",
       "entry_count": 1
     },
     {
       "id": "theme-95",
-      "name": "人工智能硬件",
+      "name": "中美人才競爭",
       "entry_count": 1
     },
     {
       "id": "theme-96",
-      "name": "人工智能硬件基礎設施",
-      "entry_count": 1
+      "name": "中美關係",
+      "entry_count": 2
     },
     {
       "id": "theme-97",
-      "name": "人形機器人",
-      "entry_count": 5
+      "name": "二手市場",
+      "entry_count": 1
     },
     {
       "id": "theme-98",
-      "name": "人性",
+      "name": "人工智能硬件",
       "entry_count": 1
     },
     {
       "id": "theme-99",
-      "name": "人民幣",
+      "name": "人工智能硬件基礎設施",
       "entry_count": 1
     },
     {
       "id": "theme-100",
-      "name": "人生階段投資",
-      "entry_count": 1
+      "name": "人形機器人",
+      "entry_count": 5
     },
     {
       "id": "theme-101",
-      "name": "企業夢想天花板",
+      "name": "人性",
       "entry_count": 1
     },
     {
       "id": "theme-102",
-      "name": "企業變革",
+      "name": "人民幣",
       "entry_count": 1
     },
     {
       "id": "theme-103",
-      "name": "伊朗以色列",
+      "name": "人生階段投資",
       "entry_count": 1
     },
     {
       "id": "theme-104",
-      "name": "伊朗停火倒退",
+      "name": "企業夢想天花板",
       "entry_count": 1
     },
     {
       "id": "theme-105",
-      "name": "估值",
-      "entry_count": 4
+      "name": "企業變革",
+      "entry_count": 1
     },
     {
       "id": "theme-106",
-      "name": "住宅市道",
-      "entry_count": 2
+      "name": "伊朗以色列",
+      "entry_count": 1
     },
     {
       "id": "theme-107",
-      "name": "供應過剩",
+      "name": "伊朗停火倒退",
       "entry_count": 1
     },
     {
       "id": "theme-108",
-      "name": "信貸危機",
-      "entry_count": 1
+      "name": "估值",
+      "entry_count": 4
     },
     {
       "id": "theme-109",
-      "name": "倉位管理",
-      "entry_count": 11
+      "name": "住宅市道",
+      "entry_count": 2
     },
     {
       "id": "theme-110",
-      "name": "倉位輪動",
+      "name": "供應過剩",
       "entry_count": 1
     },
     {
       "id": "theme-111",
-      "name": "債券 vs 物業配置",
+      "name": "信貸危機",
       "entry_count": 1
     },
     {
       "id": "theme-112",
-      "name": "債務上限",
-      "entry_count": 1
+      "name": "倉位管理",
+      "entry_count": 11
     },
     {
       "id": "theme-113",
-      "name": "債息倒掛",
+      "name": "倉位輪動",
       "entry_count": 1
     },
     {
       "id": "theme-114",
-      "name": "價值投資",
-      "entry_count": 5
+      "name": "債券 vs 物業配置",
+      "entry_count": 1
     },
     {
       "id": "theme-115",
-      "name": "價值投資vs增長投資",
+      "name": "債務上限",
       "entry_count": 1
     },
     {
       "id": "theme-116",
-      "name": "價值投資進化",
-      "entry_count": 2
-    },
-    {
-      "id": "theme-117",
-      "name": "儲蓄",
+      "name": "債息倒掛",
       "entry_count": 1
     },
     {
+      "id": "theme-117",
+      "name": "價值投資",
+      "entry_count": 5
+    },
+    {
       "id": "theme-118",
-      "name": "光纖/光通信",
+      "name": "價值投資vs增長投資",
       "entry_count": 1
     },
     {
       "id": "theme-119",
-      "name": "內地買家",
-      "entry_count": 2
+      "name": "價值投資進化",
+      "entry_count": 1
     },
     {
       "id": "theme-120",
-      "name": "內存股",
+      "name": "儲蓄",
       "entry_count": 1
     },
     {
       "id": "theme-121",
-      "name": "內房",
+      "name": "光纖/光通信",
       "entry_count": 1
     },
     {
       "id": "theme-122",
-      "name": "全球IPO吸水潮",
-      "entry_count": 1
+      "name": "內地買家",
+      "entry_count": 2
     },
     {
       "id": "theme-123",
-      "name": "全產業鏈競爭（連和尚都頂爛市）",
+      "name": "內存股",
       "entry_count": 1
     },
     {
       "id": "theme-124",
-      "name": "全職交易策略",
+      "name": "內房",
       "entry_count": 1
     },
     {
       "id": "theme-125",
-      "name": "公平 vs 效率",
+      "name": "全球IPO吸水潮",
       "entry_count": 1
     },
     {
       "id": "theme-126",
-      "name": "具身機器人",
+      "name": "全產業鏈競爭（連和尚都頂爛市）",
       "entry_count": 1
     },
     {
       "id": "theme-127",
-      "name": "分紅回報",
+      "name": "全職交易策略",
       "entry_count": 1
     },
     {
       "id": "theme-128",
-      "name": "利率",
-      "entry_count": 3
+      "name": "公平 vs 效率",
+      "entry_count": 1
     },
     {
       "id": "theme-129",
-      "name": "劃時代科技突破",
+      "name": "具身機器人",
       "entry_count": 1
     },
     {
       "id": "theme-130",
-      "name": "加息預期",
+      "name": "分紅回報",
       "entry_count": 1
     },
     {
       "id": "theme-131",
-      "name": "北上消費",
-      "entry_count": 1
+      "name": "利率",
+      "entry_count": 3
     },
     {
       "id": "theme-132",
-      "name": "北京不對台動武三大原因",
+      "name": "劃時代科技突破",
       "entry_count": 1
     },
     {
       "id": "theme-133",
-      "name": "匯率",
+      "name": "加息預期",
       "entry_count": 1
     },
     {
       "id": "theme-134",
-      "name": "半導體",
-      "entry_count": 3
+      "name": "北上消費",
+      "entry_count": 1
     },
     {
       "id": "theme-135",
-      "name": "半導體產業鏈",
+      "name": "北京不對台動武三大原因",
       "entry_count": 1
     },
     {
       "id": "theme-136",
-      "name": "南韓半導體",
+      "name": "匯率",
       "entry_count": 1
     },
     {
       "id": "theme-137",
-      "name": "印度 NIFTY 國運級優勝",
-      "entry_count": 1
+      "name": "半導體",
+      "entry_count": 3
     },
     {
       "id": "theme-138",
-      "name": "去美元化",
-      "entry_count": 2
+      "name": "半導體產業鏈",
+      "entry_count": 1
     },
     {
       "id": "theme-139",
-      "name": "反內卷",
+      "name": "南韓半導體",
       "entry_count": 1
     },
     {
       "id": "theme-140",
-      "name": "台灣快樂指數",
+      "name": "印度 NIFTY 國運級優勝",
       "entry_count": 1
     },
     {
       "id": "theme-141",
-      "name": "史上最大IPO",
-      "entry_count": 1
+      "name": "去美元化",
+      "entry_count": 2
     },
     {
       "id": "theme-142",
-      "name": "同城化",
+      "name": "反內卷",
       "entry_count": 1
     },
     {
       "id": "theme-143",
-      "name": "品牌全球化",
+      "name": "台灣快樂指數",
       "entry_count": 1
     },
     {
       "id": "theme-144",
-      "name": "品牌升級",
+      "name": "史上最大IPO",
       "entry_count": 1
     },
     {
       "id": "theme-145",
-      "name": "回購",
+      "name": "同城化",
       "entry_count": 1
     },
     {
       "id": "theme-146",
-      "name": "國補政策",
+      "name": "品牌全球化",
       "entry_count": 1
     },
     {
       "id": "theme-147",
-      "name": "地產",
+      "name": "品牌升級",
       "entry_count": 1
     },
     {
       "id": "theme-148",
-      "name": "地緣和平",
+      "name": "回購",
       "entry_count": 1
     },
     {
       "id": "theme-149",
-      "name": "地緣政治",
-      "entry_count": 18
+      "name": "國補政策",
+      "entry_count": 1
     },
     {
       "id": "theme-150",
-      "name": "地緣政治與半導體",
+      "name": "地產",
       "entry_count": 1
     },
     {
       "id": "theme-151",
-      "name": "地緣政治避險",
+      "name": "地緣和平",
       "entry_count": 1
     },
     {
       "id": "theme-152",
-      "name": "增長vs價值",
-      "entry_count": 2
+      "name": "地緣政治",
+      "entry_count": 18
     },
     {
       "id": "theme-153",
-      "name": "夏普比率",
+      "name": "地緣政治與半導體",
       "entry_count": 1
     },
     {
       "id": "theme-154",
-      "name": "大宗商貿拐點",
+      "name": "地緣政治避險",
       "entry_count": 1
     },
     {
       "id": "theme-155",
-      "name": "大牛市",
+      "name": "增長vs價值",
       "entry_count": 1
     },
     {
       "id": "theme-156",
-      "name": "太空經濟",
+      "name": "夏普比率",
       "entry_count": 1
     },
     {
       "id": "theme-157",
-      "name": "太陽能內捲外溢",
+      "name": "大宗商貿拐點",
       "entry_count": 1
     },
     {
       "id": "theme-158",
-      "name": "失業率",
+      "name": "大牛市",
       "entry_count": 1
     },
     {
       "id": "theme-159",
-      "name": "嬰童耐用品",
+      "name": "太空經濟",
       "entry_count": 1
     },
     {
       "id": "theme-160",
-      "name": "安全邊際",
+      "name": "太陽能內捲外溢",
       "entry_count": 1
     },
     {
       "id": "theme-161",
-      "name": "宏觀分析",
-      "entry_count": 3
+      "name": "失業率",
+      "entry_count": 1
     },
     {
       "id": "theme-162",
-      "name": "宏觀利率",
+      "name": "嬰童耐用品",
       "entry_count": 1
     },
     {
       "id": "theme-163",
-      "name": "宏觀對沖",
+      "name": "安全邊際",
       "entry_count": 1
     },
     {
       "id": "theme-164",
-      "name": "宏觀經濟",
-      "entry_count": 9
+      "name": "宏觀分析",
+      "entry_count": 3
     },
     {
       "id": "theme-165",
-      "name": "定價權",
+      "name": "宏觀利率",
       "entry_count": 1
     },
     {
       "id": "theme-166",
-      "name": "實質利率",
+      "name": "宏觀對沖",
       "entry_count": 1
     },
     {
       "id": "theme-167",
-      "name": "對華關稅",
-      "entry_count": 1
+      "name": "宏觀經濟",
+      "entry_count": 9
     },
     {
       "id": "theme-168",
-      "name": "崩盤風險",
+      "name": "定價權",
       "entry_count": 1
     },
     {
       "id": "theme-169",
-      "name": "工具機",
+      "name": "實質利率",
       "entry_count": 1
     },
     {
       "id": "theme-170",
+      "name": "對華關稅",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-171",
+      "name": "崩盤風險",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-172",
+      "name": "工具機",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-173",
       "name": "巴菲特",
       "entry_count": 2
     },
     {
-      "id": "theme-171",
-      "name": "巴菲特交棒",
-      "entry_count": 2
-    },
-    {
-      "id": "theme-172",
-      "name": "巴郡資產配置",
-      "entry_count": 2
-    },
-    {
-      "id": "theme-173",
-      "name": "市場市寬",
-      "entry_count": 1
-    },
-    {
       "id": "theme-174",
-      "name": "市場心理",
+      "name": "巴菲特交棒",
       "entry_count": 1
     },
     {
       "id": "theme-175",
-      "name": "市場情緒",
-      "entry_count": 5
+      "name": "巴郡資產配置",
+      "entry_count": 1
     },
     {
       "id": "theme-176",
-      "name": "市場調整應對",
+      "name": "市場市寬",
       "entry_count": 1
     },
     {
       "id": "theme-177",
-      "name": "平台經濟",
-      "entry_count": 3
-    },
-    {
-      "id": "theme-178",
-      "name": "平台股",
+      "name": "市場心理",
       "entry_count": 1
     },
     {
+      "id": "theme-178",
+      "name": "市場情緒",
+      "entry_count": 5
+    },
+    {
       "id": "theme-179",
-      "name": "微型精密製造",
+      "name": "市場調整應對",
       "entry_count": 1
     },
     {
       "id": "theme-180",
-      "name": "慢牛港股",
-      "entry_count": 1
+      "name": "平台經濟",
+      "entry_count": 3
     },
     {
       "id": "theme-181",
-      "name": "戰爭風險",
+      "name": "平台股",
       "entry_count": 1
     },
     {
       "id": "theme-182",
+      "name": "微型精密製造",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-183",
+      "name": "慢牛港股",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-184",
+      "name": "戰爭風險",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-185",
       "name": "技術分析",
       "entry_count": 3
     },
     {
-      "id": "theme-183",
+      "id": "theme-186",
       "name": "投資心理",
       "entry_count": 6
     },
     {
-      "id": "theme-184",
+      "id": "theme-187",
       "name": "投資策略",
       "entry_count": 38
     },
     {
-      "id": "theme-185",
+      "id": "theme-188",
       "name": "投資紀律",
       "entry_count": 2
     },
     {
-      "id": "theme-186",
+      "id": "theme-189",
       "name": "投資紀律與自己睇法",
       "entry_count": 1
     },
     {
-      "id": "theme-187",
+      "id": "theme-190",
       "name": "投資評級",
       "entry_count": 1
     },
     {
-      "id": "theme-188",
+      "id": "theme-191",
       "name": "投資風險",
       "entry_count": 15
     },
     {
-      "id": "theme-189",
+      "id": "theme-192",
       "name": "持倉分享",
       "entry_count": 1
     },
     {
-      "id": "theme-190",
+      "id": "theme-193",
       "name": "指數結構",
       "entry_count": 1
     },
     {
-      "id": "theme-191",
+      "id": "theme-194",
       "name": "收益率曲線",
       "entry_count": 1
     },
     {
-      "id": "theme-192",
+      "id": "theme-195",
       "name": "政治風險",
       "entry_count": 1
     },
     {
-      "id": "theme-193",
+      "id": "theme-196",
       "name": "散戶狂熱 vs 基本因素",
       "entry_count": 1
     },
     {
-      "id": "theme-194",
+      "id": "theme-197",
       "name": "新消費",
       "entry_count": 1
     },
     {
-      "id": "theme-195",
-      "name": "新能源汽車供應鏈",
-      "entry_count": 1
-    },
-    {
-      "id": "theme-196",
-      "name": "新能源汽車產業鏈",
-      "entry_count": 1
-    },
-    {
-      "id": "theme-197",
-      "name": "新能源汽車零部件",
-      "entry_count": 1
-    },
-    {
       "id": "theme-198",
-      "name": "新能源車",
+      "name": "新疆經濟發展",
       "entry_count": 1
     },
     {
       "id": "theme-199",
-      "name": "日經",
+      "name": "新能源汽車供應鏈",
       "entry_count": 1
     },
     {
       "id": "theme-200",
-      "name": "月供VOO",
+      "name": "新能源汽車產業鏈",
       "entry_count": 1
     },
     {
       "id": "theme-201",
-      "name": "月結",
+      "name": "新能源汽車零部件",
       "entry_count": 1
     },
     {
       "id": "theme-202",
-      "name": "期權",
+      "name": "新能源車",
       "entry_count": 1
     },
     {
       "id": "theme-203",
-      "name": "期權交易",
+      "name": "日經",
       "entry_count": 1
     },
     {
       "id": "theme-204",
-      "name": "末日論",
+      "name": "月供VOO",
       "entry_count": 1
     },
     {
       "id": "theme-205",
-      "name": "本金管理",
+      "name": "月結",
       "entry_count": 1
     },
     {
       "id": "theme-206",
-      "name": "東亞安全",
+      "name": "期權",
       "entry_count": 1
     },
     {
       "id": "theme-207",
-      "name": "東北亞半導體地緣政治",
+      "name": "期權交易",
       "entry_count": 1
     },
     {
       "id": "theme-208",
-      "name": "業績",
+      "name": "末日論",
       "entry_count": 1
     },
     {
       "id": "theme-209",
-      "name": "槓桿風險",
-      "entry_count": 2
+      "name": "本金管理",
+      "entry_count": 1
     },
     {
       "id": "theme-210",
-      "name": "樓價走勢",
-      "entry_count": 2
+      "name": "東亞安全",
+      "entry_count": 1
     },
     {
       "id": "theme-211",
-      "name": "樓市",
+      "name": "東北亞半導體地緣政治",
       "entry_count": 1
     },
     {
       "id": "theme-212",
-      "name": "樓市周期",
+      "name": "業績",
       "entry_count": 1
     },
     {
       "id": "theme-213",
-      "name": "樓市調整",
-      "entry_count": 1
+      "name": "槓桿風險",
+      "entry_count": 2
     },
     {
       "id": "theme-214",
-      "name": "機構vs散戶",
-      "entry_count": 1
+      "name": "樓價走勢",
+      "entry_count": 2
     },
     {
       "id": "theme-215",
-      "name": "止損紀律",
+      "name": "樓市",
       "entry_count": 1
     },
     {
       "id": "theme-216",
-      "name": "止蝕紀律",
-      "entry_count": 9
+      "name": "樓市周期",
+      "entry_count": 1
     },
     {
       "id": "theme-217",
-      "name": "正版AI vs 概念股",
+      "name": "樓市調整",
       "entry_count": 1
     },
     {
       "id": "theme-218",
-      "name": "比特幣",
-      "entry_count": 2
+      "name": "機構vs散戶",
+      "entry_count": 1
     },
     {
       "id": "theme-219",
-      "name": "汽車電動化",
+      "name": "止損紀律",
       "entry_count": 1
     },
     {
       "id": "theme-220",
-      "name": "油價",
-      "entry_count": 10
+      "name": "止蝕紀律",
+      "entry_count": 9
     },
     {
       "id": "theme-221",
-      "name": "沽空工具選擇",
+      "name": "正版AI vs 概念股",
       "entry_count": 1
     },
     {
       "id": "theme-222",
-      "name": "波幅擴大",
-      "entry_count": 1
+      "name": "比特幣",
+      "entry_count": 2
     },
     {
       "id": "theme-223",
-      "name": "波段操作",
+      "name": "汽車電動化",
       "entry_count": 1
     },
     {
       "id": "theme-224",
-      "name": "流動性",
-      "entry_count": 2
+      "name": "油價",
+      "entry_count": 10
     },
     {
       "id": "theme-225",
-      "name": "流動性危機",
-      "entry_count": 2
+      "name": "沽空工具選擇",
+      "entry_count": 1
     },
     {
       "id": "theme-226",
-      "name": "海外中國錢回流",
+      "name": "波幅擴大",
       "entry_count": 1
     },
     {
       "id": "theme-227",
-      "name": "消費出海",
+      "name": "波段操作",
       "entry_count": 1
     },
     {
       "id": "theme-228",
-      "name": "液冷散熱",
-      "entry_count": 1
+      "name": "流動性",
+      "entry_count": 2
     },
     {
       "id": "theme-229",
-      "name": "清談",
-      "entry_count": 1
+      "name": "流動性危機",
+      "entry_count": 2
     },
     {
       "id": "theme-230",
-      "name": "減息",
+      "name": "海外中國錢回流",
       "entry_count": 1
     },
     {
       "id": "theme-231",
-      "name": "港交所",
+      "name": "消費出海",
       "entry_count": 1
     },
     {
       "id": "theme-232",
-      "name": "港樓",
+      "name": "液冷散熱",
       "entry_count": 1
     },
     {
       "id": "theme-233",
-      "name": "港股",
-      "entry_count": 20
+      "name": "清談",
+      "entry_count": 1
     },
     {
       "id": "theme-234",
-      "name": "港股弱勢",
+      "name": "減息",
       "entry_count": 1
     },
     {
       "id": "theme-235",
-      "name": "港股業績",
+      "name": "港交所",
       "entry_count": 1
     },
     {
       "id": "theme-236",
-      "name": "港股消費股",
+      "name": "港樓",
       "entry_count": 1
     },
     {
       "id": "theme-237",
-      "name": "港股策略",
-      "entry_count": 2
+      "name": "港股",
+      "entry_count": 20
     },
     {
       "id": "theme-238",
-      "name": "港股配置",
+      "name": "港股弱勢",
       "entry_count": 1
     },
     {
       "id": "theme-239",
-      "name": "港股零和遊戲結構性問題",
+      "name": "港股業績",
       "entry_count": 1
     },
     {
       "id": "theme-240",
-      "name": "滯脹風險",
+      "name": "港股消費股",
       "entry_count": 1
     },
     {
       "id": "theme-241",
-      "name": "灰犀牛",
-      "entry_count": 1
+      "name": "港股策略",
+      "entry_count": 2
     },
     {
       "id": "theme-242",
-      "name": "爆破論 vs 真正賺錢投資者",
+      "name": "港股配置",
       "entry_count": 1
     },
     {
       "id": "theme-243",
-      "name": "特朗普交易",
+      "name": "港股零和遊戲結構性問題",
       "entry_count": 1
     },
     {
       "id": "theme-244",
-      "name": "現金",
-      "entry_count": 2
+      "name": "滯脹風險",
+      "entry_count": 1
     },
     {
       "id": "theme-245",
-      "name": "現金流",
-      "entry_count": 2
+      "name": "灰犀牛",
+      "entry_count": 1
     },
     {
       "id": "theme-246",
-      "name": "現金為王",
-      "entry_count": 2
+      "name": "爆破論 vs 真正賺錢投資者",
+      "entry_count": 1
     },
     {
       "id": "theme-247",
-      "name": "真倉",
+      "name": "特朗普交易",
       "entry_count": 1
     },
     {
       "id": "theme-248",
-      "name": "短線炒作",
-      "entry_count": 1
+      "name": "現金",
+      "entry_count": 2
     },
     {
       "id": "theme-249",
-      "name": "私募信貸",
+      "name": "現金流",
       "entry_count": 2
     },
     {
       "id": "theme-250",
-      "name": "科技",
+      "name": "現金為王",
       "entry_count": 1
     },
     {
       "id": "theme-251",
-      "name": "穩定幣監管",
-      "entry_count": 2
+      "name": "真倉",
+      "entry_count": 1
     },
     {
       "id": "theme-252",
-      "name": "組合保險",
+      "name": "短線炒作",
       "entry_count": 1
     },
     {
       "id": "theme-253",
-      "name": "結構性調整",
-      "entry_count": 1
+      "name": "私募信貸",
+      "entry_count": 2
     },
     {
       "id": "theme-254",
-      "name": "絕對回報",
+      "name": "科技",
       "entry_count": 1
     },
     {
       "id": "theme-255",
-      "name": "經濟數據轉差",
+      "name": "穩定幣監管",
       "entry_count": 1
     },
     {
       "id": "theme-256",
-      "name": "線上滲透率提升",
+      "name": "糧食安全",
       "entry_count": 1
     },
     {
       "id": "theme-257",
-      "name": "美伊局勢",
+      "name": "組合保險",
       "entry_count": 1
     },
     {
       "id": "theme-258",
-      "name": "美債",
-      "entry_count": 3
+      "name": "結構性調整",
+      "entry_count": 1
     },
     {
       "id": "theme-259",
-      "name": "美債危機",
+      "name": "絕對回報",
       "entry_count": 1
     },
     {
       "id": "theme-260",
-      "name": "美債息",
+      "name": "經濟數據轉差",
       "entry_count": 1
     },
     {
       "id": "theme-261",
-      "name": "美元前景",
+      "name": "線上滲透率提升",
       "entry_count": 1
     },
     {
       "id": "theme-262",
-      "name": "美國孤立主義",
+      "name": "繞開馬六甲海峽",
       "entry_count": 1
     },
     {
       "id": "theme-263",
-      "name": "美國政治",
+      "name": "美伊局勢",
       "entry_count": 1
     },
     {
       "id": "theme-264",
-      "name": "美國經濟",
-      "entry_count": 1
+      "name": "美債",
+      "entry_count": 3
     },
     {
       "id": "theme-265",
-      "name": "美股",
-      "entry_count": 14
+      "name": "美債危機",
+      "entry_count": 1
     },
     {
       "id": "theme-266",
-      "name": "美股估值",
+      "name": "美債息",
       "entry_count": 1
     },
     {
       "id": "theme-267",
-      "name": "美股估值框架",
+      "name": "美元前景",
       "entry_count": 1
     },
     {
       "id": "theme-268",
-      "name": "美股泡沫爭議",
+      "name": "美國孤立主義",
       "entry_count": 1
     },
     {
       "id": "theme-269",
-      "name": "聯儲局",
-      "entry_count": 2
+      "name": "美國政治",
+      "entry_count": 1
     },
     {
       "id": "theme-270",
-      "name": "聯儲局利率",
+      "name": "美國經濟",
       "entry_count": 1
     },
     {
       "id": "theme-271",
-      "name": "聯儲局政策",
-      "entry_count": 1
+      "name": "美股",
+      "entry_count": 14
     },
     {
       "id": "theme-272",
-      "name": "聯儲局獨立性",
+      "name": "美股估值",
       "entry_count": 1
     },
     {
       "id": "theme-273",
-      "name": "聯繫匯率",
+      "name": "美股估值框架",
       "entry_count": 1
     },
     {
       "id": "theme-274",
-      "name": "能力圈",
-      "entry_count": 2
-    },
-    {
-      "id": "theme-275",
-      "name": "能力圈原則",
+      "name": "美股泡沫爭議",
       "entry_count": 1
     },
     {
+      "id": "theme-275",
+      "name": "聯儲局",
+      "entry_count": 2
+    },
+    {
       "id": "theme-276",
-      "name": "能源",
+      "name": "聯儲局利率",
       "entry_count": 1
     },
     {
       "id": "theme-277",
-      "name": "航天股",
+      "name": "聯儲局政策",
       "entry_count": 1
     },
     {
       "id": "theme-278",
-      "name": "英國",
+      "name": "聯儲局獨立性",
       "entry_count": 1
     },
     {
       "id": "theme-279",
-      "name": "英鎊",
+      "name": "聯繫匯率",
       "entry_count": 1
     },
     {
       "id": "theme-280",
-      "name": "被動收入",
-      "entry_count": 1
+      "name": "能力圈",
+      "entry_count": 2
     },
     {
       "id": "theme-281",
-      "name": "製造業",
+      "name": "能力圈原則",
       "entry_count": 1
     },
     {
       "id": "theme-282",
-      "name": "製造業升級",
+      "name": "能源",
       "entry_count": 1
     },
     {
       "id": "theme-283",
-      "name": "記憶體",
+      "name": "航天股",
       "entry_count": 1
     },
     {
       "id": "theme-284",
-      "name": "記憶體rerating",
+      "name": "英國",
       "entry_count": 1
     },
     {
       "id": "theme-285",
-      "name": "記憶體復甦",
+      "name": "英鎊",
       "entry_count": 1
     },
     {
       "id": "theme-286",
-      "name": "記憶體結構性增長",
+      "name": "被動收入",
       "entry_count": 1
     },
     {
       "id": "theme-287",
-      "name": "記憶體週期",
+      "name": "製造業",
       "entry_count": 1
     },
     {
       "id": "theme-288",
-      "name": "設備更新週期",
+      "name": "製造業升級",
       "entry_count": 1
     },
     {
       "id": "theme-289",
-      "name": "財務自由",
+      "name": "記憶體",
       "entry_count": 1
     },
     {
       "id": "theme-290",
-      "name": "貨幣幻覺",
+      "name": "記憶體rerating",
       "entry_count": 1
     },
     {
       "id": "theme-291",
-      "name": "資本主義 vs 計劃經濟",
+      "name": "記憶體復甦",
       "entry_count": 1
     },
     {
       "id": "theme-292",
-      "name": "資本開支",
+      "name": "記憶體結構性增長",
       "entry_count": 1
     },
     {
       "id": "theme-293",
-      "name": "資源股",
+      "name": "記憶體週期",
       "entry_count": 1
     },
     {
       "id": "theme-294",
-      "name": "資產配置",
-      "entry_count": 2
+      "name": "設備更新週期",
+      "entry_count": 1
     },
     {
       "id": "theme-295",
-      "name": "資金流",
+      "name": "財務自由",
       "entry_count": 1
     },
     {
       "id": "theme-296",
-      "name": "資金流 / 段永平累積買入",
+      "name": "貨幣幻覺",
       "entry_count": 1
     },
     {
       "id": "theme-297",
-      "name": "資金流理論",
+      "name": "資本主義 vs 計劃經濟",
       "entry_count": 1
     },
     {
       "id": "theme-298",
-      "name": "贖回潮",
+      "name": "資本開支",
       "entry_count": 1
     },
     {
       "id": "theme-299",
-      "name": "趨勢投資",
+      "name": "資源股",
       "entry_count": 1
     },
     {
       "id": "theme-300",
-      "name": "車企內卷",
-      "entry_count": 1
+      "name": "資產配置",
+      "entry_count": 2
     },
     {
       "id": "theme-301",
-      "name": "軍工",
+      "name": "資金流",
       "entry_count": 1
     },
     {
       "id": "theme-302",
-      "name": "軟件股",
-      "entry_count": 2
+      "name": "資金流 / 段永平累積買入",
+      "entry_count": 1
     },
     {
       "id": "theme-303",
-      "name": "逆市加倉",
+      "name": "資金流理論",
       "entry_count": 1
     },
     {
       "id": "theme-304",
-      "name": "通脹",
-      "entry_count": 6
+      "name": "贖回潮",
+      "entry_count": 1
     },
     {
       "id": "theme-305",
-      "name": "重資產",
+      "name": "趨勢投資",
       "entry_count": 1
     },
     {
       "id": "theme-306",
-      "name": "金價",
-      "entry_count": 3
+      "name": "車企內卷",
+      "entry_count": 1
     },
     {
       "id": "theme-307",
-      "name": "金融海嘥",
+      "name": "軍工",
       "entry_count": 1
     },
     {
       "id": "theme-308",
-      "name": "銀行收緊信貸",
-      "entry_count": 1
+      "name": "軟件股",
+      "entry_count": 2
     },
     {
       "id": "theme-309",
-      "name": "鋅空氣電池顛覆性技術",
+      "name": "逆市加倉",
       "entry_count": 1
     },
     {
       "id": "theme-310",
-      "name": "長短分倉",
-      "entry_count": 1
+      "name": "通脹",
+      "entry_count": 6
     },
     {
       "id": "theme-311",
-      "name": "防守型投資",
+      "name": "重資產",
       "entry_count": 1
     },
     {
       "id": "theme-312",
-      "name": "防守與成長",
-      "entry_count": 1
+      "name": "金價",
+      "entry_count": 3
     },
     {
       "id": "theme-313",
-      "name": "防騙",
-      "entry_count": 2
+      "name": "金融海嘥",
+      "entry_count": 1
     },
     {
       "id": "theme-314",
-      "name": "陳啟宗宏觀分析",
+      "name": "銀行收緊信貸",
       "entry_count": 1
     },
     {
       "id": "theme-315",
-      "name": "零售化",
+      "name": "鋅空氣電池顛覆性技術",
       "entry_count": 1
     },
     {
       "id": "theme-316",
-      "name": "電力設備",
+      "name": "長短分倉",
       "entry_count": 1
     },
     {
       "id": "theme-317",
-      "name": "風控",
+      "name": "防守型投資",
       "entry_count": 1
     },
     {
       "id": "theme-318",
-      "name": "風險管理",
-      "entry_count": 6
-    },
-    {
-      "id": "theme-319",
-      "name": "香港一潭死水",
+      "name": "防守與成長",
       "entry_count": 1
     },
     {
+      "id": "theme-319",
+      "name": "防騙",
+      "entry_count": 2
+    },
+    {
       "id": "theme-320",
-      "name": "香港樓市",
-      "entry_count": 4
+      "name": "陳啟宗宏觀分析",
+      "entry_count": 1
     },
     {
       "id": "theme-321",
-      "name": "香港樓市泡沫",
+      "name": "零售化",
       "entry_count": 1
     },
     {
       "id": "theme-322",
-      "name": "馬拉活在大象腳下",
+      "name": "電力設備",
       "entry_count": 1
     },
     {
       "id": "theme-323",
-      "name": "高估值",
+      "name": "風控",
       "entry_count": 1
     },
     {
       "id": "theme-324",
-      "name": "高息ETF錢罌理論",
-      "entry_count": 1
+      "name": "風險管理",
+      "entry_count": 6
     },
     {
       "id": "theme-325",
-      "name": "高息股",
-      "entry_count": 9
-    },
-    {
-      "id": "theme-326",
-      "name": "高才通租務剛需",
+      "name": "香港一潭死水",
       "entry_count": 1
     },
     {
+      "id": "theme-326",
+      "name": "香港樓市",
+      "entry_count": 4
+    },
+    {
       "id": "theme-327",
-      "name": "高端消費品牌出海",
+      "name": "香港樓市泡沫",
       "entry_count": 1
     },
     {
       "id": "theme-328",
-      "name": "黃金",
-      "entry_count": 2
+      "name": "馬拉活在大象腳下",
+      "entry_count": 1
     },
     {
       "id": "theme-329",
-      "name": "黃金技術分析",
+      "name": "高估值",
       "entry_count": 1
     },
     {
       "id": "theme-330",
+      "name": "高息ETF錢罌理論",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-331",
+      "name": "高息股",
+      "entry_count": 9
+    },
+    {
+      "id": "theme-332",
+      "name": "高才通租務剛需",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-333",
+      "name": "高端消費品牌出海",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-334",
+      "name": "黃金",
+      "entry_count": 2
+    },
+    {
+      "id": "theme-335",
+      "name": "黃金技術分析",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-336",
       "name": "黃金零售",
       "entry_count": 1
     }
