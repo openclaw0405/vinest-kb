@@ -179,7 +179,9 @@
         "chars": 11855,
         "lines": 246,
         "excerpted": false
-      }
+      },
+      "source_url": "https://www.youtube.com/watch?v=--qyEX-vUEE",
+      "source_type": "youtube"
     },
     {
       "id": "ent-20260625-120000-C_P8E7drVZc",
@@ -356,7 +358,9 @@
         "chars": 30111,
         "lines": 581,
         "excerpted": false
-      }
+      },
+      "source_url": "https://www.youtube.com/watch?v=C_P8E7drVZc",
+      "source_type": "youtube"
     },
     {
       "id": "ent-20260624-04220-cLYqFxZ3Ba0",
@@ -21838,7 +21842,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 5
+      "entry_count": 6
     },
     {
       "id": "comp-18",
@@ -22142,7 +22146,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "comp-56",
@@ -22294,7 +22298,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "comp-75",
@@ -22742,7 +22746,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 3
+      "entry_count": 4
     },
     {
       "id": "comp-131",
@@ -22934,7 +22938,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "comp-155",
@@ -23046,7 +23050,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "comp-169",
@@ -23126,7 +23130,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "comp-179",
@@ -23262,7 +23266,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "comp-196",
@@ -24088,7 +24092,7 @@
     {
       "id": "sector-112",
       "name": "消費品",
-      "entry_count": 2
+      "entry_count": 3
     },
     {
       "id": "sector-113",
@@ -24163,7 +24167,7 @@
     {
       "id": "sector-127",
       "name": "科技股",
-      "entry_count": 2
+      "entry_count": 3
     },
     {
       "id": "sector-128",
@@ -24178,7 +24182,7 @@
     {
       "id": "sector-130",
       "name": "綜合企業",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "sector-131",
@@ -24258,7 +24262,7 @@
     {
       "id": "sector-146",
       "name": "航空",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "sector-147",
@@ -24333,7 +24337,7 @@
     {
       "id": "sector-161",
       "name": "金融服務",
-      "entry_count": 5
+      "entry_count": 6
     },
     {
       "id": "sector-162",
@@ -25010,7 +25014,7 @@
     {
       "id": "theme-116",
       "name": "價值投資進化",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "theme-117",
@@ -25190,7 +25194,7 @@
     {
       "id": "theme-152",
       "name": "增長vs價值",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "theme-153",
@@ -25285,12 +25289,12 @@
     {
       "id": "theme-171",
       "name": "巴菲特交棒",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "theme-172",
       "name": "巴郡資產配置",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "theme-173",
@@ -25660,7 +25664,7 @@
     {
       "id": "theme-246",
       "name": "現金為王",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "theme-247",
@@ -25685,7 +25689,7 @@
     {
       "id": "theme-251",
       "name": "穩定幣監管",
-      "entry_count": 1
+      "entry_count": 2
     },
     {
       "id": "theme-252",
