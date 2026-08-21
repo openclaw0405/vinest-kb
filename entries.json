@@ -24,9 +24,7 @@
         "xAI",
         "Tesla"
       ],
-      "tickers": [
-        "DSX2u"
-      ],
+      "tickers": [],
       "sectors": [
         "太空科技",
         "衛星互聯網",
@@ -148,11 +146,11 @@
         "note": "陶冬的觀點有一定說服力，但97倍PS估值在宏觀利率上行背景下存在回調風險，建議密切關注實際業務增速而非僅靠願景持有。"
       },
       "portfolio_summary": "SpaceX是具有顛覆性願景的企業，投資者購買的不是今天的火箭業務，而是馬斯克對太空互聯網、AI及能源變革的整體佈局。97倍PS估值反映市場對馬斯克生態系統的溢價評估，適合能承受高波動性的長期投資者。主題配置而非短期交易。",
-      "presenter_profile": "陶冬博士為etnet附屬公司行政總裁，專注宏觀經濟及金融市場分析，覆蓋中美經濟、聯儲局政策及全球金融市場走勢，觀點偏向宏觀驅動的價值投資視角。",
-      "notes": "視頻內容主要為宏觀市場背景（美國就業數據、聯儲局利率預期）過渡至SpaceX個股分析，陶冬的核心論點是SpaceX的估值爭議源於市場誤解了其業務定位，投資者不應用傳統航天公司的框架去評估一間以馬斯克生態為基礎的綜合科技平台。",
+      "presenter_profile": "陶冬，etnet《陶冬天下》專欄作者，經濟學者，專注宏觀經濟、金融市場及中美經濟分析，文章逢週日更新。",
+      "notes": "影片基於2026年8月10日發表的《陶冬天下》文章。前半部分宏觀背景（美國就業數據低於預期、聯儲局加息預期降溫）為引入SpaceX個股分析舖墊。核心命題：SpaceX的97倍PS估值唔可以用傳統火箭公司框架理解，投資者買嘅係馬斯克對太空互聯網、AI及能源變革的整體佈局。",
       "stock_recommendations": [
         {
-          "ticker": "DSX2u",
+          "ticker": null,
           "label": "SpaceX",
           "name": "SpaceX",
           "direction": "neutral",
@@ -197,13 +195,14 @@
       "transcript_quality": {
         "chars": 1289,
         "lines": 85,
-        "excerpted": false
+        "excerpted": false,
+        "note": "Cantonese automatic captions, confirmed original language track"
       },
-      "transcript_source": "subtitles",
+      "transcript_source": "automatic_captions",
       "created_at": "2026-08-21T11:17:04Z",
-      "updated_at": "2026-08-21T11:17:04Z",
+      "updated_at": "2026-08-21T12:15:00Z",
       "date_added": "2026-08-21T11:17:04Z",
-      "content_quality": "auto-import",
+      "content_quality": "manually-reviewed",
       "tags": [],
       "related_videos": [],
       "notable_quotes": [],
